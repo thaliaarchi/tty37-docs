@@ -6,11 +6,6 @@ Research questions:
 - What I/O devices does SIMH support and what are their protocols?
 - How does the PiDP-11 configure its devices?
 
-## Teletype Model 37
-
-<https://www.navy-radio.virhistory.com/manuals/tty/m37/574-301-100-iss1-7106.pdf>
-<https://retrocomputing.stackexchange.com/questions/4456/what-protocol-do-teletypes-use>
-
 ## SIMH
 
 Interdata [Teletype interface](https://opensimh.org/simdocs/id_doc.html#console-teletype-interface-tt)
@@ -25,7 +20,7 @@ the mode and parity. Only one mode and one parity option is active at once.
 `KSR` is an alias for setting `UC` mode and `MARK` parity.[^simh_tables][^simh_dl11_doc]
 
 The possible mode options are:
-- `KSR`: KSR teletype mode
+- `KSR`: Keyboard Send-Receive teletype mode
 - `UC`: Uppercase mode
 - `7b`: 7-bit mode
 - `8b`: 8-bit mode
