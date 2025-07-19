@@ -15,6 +15,14 @@ Skipped: 2.05, 2.12, 2.17, 2.19
 
 TODO: after 2.19
 
+Typical keyboard arrangement: \[Figure 6]
+
+![4-row keyboard configuration](keyboard.png)
+
+Typical control panel arrangements: \[Figure 7]
+
+![Arrangements of the KSR and ASR control panels](control_panel.png)
+
 ## Features (unorganized)
 
 The 37 KSR originates data through its keyboard and the ASR originates data
