@@ -1,4 +1,5 @@
-PDF := 574-301-100-iss1-7106.pdf 574-302-102-iss1-7105.pdf
+MANUALS := 574-301-100-iss1-7106 574-302-102-iss1-7105 574-302-300-iss1-7204
+PDF := $(patsubst %, %.pdf, $(MANUALS))
 FIGURES := keyboard.png control_panel.png
 
 .PHONY: docs
