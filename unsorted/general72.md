@@ -1,3 +1,5 @@
+Referenced as \[General72]
+
 *Source*: <https://www.navy-radio.com/manuals/tty/m37/574-304-100-iss2-7212.pdf>
 
 <div style="display: flex; justify-content: space-between;">
@@ -10,29 +12,6 @@
 USED IN TELEGRAPH TEST BOARDS AND SERVICE BOARDS
 GENERAL DESCRIPTION AND OPERATION
 </h1>
-
-## CONTENTS
-
-- [1. GENERAL](#1-general)
-- [2. DESCRIPTION](#2-description)
-  - [STANDARD FEATURES](#standard-features)
-  - [COMPONENTS](#components)
-    - [A. Typing Unit](#a-typing-unit)
-    - [B. Keyboard](#b-keyboard)
-    - [C. Base](#c-base)
-    - [D. Control Panel](#d-control-panel)
-    - [E. Motor Unit](#e-motor-unit)
-    - [F. Typing Unit Cover and Pan](#f-typing-unit-cover-and-pan)
-    - [G. Electrical Service Unit](#g-electrical-service-unit)
-  - [ACCESSORIES](#accessories)
-- [3. TECHNICAL DATA](#3-technical-data)
-- [4. OPERATION](#4-operation)
-- [5. REFERENCES](#5-references)
-
-Prepared for American Telephone and Telegraph Company by Teletype Corporation \
-© 1969 and 1971 by Teletype Corporation \
-All rights reserved \
-Printed in U.S.A.
 
 ## 1. GENERAL
 
@@ -136,7 +115,6 @@ CHART - TELETYPEWRITER SET DIMENSIONS
 - Roll paper (friction feed sets).
 - Print position indicator (next character indicator).
 - Print position scale.
-- Character repeat feature.
 - Full duplex operation on-line with provision for typing unit to copy keyboard
   signals in local mode of operation.
 - NEW LINE function (carriage return and line feed) in response to Carriage
@@ -198,11 +176,6 @@ code combinations, it is necessary to depress the CONTRL key while the
 particular key is struck. All control character designations requiring the
 depression of the CONTRL key, as well as the individual key, appear on the
 keyboard in charcoal grey.
-
-2.12 A repeat feature is provided on every key. Further depression of the key
-beyond its normal stop position will cause the associated character to be
-generated repetitively at the maximum character rate of 59.02 wpm. The repeat
-feature can be enabled or disabled by a serviceman.
 
 Figure 4 - Keyboard Arrangement
 

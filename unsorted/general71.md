@@ -1,3 +1,5 @@
+Referenced as \[General71]
+
 *Source*: <https://www.navy-radio.virhistory.com/manuals/tty/m37/574-301-100-iss1-7106.pdf>
 
 <div style="display: flex; justify-content: space-between;">
@@ -11,56 +13,7 @@ SEND-RECEIVE (ASR) TELETYPEWRITER SET FOR "DATA-PHONE®" SERVICE
 GENERAL DESCRIPTION AND OPERATION
 </h1>
 
-## CONTENTS
-
-- [1. GENERAL](#1-general)
-- [2. DESCRIPTION](#2-description)
-  - [STANDARD FEATURES](#standard-features)
-  - [VARIABLE FEATURES](#variable-features)
-  - [KEYBOARD SEND-RECEIVE UNIT COMPONENTS](#keyboard-send-receive-unit-components)
-    - [A. Typing Unit](#a-typing-unit)
-    - [B. Keyboard](#b-keyboard)
-    - [C. Base](#c-base)
-    - [D. Control Panel](#d-control-panel)
-    - [E. Motor Unit](#e-motor-unit)
-    - [F. Typing Unit Cover and Pan](#f-typing-unit-cover-and-pan)
-    - [G. Table](#g-table)
-    - [H. Electrical Service Unit](#h-electrical-service-unit)
-    - [I. Data and Attendant Set](#i-data-and-attendant-set)
-  - [RT MODULE COMPONENTS](#rt-module-components)
-    - [A. Reperforator Unit](#a-reperforator-unit)
-    - [B. Reader Unit](#b-reader-unit)
-    - [C. Electrical Service Unit](#c-electrical-service-unit)
-    - [D. Motor Units](#d-motor-units)
-    - [E. RT Module Cabinet](#e-rt-module-cabinet)
-  - [ACCESSORIES](#accessories)
-    - [A. Answer-Back Assembly](#a-answer-back-assembly)
-    - [B. Paper Handling Accessories](#b-paper-handling-accessories)
-    - [C. Tape Handling Accessories](#c-tape-handling-accessories)
-- [3. TECHNICAL DATA](#3-technical-data)
-- [4. OPERATION](#4-operation)
-  - [GENERAL](#general)
-  - [PERIPHERAL INTERFACE](#peripheral-interface)
-  - [CHANNEL INTERFACE](#channel-interface)
-  - [ORIGINATING AND ANSWERING](#originating-and-answering)
-  - [LOCAL OPERATION](#local-operation)
-    - [A. Device Selection](#a-device-selection)
-    - [B. Motor Control](#b-motor-control)
-    - [C. Message Exchange](#c-message-exchange)
-  - [LINE OPERATION](#line-operation)
-    - [A. Device Selection](#a-device-selection-1)
-    - [B. Channel Establishment](#b-channel-establishment)
-    - [C. Message Exchange](#c-message-exchange-1)
-  - [SIMULTANEOUS LOCAL-LINE OPERATION](#simultaneous-local-line-operation)
-  - [CHANNEL TERMINATION](#channel-termination)
-- [5. REFERENCES](#5-references)
-
 Figure 1-37 ASR Teletypewriter Set
-
-Prepared for American Telephone and Telegraph Company by Teletype Corporation \
-© 1969 and 1970 by Teletype Corporation \
-All rights reserved \
-Printed in U.S.A.
 
 ## 1. GENERAL
 
@@ -183,10 +136,6 @@ can be obtained which provide the following variable features:
   character.
 - Disconnect capability on EOT character.
 - Incorrect vertical parity indication.
-- Character repeat feature - craftsman adjustable. \
-  Note: This feature is normally disabled on all keys except the following: \
-  Space, NEW LINE, BACKSPACE, NULL, DELETE, Period (.), Hyphen (-), Equal (=),
-  Underscore (_), Colon (:), Asterisk (*), Character X
 - Alarm indication for low-paper (friction feed sets) or paper-out condition
   (sprocket feed sets).
 - Form advance (form-out).
@@ -288,11 +237,6 @@ code combinations, it is necessary to depress the CONTRL key while the
 particular key is struck. All control character designations requiring the
 depression of the CONTRL key, as well as the individual key, appear on the
 keyboard in charcoal grey.
-
-2.15 A repeat feature is provided on each key generating a character. Further
-depression of the key beyond its normal stop position causes the associated
-character to be generated repetitively at the maximum character rate. The repeat
-feature is enabled or disabled by a craftsman.
 
 2.16 A transmission disable feature is provided to prevent transmission from the
 keyboard or reader. Transmission may be disabled and enabled under control of

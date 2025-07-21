@@ -147,18 +147,6 @@ is struck. All control character designations requiring the depression of the
 CONTRL key, as well as the individual key, appear on the keyboard in charcoal
 grey. \[2.14]
 
-## Character repeat
-
-A repeat feature is provided on each key generating a character. Further
-depression of the key beyond its normal stop position causes the associated
-character to be generated repetitively at the maximum character rate. The repeat
-feature is enabled or disabled by a craftsman. \[2.15]
-
-Character repeat feature - craftsman adjustable. Note: This feature is normally
-disabled on all keys except the following: space, NEW LINE, BACKSPACE, NULL,
-DELETE, period (.), hyphen (-), equal (=), underscore (_), colon (:), asterisk
-(*), character X \[2.04]
-
 ## Control panel
 
 The control panel (Figure 7) which is located above the keyboard contains a
