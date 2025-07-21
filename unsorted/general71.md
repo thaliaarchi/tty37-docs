@@ -23,8 +23,7 @@ Figure 2 - Switched Network Application Using 37 Teletypewriter Equipment
 Send-Receive (KSR) and 37 Automatic Send-Receive (ASR) Teletypewriter (TTY) Sets
 which are used in switched network service (Figure 1).
 
-1.02 A 37 ASR or KSR TTY Set is a heavy-duty terminal that functions with the
-ASCII (American National Standard Code for Information Interchange) and has EIA
+1.02 A 37 ASR or KSR TTY Set is a heavy-duty terminal that has EIA
 (Electronics Industries Association) Standard RS-232-B interfacing. The sets
 operate at a speed of 150 words per minute (wpm).
 
@@ -82,9 +81,6 @@ components, plus the components listed under RT MODULE COMPONENTS.
 - Interfacing which conforms with EIA Standard RS-232-B.
 - Sends and receives at the speed of 150 wpm (15 characters a second) with a
   10-unit code transmission pattern.
-- Generates all 128 ASCII characters with even parity.
-- Receives all 128 ASCII characters - prints 94 graphics including upper and
-  lower case alphabet.
 - Seventy-two characters on a line (10 per inch). Craftsman adjustable for
   shorter or longer lengths up to 80 characters.
 - End of printed line indication (lamp) which is craftsman adjustable.
@@ -155,16 +151,6 @@ Figure 4 - Typing Unit
 single magnet (two coils) type of selector. A function box is provided for
 character and character sequence recognition.
 
-2.06 Page copy is provided by the typing unit which prints both upper and lower
-case characters utilizing a typebox positioned by an aggregate motion mechanism.
-The typebox is moved from character to character and is returned to "home"
-position when reception stops, thus, making all characters visible when the
-machine is idle.
-
-2.07 The typing unit is capable of printing symbols for all 128 ASCII
-characters. Normally, however, it will be arranged to print the 94 graphic,
-numeric, and alpha characters of ASCII.
-
 2.08 Normally the typing unit will print ten characters per inch allowing 72
 characters on an 8-1/2 inch platen with normal margins on the paper. Optionally,
 other typing units may be arranged to print 12 characters per inch allowing 86
@@ -227,9 +213,7 @@ electrical contacts present an even vertical parity parallel wire output to a
 keyboard control logic card in the electrical service unit which converts the
 signals into ASCII.
 
-2.14 It is possible to generate all 128 code combinations of ASCII. Upper and
-lower case alpha characters, numerics, and special graphic characters are
-designated on the keytops. Control characters are designated on the keyboard in
+2.14 Control characters are designated on the keyboard in
 two ways. The most often used controls appear on separate keys and are active in
 both the shifted and unshifted modes without use of the CONTRL key. Another
 group of controls appear on the same keytop with a graphic. To generate these

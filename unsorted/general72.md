@@ -24,8 +24,7 @@ from a keyboard and converts received data into printed copy. Since the previous
 issue was not available for general distribution, marginal arrows normally used
 to indicate changes and additions have been omitted.
 
-1.02 A 37 KSR TTY Set is a heavy-duty terminal that functions with the ASCII
-(American National Standard Code for Information Interchange) and has EIA
+1.02 A 37 KSR TTY Set is a heavy-duty terminal that has EIA
 (Electronics Industries Association) Standard RS-232-B interfacing.
 
 Figure 1 - 37 KSR Teletypewriter Set Used in Test Board Service
@@ -99,9 +98,6 @@ CHART - TELETYPEWRITER SET DIMENSIONS
 - Printer receives at the speed of 150 wpm (15 characters a second) 10-unit
   code.
 - Transmits from keyboard at 59.5 wpm.
-- Generates all 128 ASCII characters with even parity.
-- Receives all 128 ASCII characters - prints 94 common graphics including upper
-  and lower case alphabet. Also prints and spaces for all control characters.
 - Eighty-six characters on a line (12 per inch).
 - Keyboard end-of-line indication (lamp).
 - On-line carriage return and line feed.
@@ -132,15 +128,6 @@ Figure 3 - 37 KSR Teletypewriter Set and Components
 (two coils) type of selector. A function box is provided for character
 recognition.
 
-2.04 Page copy is provided by the typing unit which prints both upper and lower
-case characters utilizing a typebox positioned by an aggregate motion mechanism.
-The typebox is moved from character to character and is retracted when reception
-stops, thus, making all characters visible when the machine is idle.
-
-2.05 The typing unit is capable of printing symbols for 127 ASCII characters.
-Space character is not printed. An eight row typebox is provided with pallets in
-the upper two rows for 32 control characters.
-
 2.06 Typing unit will print 12 characters per inch allowing 86 characters on an
 8-1/2 inch platen with normal margins on the paper. Line feed provides for
 spacing six lines per vertical inch. The suppression latch (TP306176) and spring
@@ -166,9 +153,7 @@ contacts present an even vertical parity parallel wire output to a keyboard
 control logic card in the electrical service unit which converts the signals
 into ASCII.
 
-2.11 It is possible to generate all 128 code combinations of ASCII. Upper and
-lower case alpha characters, numerics, and special graphic characters are
-designated on the keytops. Control characters are designated on the keyboard in
+2.11 Control characters are designated on the keyboard in
 two ways. The most often used controls appear on separate keys and are active in
 both the shifted and unshifted modes without use of the CONTRL key. Another
 group of controls appear on the same keytop with a graphic. To generate these
@@ -485,11 +470,9 @@ Converter. If CONTL BLACK switch is not depressed the typing unit will print all
 characters in black except for control and delete characters. The stunt box
 contacts will control the red printing in this mode of operation.
 
-4.08 The typing unit will print all usual characters and special graphics for
-all control characters except space. The typing unit will space on all
-characters, including control characters. After the 86th character the automatic
-carriage return-line feed modification kit will cause a NEW LINE (CR-LF)
-operation on the printer at the 87th character received.
+4.08 After the 86th character the automatic carriage return-line feed
+modification kit will cause a NEW LINE (CR-LF) operation on the printer at the
+87th character received.
 
 4.09 For maintenance of the test board KSR operation and for local testing, the
 ON-LINE/LOCAL switch on the electrical service unit is at LOCAL and the Send

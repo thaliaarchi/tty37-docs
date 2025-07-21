@@ -121,32 +121,6 @@ Optional paper positioning controls are provided: \[2.11]
   mechanism. The characters ESC 5 are used to set the tabulator stops and the
   characters ESC 6 are used to clear the stops.
 
-## Character set
-
-- Generates all 128 ASCII characters with even parity \[2.02]
-- Receives all 128 ASCII characters - prints 94 graphics including upper and
-  lowercase alphabet \[2.02]
-- The typing unit is capable of printing symbols for all 128 ASCII characters.
-  Normally, however, it will be arranged to print the 94 graphic, numeric, and
-  alpha characters of ASCII. \[2.07]
-
-Page copy is provided by the typing unit which prints both upper and lower case
-characters utilizing a typebox positioned by an aggregate motion mechanism. The
-typebox is moved from character to character and is returned to "home" position
-when reception stops, thus, making all characters visible when the machine is
-idle. \[2.06]
-
-It is possible to generate all 128 code combinations of ASCII. Upper and lower
-case alpha characters, numerics, and special graphic characters are designated
-on the keytops. Control characters are designated on the keyboard in two ways.
-The most often used controls appear on separate keys and are active in both the
-shifted and unshifted modes without use of the CONTRL key. Another group of
-controls appear on the same keytop with a graphic. To generate these code
-combinations, it is necessary to depress the CONTRL key while the particular key
-is struck. All control character designations requiring the depression of the
-CONTRL key, as well as the individual key, appear on the keyboard in charcoal
-grey. \[2.14]
-
 ## Control panel
 
 The control panel (Figure 7) which is located above the keyboard contains a

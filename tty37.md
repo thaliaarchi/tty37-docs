@@ -1,6 +1,34 @@
 # Teletype Model 37 functional specification
 
-## Character repeat
+## Typing unit and character set
+
+It generates and receives all 128 ASCII characters.
+\[General71 2.02, 2.14]\[General72 2.02, 2.11]
+
+The typing unit prints characters onto paper (called “page copy”) by positioning
+the typebox by an “aggregate motion mechanism”. The typebox is moved from
+character to character and is retracted when reception stops, making all
+characters visible when the machine is idle. \[General71 2.06]\[General72 2.04]
+
+The typing unit usually only prints the 94 graphic ASCII characters, though is
+capable of printing symbols for all 128 characters. \[General71 2.07]
+
+The \[General72] model prints visible symbols for 127 ASCII characters,
+excluding space, and spaces on all characters. It provides an eight-row typebox
+with pallets in the upper two rows for 32 control characters. \[2.02, 2.05,
+4.08]
+
+Questions:
+- Does “aggregate motion” simply refer to two-dimensional movement?
+- What are the configurations of number of rows for typeboxes?
+- What are the symbols printed for control characters?
+
+## Parity
+
+Generates all 128 ASCII characters with even parity (standard feature).
+\[General71 2.02]\[General72 2.02]
+
+## Character repeat feature
 
 When a key is pressed harder than normally (beyond its normal stop position),
 its associated character is generated repeatedly at the maximum character rate.
@@ -11,14 +39,15 @@ This feature is provided for each key that generates a character. It is normally
 disabled on all keys except for the following: space, NEW LINE, BACKSPACE, NULL,
 DELETE, period `.`, hyphen `-`, equal `=`, underscore `_`, colon `:`, asterisk
 `*`, and character X \[sic]. Form feed is non-repeating. \[General71 2.04, 2.15]
-(N.B. the meaning of “character X” is unclear; it probably means letters, but
-also numbers?)
 
-In the models in \[General72], character repeat is a standard feature and
-enabled for every key. \[2.02, 2.12] Those models space on all characters, even
+Question: The meaning of “character X” is unclear. Does it mean letters and
+possibly also numbers?
+
+In the \[General72] KSR model, character repeat is a standard feature and
+enabled for every key. \[2.02, 2.12] That model spaces on all characters, even
 control characters\[4.08], so this appears to simplify the mechanism.
 
-The maximum character rate (only specified for \[General72]) is 59.02 wpm.
+The maximum character rate (for at least the \[General72] model) is 59.02 wpm.
 \[2.12]
 
 \[Dolotta70] proscribes a desired operation for character repeat like the Model
