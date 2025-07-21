@@ -490,6 +490,8 @@ description.)
 
 ## Page Printer
 
+\[Photo of page printer]
+
 **Printing.** The 94 printing graphics of the ASCII code are produceable, (the
 space and delete characters are not normally printed) and contained in a six row
 typebox. The typebox is easily removed for cleaning or substitution by the
@@ -691,3 +693,515 @@ control panel above the top row of keytops on the keyboard and is as follows:
 | Prefix followed by Numeric 9      | Half Forward Line-Space |
 | Prefix followed by Colon (:)      | Full Duplex             |
 | Prefix followed by Semi-colon (;) | Half Duplex             |
+
+## Control Logic Module
+
+\[Photo of control logic module]
+
+The Model 37 control logic module is approximately 5 3/4" wide, 13" deep and 20"
+high. This module mounts in the lower portion of the KSR or RO cabinet, and
+connects to the keyboard, printer, etc., with plug-in cables. It’s designed for
+easy maintenance by utilizing electronic circuit cards containing standard
+electronic components and micrologic elements. Options are implemented by
+substituting cards, adding cards, adding cards onto existing cards in piggyback
+fashion, and adding or removing wire straps.
+
+The following are the main functions and features of the control logic module:
+
+**Interface.** Model 37 terminal interface meets requirements of Electronics
+Industries Association Standard RS-232-B. Most applications require no coupling
+device between the Model 37 terminal and the data set. Installation and
+maintenance of the terminal are thus simplified.
+
+**Set Control Logic.** Send control logic controls all sending devices such as
+the keyboard, reader, or answer-back mechanism. Control is accomplished by
+channeling the signaling information from these devices to either local internal
+signal circuits or on-line signal circuits.
+
+Receive control logic controls incoming data to the proper receiving units.
+These units include the page printer or the punch of the punch and reader
+module.
+
+Mode control logic provides set timing and controls the operation of all sending
+or receiving devices on-line or in local mode in “on” or “off” condition.
+
+Channel control logic provides information to a data set or a similar control
+device concerning the terminal’s receiving status. It also accepts information
+about the line connection status of the terminal. In addition to the above
+controls, each sending or receiving device (for example, the answer-back,
+printer and keyboard) has associated logic.
+
+**Automatic Motor Control.** Model 37 terminal motors are on only when required.
+Local control of motors is provided by control panel keys while on-line control
+is provided by the “on” or “off” state of the EIA Interface lead “data set
+ready.”
+
+When on-line, the motors are turned off and the terminal deactivated upon
+receipt of ASCII End-Of-Transmission character (EOT).
+
+**Answer-Back Mechanism.** This unit plugs into the control logic module. It
+provides a 20 character programmable character sequence when activated by (1)
+detection (ENQ character or by (2) operation of Here-Is key on control panel or
+by (3) the data set or control device at the beginning of a call by an “on”
+condition at the EIA interface lead, “ring indicator.”
+
+**Received Signal Regenerator.** This feature allows terminal tolerance of up to
+40% signal distortion on receive data lead input.* Optional features (for use
+with the regenerator) detect incorrect vertical parity and provide visual
+indication of this condition.
+
+\*For more information see Supplementary Technical Data on pages 26 and 27.
+
+**On-Line Control of Home Copy:** By providing recognition of a two character
+sequence, Model 37 terminal can print any information transmitted from its
+sending devices or received from a distant station (Home Copy Mode-Half-Duplex).
+After receipt of another two character sequence, the terminal stops printing
+information from its sending devices and only responds to on-line signals
+(Full-Duplex). The terminal will be in “Home Copy-Mode” at the beginning of
+transmission. An option is available for the customer to permanently strap the
+terminal in the “Full” or “Half-Duplex” modes.
+
+**Character Counter.** With this feature you get a visual indication on the
+terminal control panel (Keyboard End-of-Line lamp) whenever a preset number of
+graphic characters and spaces are generated from the keyboard.
+
+The unit counts down on Backspace. It won’t count control characters or those
+characters included in two character “escape” sequences.
+
+Resetting the Character Counter is accomplished by the ASCII control character
+Line Feed (New Line). The counter can be optionally reset on the Carriage Return
+and Line Feed character sequence if the New Line feature is not desired, by
+cutting a strap on the counter circuit card located within the control logic
+module.
+
+**Signal Bell.** An alarm or attention device that responds to the ASCII Bell
+character. In addition, it can signal a distant station of an important message,
+an abnormal operating condition, etc.
+
+## Cabinets, Paper Handling and Miscellaneous
+
+**Console Assembly.** This assembly houses the typing unit, base, keyboard,
+motor assembly, and control panel. The assembly is mounted on a desk type table
+arrangement that houses the terminal control logic module.
+
+**Copylights.** The console assembly provides a pair of copy- lights for easy
+copy viewing. There is also a convenient paper tearing edge on the copy viewing
+window.
+
+**Tables.** Two tables are available for Model 37terminals. Both are shown on
+the particular feature charts.
+
+Wide tables provide space to the right and below the printer console to house
+data sets or similar devices. Dimensions of this opening are 22" deep x 8 3 /4"
+wide x 21" high. Also, convenient workspace is provided for the operator on the
+table to the right of the printer console.
+
+Narrow tables are similar to the wide tables except for omission of space to the
+right of the printer console. These tables are normally used where space is a
+factor in the application. A data set mounting shelf will be available for
+narrow tables.
+
+**Power Distribution Panel.** The table houses a convenient AC input power
+distribution panel. This panel provides power outlets for such terminal
+components as the control logic module, punch and reader module, etc. It also
+provides outlets for maintenance equipment or other devices. Primary AC power
+input originates from a single power cord. A single AC circuit breaker located
+on this panel controls input power (with individual fuses for various other
+power outputs located on the control logic module front panel.)
+
+**Paper Handling.** paper hand ling options are offered for either front or rear
+paper loading. Present sets use forms 11" long and 9 1/2" wide. A form
+accumulator (rear of printer console) conveniently stacks the printed forms.
+
+Parts to equip terminals to handle most commonly used form sizes will be made
+available. See Supplementary Technical Data on pages 26 and 27.
+
+## Punch and Reader Module
+
+\[Photo of punch and reader module]
+
+This unit consists of a tape punch and reader mounted in a cabinet assembly.
+When placed adjacent and electrically connected to an appropriate keyboard
+send-receive set (KSR) the combination forms an automatic send-receive set
+(ASR).
+
+**Speed.** The punch and reader module can read and punch tape at 150 words per
+minute. You can operate it in a variety of “on-line” and “off-line” combinations
+with the keyboard and the page printer. This versatility allows data
+transmission at the on-line rate of 150 words per minute since messages can be
+punched in an “off-line” mode. In addition, the tape punch can operate on-line
+to provide a machine readable record of any desired incoming information.
+
+**Tape Supply.** A supply container for a standard 8" roll of tape (nominally
+1,000 ft.) is provided in the cabinet for the tape punch and is easily
+accessible under the hinged punch cover assembly. The cabinet top is also hinged
+and provides easy access to the internal components of the punch and reader for
+maintenance.
+
+**Tape Handling.** Tape handling options include an intermediate tape storage
+bin which handles approximately 50 feet of perforated tape. Other tape handling
+combinations are available which may include any of the following:
+
+1. One tape winder, handles one standard 8" roll (nominally 1,000 ft.)
+2. One tape winder, and a combination winder and power unwinder, each having a
+   capacity for a standard 8" roll (nominally 1,000 ft.)
+
+### PUNCH
+
+\[Photo of tape punch]
+
+**Tape.** A non-typing punch is an integral part of the module. The unit
+produces 8-level fully punched tape conforming to USAS X3.18.
+
+**Backspace.** The unit is equipped with off-line backspace. For each operation
+of the Backspace key, the punch backspaces the tape one-character interval. The
+key is located on the module control panel.
+
+**Tape Feed-Out.** A manually operated tape feed-out arrangement is provided.
+When the Feed-Out lever, located inside the cover, is operated, Delete
+characters are perforated at the machine rate of 150 words per minute. The
+feed-out is an “interfering-type” arrangement. Consequently, it obliterates the
+character punched if signals are received during its operation. Feed-out is
+normally used only when threading tape.
+
+**Punch Control.** The punch can be operated in response to on-line signals.
+This feature is part of the page printer and control logic of the ASR set. When
+the ASCII control character DC2 is received, the punch is activated. When the
+control character DC4 is received, the punch is deactivated.
+
+**Operator Aids.** A clear plastic container for tape chad is located on the
+cabinet where it’s easily seen by the operator. Under this arrangement the
+chance of chad being spilled is eliminated. Another operator aid, the Alarm lamp
+on the punch and reader control panel, lights up when the tape supply roll is
+approximately 2 1/2" in diameter (25' to 30' of tape remaining).
+
+### READER
+
+\[Photo of tape reader]
+
+**Tape.** The reader senses fully perforated eight-level tape conforming to USAS
+X3.18.
+
+**Tape Alarms.** A tape-out sensor (located in the reader) gives the operator
+visual indication of a “Tape-Out” condition by lighting the tape Alarm lamp on
+the module control panel. In addition, tape sensing is also stopped. Since this
+sensor is located 4 characters ahead of sensing, a trailer of at least 4
+characters is required at end of message.
+
+A Tight Tape switch is provided on the cabinet between the punch and the reader.
+Should the punching and reading take place simultaneously, the tape won’t tear
+if the slack between punch and reader is taken up since the switch stops the
+reader until slack is present. In addition, the Alarm lamp lights up when this
+condition occurs.
+
+**Reader Step.** A Reader Step key is located on the module control panel. Each
+time depressed, it steps the reader forward one character (reader switch must be
+in stop position). The character will be read and transmitted.
+
+**Reader Control.** A Run-Stop-Free switch is located on the reader. When in
+“Free” the feed wheel is free and the tape may be pulled through the reading
+head without opening the tape lid. The switch is operated to “Run” position when
+tape is in place and ready for transmission. When in “Stop” or “Free” tape
+transmission can’t take place.
+
+**Automatic Reader Control.** This feature operates in conjunction with a key on
+the printer console control panel (Reader Auto). When this key is depressed the
+reader turns “on” when the terminal receives the ASCII control character DC1 and
+turns “off” upon receipt of control character DC3. Reader can be controlled
+on-line or off-line.
+
+Control logic is available (within the KSR portion of the ASR set) to provide a
+one-character delay (optionally) after a control character is read. This
+minimizes the need for fill characters. The feature stops the reader on the
+control character, Read.
+
+**Punch and Reader Control Logic.** The punch and reader utilizes control logic,
+consisting of circuit cards and necessary internal wiring housed in a metal
+framed module mounted internal to the cabinet. This unit is approximately 5 3/4"
+wide, 13" deep and 14V2 " high. It also contains necessary interconnecting
+cabling and a power cord that plugs into the appropriate KSR set.
+
+## Control Panels
+
+**Arrangements 1, 2, 3, and 4**
+
+|               |        |         |                |       |             |         |              |
+| ------------- | ------ | ------- | -------------- | ----- | ----------- | ------- | ------------ |
+| PAPER ADVANCE | INTRPT | HERE IS | OUT OF SERVICE | ERROR | PAPER ALARM | PTR EOL | LOCAL RETURN |
+
+\[Photo of arrangements 1, 2, 3, and 4]
+
+**Arrangement 5**
+
+|               |        |     |     |     |       |         |              |
+| ------------- | ------ | --- | --- | --- | ----- | ------- | ------------ |
+| PAPER ADVANCE | INTRPT |     |     |     | ALARM | PTR EOL | LOCAL RETURN |
+
+\[Photo of arrangement 5]
+
+\[Photo]
+
+TABLE & CONSOLE FOR ARRANGEMENT 1, 2, 3, & 4
+
+\[Photo]
+
+TABLE & CONSOLE FOR ARRANGEMENT 5
+
+\[Photo]
+
+REAR PAPER LOADING FOR SETS WITH PIN FEED PAGE PRINTERS
+
+\[Photo]
+
+FRONT PAPER LOADING FOR SETS WITH PIN FEED PAGE PRINTERS
+
+\[Photo]
+
+BLANK RIGHT DOOR
+
+\[Photo]
+
+RIGHT DOOR W/CUT-OUT FOR SETS UTILIZING BELL SYSTEM 103H DATA SETS AND 804P TYPE
+ATTENDANT SET OR EQUIVALENT
+
+## Model 37/100 Receive-Only Terminals (RO) For Switched Network Services
+
+GENERAL CHARACTERISTICS APPLICABLE TO ALL 37/102 TERMINALS (RO)
+
+- SPEED: 150 wpm—150 Baud—15 CPS
+- CODE: USAS X3.4 ASCII—7 Level
+- SIGNAL: Serial input and output, 10 unit code
+  - 1 start—7 information—1 parity* and 1 stop bit
+- INTERFACE: EIA RS-232-B
+- INPUT POWER: 115 VAC ± 10%, 60 HZ ± .45 HZ
+- APPROX. 200 Watts—15 Amp. fused circuits
+- PRINTING: Upper and lower case—94 graphics
+- PAINT FINISH: Charcoal gray and Ivory
+
+\*Even parity over the 8 bits.
+
+<table>
+  <thead>
+    <tr style="height: 550px; white-space: nowrap;">
+      <th colspan=2></th>
+      <!--Component Features-->
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        10 Character/Inch Horizontal Spacing</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Backspace</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        6-Row Typebox—Removable by Operator</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Signal Bell</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Terminal Disconnect on E.O.T. Character</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Printing Line 72 Characters (Adjustable)</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Print Suppression on Control Functions</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Operator Control for Variable Print Density</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        New Line—Carriage Return and Line Space on Line Feed Character</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Adjustable Switch for Varying End-of-Line Indicator (Lamp)</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Local Return (Carriage Return) and Paper Advance (Line Space)</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Adjustable Left and Right Margins (Maintenance Man)</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Motor Control (On-Line)</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Receiving Signal Regenerator</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Control Panel for Terminal Supervision</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Copy Lights for Easy Copy Viewing</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Interrupt Generation (Timed Line-Break)</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Even Parity Error Indicator (Error Alarm Lamp)</div></th>
+      <!--Optional Feature Groups-->
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Two-Position Line Space L[…]er for 3 or 6 Line Spaces/Inch (Note 1)</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Low Paper Switch […]nd Alarm (Lamp)</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Paper Out […] Switch and Alarm (Lamp)</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        M[…]or Control (Local)</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Terminal Out-of-Service-Key</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Horizontal Tabulation</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Horizontal Tabulation Stop Setting</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        20 Character Codeable Answer-Back</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Form Feed for 11" Forms</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Vertical Tabulation</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Vertical Tabulation Stop Setting</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Two Color Printing</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Half Line Space Forward and Reverse</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Reverse Line Space</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Shift-Out (SO) for Additional Graphics (Note 2)</div></th>
+      <!--Cabinetry Options-->
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Right Door W/Cutout for Attendant Set</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Right Door W/Cutout for Attendant Set and Rear Paper Loading</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Right Door W/Cutout for Attendant Set and Front Paper Loading</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Blank Right Door</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Blank Right Door and Rear Paper Loading</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Blank Right Door and Front Paper Loading</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Data Set Mounting Shelf</div></th>
+      <th></th>
+    </tr>
+    <tr>
+      <th colspan=2>ARRANGEMENT NO.</th>
+      <th colspan=18>COMPONENT FEATURES (NOTE 3)</th>
+      <th colspan=15>OPTIONAL FEATURE GROUPS (NOTE 3)</th>
+      <th colspan=7>CABINETRY OPTIONS (NOTE 3)</th>
+      <th>CATALOG NO.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2>1</td>
+      <td rowspan=2>8 1/2" FRICTION FEED PLATEN AND WIDE TABLE</td>
+      <!--Component Features-->
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <!--Optional Feature Groups-->
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2></td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2></td>
+      <td rowspan=2></td><td rowspan=2></td><td rowspan=2></td>
+      <td rowspan=2></td><td rowspan=2></td><td rowspan=2></td>
+      <!--Cabinetry Options-->
+      <td>●</td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td>37/102-1A</td>
+    </tr>
+    <tr><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td>37/102-1B</td></tr>
+    <tr>
+      <td rowspan=6>2</td>
+      <td rowspan=6>9 1/2" PIN FEED PLATEN AND WIDE TABLE</td>
+      <!--Component Features-->
+      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
+      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
+      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
+      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
+      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
+      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
+      <!--Optional Feature Groups-->
+      <td rowspan=6>●</td><td rowspan=6></td><td rowspan=6>●</td>
+      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
+      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
+      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6></td>
+      <td rowspan=6></td><td rowspan=6></td><td rowspan=6></td>
+      <!--Cabinetry Options-->
+      <td>●</td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td>37/102-2A</td>
+    </tr>
+    <tr><td></td><td>●</td><td></td><td></td><td></td><td></td><td></td><td>37/102-2B</td></tr>
+    <tr><td></td><td></td><td>●</td><td></td><td></td><td></td><td></td><td>37/102-2C</td></tr>
+    <tr><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td>37/102-2D</td></tr>
+    <tr><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td><td>37/102-2E</td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td><td>37/102-2F</td></tr>
+    <tr>
+      <td rowspan=2>3</td>
+      <td rowspan=2>8 1/2" FRICTION FEED PLATEN AND WIDE TABLE</td>
+      <!--Component Features-->
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <!--Optional Feature Groups-->
+      <td rowspan=2></td><td rowspan=2>●</td><td rowspan=2></td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <!--Cabinetry Options-->
+      <td>●</td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td>37/102-3A</td>
+    </tr>
+    <tr><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td>37/102-3B</td></tr>
+    <tr>
+      <td rowspan=6>4</td>
+      <td rowspan=6>9 1/2" PIN FEED PLATEN AND WIDE TABLE</td>
+      <!--Component Features-->
+      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
+      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
+      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
+      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
+      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
+      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
+      <!--Optional Feature Groups-->
+      <td rowspan=6></td><td rowspan=6></td><td rowspan=6>●</td>
+      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
+      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
+      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
+      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
+      <!--Cabinetry Options-->
+      <td>●</td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td>37/102-4A</td>
+    </tr>
+    <tr><td></td><td>●</td><td></td><td></td><td></td><td></td><td></td><td>37/102-4B</td></tr>
+    <tr><td></td><td></td><td>●</td><td></td><td></td><td></td><td></td><td>37/102-4C</td></tr>
+    <tr><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td>37/102-4D</td></tr>
+    <tr><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td><td>37/102-4E</td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td><td>37/102-4F</td></tr>
+    <tr>
+      <td rowspan=2>5</td>
+      <td rowspan=2>8 1/2" FRICTION FEED PLATEN AND NARROW TABLE</td>
+      <!--Component Features-->
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
+      <!--Optional Feature Groups-->
+      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2></td>
+      <td rowspan=2></td><td rowspan=2></td><td rowspan=2></td>
+      <td rowspan=2></td><td rowspan=2></td><td rowspan=2></td>
+      <td rowspan=2></td><td rowspan=2></td><td rowspan=2></td>
+      <td rowspan=2></td><td rowspan=2></td><td rowspan=2></td>
+      <!--Cabinetry Options-->
+      <td>&nbsp;</td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <td>37/102-5A</td>
+    </tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td><td>37/102-5B</td></tr>
+  </tbody>
+</table>
+
+- Note 1: Not available on page printer equipped with the half forward or
+  reverse line space feature.
+
+- Note 2: A 7 or 8-row typebox is available which contains a standard
+  arrangement of ASCII graphics in the lower six rows and one or two vacant
+  upper rows for additional graphics. Special type-pallets are available.
+
+  See Teletype Bulletin 1209B or 1214B
+
+- Note 3: All features are operable in local or on-line modes unless otherwise
+  specified.
