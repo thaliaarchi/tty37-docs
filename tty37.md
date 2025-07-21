@@ -18,6 +18,9 @@ excluding space, and spaces on all characters. It provides an eight-row typebox
 with pallets in the upper two rows for 32 control characters. \[2.02, 2.05,
 4.08]
 
+A keyboard interlock prevents errors caused from two keys simultaneously
+pressed. \[Catalog69]
+
 Questions:
 - Does “aggregate motion” simply refer to two-dimensional movement?
 - What are the configurations of number of rows for typeboxes?
