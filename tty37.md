@@ -30,18 +30,29 @@ Generates all 128 ASCII characters with even parity (standard feature).
 
 ## Character repeat feature
 
-When a key is pressed harder than normally (beyond its normal stop position),
-its associated character is generated repeatedly at the maximum character rate.
-Character repeat is an optional feature and can be enabled or disabled by a
-technician. \[General71 2.04, 2.15]\[General72 2.12]
+The keyboard permits you to repeat a character by pressing a key harder than
+normal (beyond its normal stop position), making it generate the associated
+character repeatedly at the maximum character rate.
+\[General71 2.15]\[General72 2.12]
 
-This feature is provided for each key that generates a character. It is normally
-disabled on all keys except for the following: space, NEW LINE, BACKSPACE, NULL,
-DELETE, period `.`, hyphen `-`, equal `=`, underscore `_`, colon `:`, asterisk
-`*`, and character X \[sic]. Form feed is non-repeating. \[General71 2.04, 2.15]
+Any key can be made repeatable by a technician with a simple modification. In
+the standard arrangement, only the ten most commonly used keys are repeatable
+(in both the shift and unshift states): \[Catalog69 7]\[General71 2.04]
 
-Question: The meaning of “character X” is unclear. Does it mean letters and
-possibly also numbers?
+- Space
+- NEW LINE
+- BACKSPACE
+- NULL
+- DELETE
+- Period `.`
+- Hyphen `-` or equals `=`
+- Underscore `_`
+- Colon `:` or asterisk `*`
+- Upper case `X` and lower case `x`
+
+Note that letters other than X apparently aren't repeatable in the standard
+arrangement (\[Catalog69] states that ten keys are repeatable, matching this
+list).
 
 In the \[General72] KSR model, character repeat is a standard feature and
 enabled for every key. \[2.02, 2.12] That model spaces on all characters, even
@@ -63,6 +74,9 @@ completely disable it, perhaps by moving the repeat mode pressure adjustment to
 an extreme position. \[3.2.1]
 
 ## References
+
+- \[Catalog69]: [“Teletype Model 37 Product Catalog”](https://archive.org/details/TNM_Model_37_terminal_product_catalog_-_Teletype__20170923_0036),
+  Teletype Corporation. April 1969.
 
 - \[General71]: [“37 Keyboard Send-Receive (KSR) Teletypewriter Set and 37
   Automatic Send-Receive (ASR) Teletypewriter Set for "DATA-PHONE®" Service:
