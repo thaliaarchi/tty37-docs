@@ -19,7 +19,7 @@ with pallets in the upper two rows for 32 control characters. \[2.02, 2.05,
 4.08]
 
 A keyboard interlock prevents errors caused from two keys simultaneously
-pressed. \[Catalog69]
+pressed. \[Catalog69 7]
 
 Questions:
 - Does “aggregate motion” simply refer to two-dimensional movement?
