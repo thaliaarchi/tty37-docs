@@ -1014,90 +1014,90 @@ GENERAL CHARACTERISTICS APPLICABLE TO ALL 37/102 TERMINALS (RO)
 
 <table>
   <thead>
-    <tr style="height: 550px; white-space: nowrap;">
+    <tr style="height: 550px; white-space: nowrap; vertical-align: bottom;">
       <th colspan=2></th>
       <!--Component Features-->
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         10 Character/Inch Horizontal Spacing</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Backspace</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         6-Row Typebox—Removable by Operator</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Signal Bell</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Terminal Disconnect on E.O.T. Character</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Printing Line 72 Characters (Adjustable)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Print Suppression on Control Functions</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Operator Control for Variable Print Density</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         New Line—Carriage Return and Line Space on Line Feed Character</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Adjustable Switch for Varying End-of-Line Indicator (Lamp)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Local Return (Carriage Return) and Paper Advance (Line Space)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Adjustable Left and Right Margins (Maintenance Man)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Motor Control (On-Line)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Receiving Signal Regenerator</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Control Panel for Terminal Supervision</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Copy Lights for Easy Copy Viewing</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Interrupt Generation (Timed Line-Break)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Even Parity Error Indicator (Error Alarm Lamp)</div></th>
       <!--Optional Feature Groups-->
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Two-Position Line Space Lever for 3 or 6 Line Spaces/Inch (Note 1)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Low Paper Switch and Alarm (Lamp)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Paper Out Switch and Alarm (Lamp)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Motor Control (Local)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Terminal Out-of-Service-Key</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Horizontal Tabulation</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Horizontal Tabulation Stop Setting</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         20 Character Codeable Answer-Back</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Form Feed for 11" Forms</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Vertical Tabulation</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Vertical Tabulation Stop Setting</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Two Color Printing</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Half Line Space Forward and Reverse</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Reverse Line Space</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Shift-Out (SO) for Additional Graphics (Note 2)</div></th>
       <!--Cabinetry Options-->
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Right Door W/Cutout for Attendant Set</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Right Door W/Cutout for Attendant Set and Rear Paper Loading</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Right Door W/Cutout for Attendant Set and Front Paper Loading</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Blank Right Door</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Blank Right Door and Rear Paper Loading</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Blank Right Door and Front Paper Loading</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Data Set Mounting Shelf</div></th>
       <th></th>
     </tr>
@@ -1259,90 +1259,90 @@ GENERAL CHARACTERISTICS APPLICABLE TO ALL 37/202 TERMINALS (KSR)
 
 <table>
   <thead>
-    <tr style="height: 550px; white-space: nowrap;">
+    <tr style="height: 550px; white-space: nowrap; vertical-align: bottom;">
       <th colspan=2></th>
       <!--Component Features-->
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         10 Character/Inch Horizontal Spacing</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Backspace</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         6-Row Typebox—Removable by Operator</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Signal Bell</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Terminal Disconnect on E.O.T. Character</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Printing Line 72 Characters (Adjustable)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Print Suppression on Control Functions</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Operator Control for Variable Print Density</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         New Line—Carriage Return and Line Space on Line Feed Character</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Adjustable Switch for Varying End-of-Line Indicator (Lamp)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Local Return (Carriage Return) and Paper Advance (Line Space)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Adjustable Left and Right Margins (Maintenance Man)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Motor Control</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Receiving Signal Regenerator</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Control Panel for Terminal Supervision</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Copy Lights for Easy Copy Viewing</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Interrupt Generation (Timed Line-Break)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Repeat Feature on 10 Keyboard Keys</div></th>
       <!--Optional Feature Groups-->
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Low Paper Switch and Alarm (Lamp)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Paper Out Switch and Alarm (Lamp)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Two-Position Line Space Lever for 3 or 6 Line Spaces/Inch (Note 1)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Line Control of Proceed (Keyboard Blind or Unblind)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Horizontal Tabulation</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Horizontal Tabulation Stop Setting</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         20 Character Codeable Answer-Back</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Form Feed for 11" Forms</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Vertical Tabulation</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Vertical Tabulation Stop Setting</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Terminal Out-of-Service Key</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Two Color Printing</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Half Line Space Forward and Reverse</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Reverse Line Space</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Shift-Out (SO) for Additional Graphics (Note 2)</div></th>
       <!--Cabinetry Options-->
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Right Door W/Cutout for Attendant Set</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Right Door W/Cutout for Attendant Set and Rear Paper Loading</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Right Door W/Cutout for Attendant Set and Front Paper Loading</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Blank Right Door</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Blank Right Door and Rear Paper Loading</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Blank Right Door and Front Paper Loading</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Data Set Mounting Shelf</div></th>
       <th></th>
     </tr>
@@ -1640,107 +1640,107 @@ GENERAL CHARACTERISTICS APPLICABLE TO ALL 37/302 TERMINALS (ASR)
 
 <table>
   <thead>
-    <tr style="height: 650px; white-space: nowrap;">
+    <tr style="height: 650px; white-space: nowrap; vertical-align: bottom;">
       <th colspan=2></th>
       <!--Component Features-->
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         10 Character/Inch Horizontal Spacing</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Backspace</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         6-Row Typebox—Removable by Operator</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Signal Bell</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Terminal Disconnect on E.O.T. Character</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Printing Line 72 Characters (Adjustable)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Print Suppression on Control Functions</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Operator Control for Variable Print Density</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         New Line—Carriage Return and Line Space on Line Feed Character</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Adjustable Switch for Varying End-of-Line Indicator (Lamp)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Local Return (Carriage Return) and Paper Advance (Line Space)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Adjustable Left and Right Margins (Maintenance Man)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Half or Full Duplex Operation (Strap Option)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Motor Control</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Receiving Signal Regenerator, Even Parity Error Detec., Error or Alarm Lamp</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Control Panel for Terminal Supervision</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Copy Lights for Easy Copy Viewing</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Interrupt Generation (Timed Line-Break)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Repeat Feature on 10 Keyboard Keys</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Keyboard Character Counter</div></th>
       <!--Optional Feature Groups-->
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Low Paper Switch and Alarm (Lamp)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Paper Out Switch and Alarm (Lamp)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Two-Position Line Space Lever for 3 or 6 Line Spaces/Inch (Note 1)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Terminal Out-of-Service Key</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Line Control of Proceed (Keyboard Blind)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Horizontal Tabulation</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Horizontal Tabulation Stop Setting</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         20 Character Codeable Answer-Back</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Half or Full Duplex (Machine Controlled)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Punch and Reader Control</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Form Feed for 11" Forms</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Vertical Tabulation</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Vertical Tabulation Stop Setting</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Two Color Printing</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Half Line Space Forward and Reverse</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Reverse Line Space</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Shift-Out (SO) for Additional Graphics (Note 2)</div></th>
       <!--Cabinetry Options-->
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Right Door W/Cutout for Attendant Set</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Right Door W/Cutout for Attendant Set and Rear Paper Loading</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Right Door W/Cutout for Attendant Set and Front Paper Loading</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Blank Right Door</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Blank Right Door and Rear Paper Loading</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Blank Right Door and Front Paper Loading</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         No Tape Handling on Punch and Reader Module</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         With Tape Storage Bin on Punch and Reader Module</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         With Tape Storage Bin and Tape Winder on Punch and Reader Module</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Tape Storage Bin, Tape Winder, Tape Winder/Unwinder Punch/Reader Module</div></th>
       <!--Module Suffix-->
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Model 37/400 Module Suffix. See Page 25 for Description (Note 4)</div></th>
       <th></th>
     </tr>
@@ -1928,59 +1928,59 @@ GENERAL CHARACTERISTICS APPLICABLE TO ALL 37/402 TERMINALS
 
 <table>
   <thead>
-    <tr style="height: 700px; white-space: nowrap;">
+    <tr style="height: 700px; white-space: nowrap; vertical-align: bottom;">
       <th colspan=2></th>
       <!--Component Features-->
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Serial Signal Input to Punch</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Punches 1" Wide Tape—USAS X3.18</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         10 Characters/Inch Spacing</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Fully Perforated Tape</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Off-Line Tape Backspace (Punch)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Tape-Out Alarm (Lamp)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Tape Supply Capacity 1000 Ft.</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Manual Tape Feed-Out (Delete)</div></th>
       <th></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Parallel Signal to Control Logic</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Reads 1" Wide Tape—USAS X3.18</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Run-Stop-Free Control Lever</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Tangled Tape and Tape-Out Sensors</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Read Feed Sequence of Operation</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Fully Perforated Tape</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Single Character Read—Step Switch</div></th>
       <th></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Tilt-Back Punch Cover</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Interface Circuitry</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Taut Tape Sensor</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Integrated Tape Handling Capability</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         Visible Chad Level Container</div></th>
       <!--Optional Features-->
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         No Tape Handling</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         With Tape Storage Bin, With More than 50 Foot Capacity</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         With 1 Tape Winder and Storage Bin 8 1/2" Tape Reels (Note 1)</div></th>
-      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
         With 1 Tape Winder, 1 Tape Winder/Unwinder & Tape Storage Bin, 8 1/2" Tape Reels*</div></th>
       <th></th>
     </tr>
@@ -2047,3 +2047,385 @@ Fold-out pages 23 and 24, and 25.
 **TAPE STORAGE BIN—OVER 50-FT. CAPACITY (REMOVED FROM PUNCH & READER MODULE)**
 
 \[Photo]
+
+*Page 26:*
+
+## Supplementary Technical Data
+
+**ASCII X3.4 CODE**
+
+(X3.4 - 1967)
+
+<table>
+  <thead>
+    <tr style="white-space: nowrap;">
+      <th style="text-align: center;" colspan=4>Bits</th><th>b7 b6 b5</th>
+      <th>0 0 0</th><th>0 0 1</th><th>0 1 0</th><th>0 1 1</th>
+      <th>1 0 0</th><th>1 0 1</th><th>1 1 0</th><th>1 1 1</th>
+    </tr>
+    <tr>
+      <th rowspan=2>b4</th><th rowspan=2>b3</th><th rowspan=2>b2</th><th rowspan=2>b1</th>
+      <th>Column</th>
+      <th rowspan=2>0</th><th rowspan=2>1</th><th rowspan=2>2</th><th rowspan=2>3</th>
+      <th rowspan=2>4</th><th rowspan=2>5</th><th rowspan=2>6</th><th rowspan=2>7</th>
+    </tr>
+    <tr><th>Row</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th><th>0</th><th>0</th><th>0</th><th>0</th>
+      <td>NUL</td><td>DLE</td><td>SP</td><td>0</td><td>@</td><td>P</td><td>`</td><td>p</td>
+    </tr>
+    <tr>
+      <th>0</th><th>0</th><th>0</th><th>1</th><th>1</th>
+      <td>SOH</td><td>DC1</td><td>!</td><td>1</td><td>A</td><td>Q</td><td>a</td><td>q</td>
+    </tr>
+    <tr>
+      <th>0</th><th>0</th><th>1</th><th>0</th><th>2</th>
+      <td>STX</td><td>DC2</td><td>"</td><td>2</td><td>B</td><td>R</td><td>b</td><td>r</td>
+    </tr>
+    <tr>
+      <th>0</th><th>0</th><th>1</th><th>1</th><th>3</th>
+      <td>ETX</td><td>DC3</td><td>#</td><td>3</td><td>C</td><td>S</td><td>c</td><td>s</td>
+    </tr>
+    <tr>
+      <th>0</th><th>1</th><th>0</th><th>0</th><th>4</th>
+      <td>EOT</td><td>DC4</td><td>$</td><td>4</td><td>D</td><td>T</td><td>d</td><td>t</td>
+    </tr>
+    <tr>
+      <th>0</th><th>1</th><th>0</th><th>1</th><th>5</th>
+      <td>ENQ</td><td>NAK</td><td>%</td><td>5</td><td>E</td><td>U</td><td>e</td><td>u</td>
+    </tr>
+    <tr>
+      <th>0</th><th>1</th><th>1</th><th>0</th><th>6</th>
+      <td>ACK</td><td>SYN</td><td>&amp;</td><td>6</td><td>F</td><td>V</td><td>f</td><td>v</td>
+    </tr>
+    <tr>
+      <th>0</th><th>1</th><th>1</th><th>1</th><th>7</th>
+      <td>BEL</td><td>ETB</td><td>'</td><td>7</td><td>G</td><td>W</td><td>g</td><td>w</td>
+    </tr>
+    <tr>
+      <th>1</th><th>0</th><th>0</th><th>0</th><th>8</th>
+      <td>BS</td><td>CAN</td><td>(</td><td>8</td><td>H</td><td>X</td><td>h</td><td>x</td>
+    </tr>
+    <tr>
+      <th>1</th><th>0</th><th>0</th><th>1</th><th>9</th>
+      <td>HT</td><td>EM</td><td>)</td><td>9</td><td>I</td><td>Y</td><td>i</td><td>y</td>
+    </tr>
+    <tr>
+      <th>1</th><th>0</th><th>1</th><th>0</th><th>10</th>
+      <td>LF</td><td>SUB</td><td>*</td><td>:</td><td>J</td><td>Z</td><td>j</td><td>z</td>
+    </tr>
+    <tr>
+      <th>1</th><th>0</th><th>1</th><th>1</th><th>11</th>
+      <td>VT</td><td>ESC</td><td>+</td><td>;</td><td>K</td><td>[</td><td>k</td><td>{</td>
+    </tr>
+    <tr>
+      <th>1</th><th>1</th><th>0</th><th>0</th><th>12</th>
+      <td>FF</td><td>FS</td><td>,</td><td>&lt;</td><td>L</td><td>\</td><td>l</td><td>|</td>
+    </tr>
+    <tr>
+      <th>1</th><th>1</th><th>0</th><th>1</th><th>13</th>
+      <td>CR</td><td>GS</td><td>-</td><td>=</td><td>M</td><td>]</td><td>m</td><td>}</td>
+    </tr>
+    <tr>
+      <th>1</th><th>1</th><th>1</th><th>0</th><th>14</th>
+      <td>SO</td><td>RS</td><td>.</td><td>&gt;</td><td>N</td><td>^</td><td>n</td><td>~</td>
+    </tr>
+    <tr>
+      <th>1</th><th>1</th><th>1</th><th>1</th><th>15</th>
+      <td>SI</td><td>US</td><td>/</td><td>?</td><td>O</td><td>_</td><td>o</td><td>DEL</td>
+    </tr>
+  </tbody>
+</table>
+
+**SINGLE SHEET OR MULTI-COPY PIN-FEED FORM**
+
+\[Diagram of paper with measurements of holes]
+
+**TYPICAL SIGNAL WAVE FORM**
+
+\[Diagram of signal wave form]
+
+**LOGIC OF THE MODEL 37 TERMINAL**
+
+**DATA CIRCUITS (EIA)**
+
+| Binary State     | One         | Zero        |
+| ---------------- | ----------- | ----------- |
+| Signal Condition | Marking     | Spacing     |
+| Voltage          | Negative    | Positive    |
+| Paper Tape       | Hole        | No-Hole     |
+| Model 37 Send    | -12V        | +12V        |
+| Model 37 Receive | -25V to -3V | +25V to +3V |
+
+**CONTROL INTERFACE CIRCUIT TERMS (EIA)**
+
+| Control Function      | Off         | On          |
+| --------------------- | ----------- | ----------- |
+| Voltage               | Negative    | Positive    |
+| Voltage from Model 37 | -12V        | +12V        |
+| Voltage to Model 37   | -25V to -3V | +25V to +3V |
+
+**SPEED DATA**
+
+- Characters: Per Second 15
+- Operations: Per Minute 900
+- Unit Code: 10
+- Baud (Bits per Second): 150
+- One Character Signal Length 66.67MS
+- Character Structure
+  - 1 Start Bit: 6.67 MS
+  - 7 Info Bits: 46.69 MS
+  - 1 Parity Bit: 6.67 MS
+  - 1 Stop Bit: 6.67 MS
+- Printer and Punch: 500 RPM (2 cycle)
+
+**BASIC MODEL 37/300 BLOCK DIAGRAM ON-LINE OPERATION**
+
+\[Diagram]
+
+*Page 27:*
+
+**Model 37 (EIA) RS-232-B Interface**
+
+<table>
+  <thead><tr><th>Pin No.</th><th></th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td><b>Protective Ground (AA)</b>—This lead is connected to
+      the framework of the set and electrically isolated from signal
+      ground.</td></tr>
+    <tr><td>2</td><td><b>Transmitted Data (BA)</b>—This lead carries data output
+      from the set when on-line mode. It is held marking when in local mode. A
+      receiving-only set keeps this lead marking.</td></tr>
+    <tr><td>3</td><td><b>Received Data (BB)</b>—This lead carries incoming data
+      from the line when the terminal is on-line condition. If this lead is
+      open, the set will act as if a marking signal was being
+      received.</td></tr>
+    <tr><td>4</td><td><b>Request-to-Send (CA)</b>—This lead is wired permanently
+      “on” in the terminal.</td></tr>
+    <tr><td>5</td><td><b>Clear-to-Send (CB)</b>—This lead activates the proceed
+      lamp by an “on” condition allowing on-line transmission. When “off” the
+      lamp is extinguished and transmission disabled.</td></tr>
+    <tr><td>6</td><td><b>Data Set Ready (CC)</b>—An “on” condition at this lead
+      causes operation of the appropriate set motors.</td></tr>
+    <tr><td>7</td><td><b>Signal Ground (AB)</b>—This lead is a common return for
+      all signal circuits.</td></tr>
+    <tr><td>20</td><td><b>Data Terminal Ready (CD)</b>—This lead is held “on”
+      when the terminal is ready to receive a message. The terminal is prepared
+      to receive when:
+      <ol>
+        <li>No alarms are present.</li>
+        <li>The equipment is not out of service.</li>
+        <li>At least one receiving device (typing unit or punch) is
+          on-line.</li>
+      </ol>
+    </td></tr>
+    <tr><td>22</td><td><b>Ring Indicator (CE)</b>—This indication is used when
+      the answer-back is employed. An “on” condition at this lead signals the
+      beginning of a received call and primes the answer-back. The answer-back
+      sends on clear-to-send.</td></tr>
+  </tbody>
+</table>
+
+**Transmitting and Receiving Margins**
+
+**Transmitting Margins.** Bit tinning: Any transition will be within 5% of a bit
+length from its correct transition point relative to the beginning of the start
+bit of the character. Minimum character length at 150 words per minute code will
+be 9.95 units.
+
+**Receiving Margins.** Model 37 terminals equipped with a receiving signal
+regenerator and operating at 150 words per minute, 10 unit code are capable of
+correct operation with signals containing up to 40% telegraph distortion. This
+distortion is defined as the measure of the maximum displacement of any
+mark-to-space or space-to-mark transition in a character as referenced from the
+initial mark to space transition of the start element.
+
+Platens will be available from 3%" to 9" form widths.
+
+**Typing Unit Paper.** The following are the dimensions of the standard yellow
+paper roll for friction feed printers available from paper suppliers.
+
+- Outside diameter: 5"
+- Width: 8.453" ± .031"
+- Length: 400' ± 50'
+- Core Diameter: 1"
+- Core thickness: .125"
+
+**Model 37 Printer Ribbons**
+
+- Black: Teletype Part No. 181129
+- Red-Black: Teletype Part No. 326184
+
+Set of parts to center various width paper on a friction-feed printer, Part No.
+159362.
+
+Clip to disable new-line feature Part No. 157274.
+
+Tape reel assembly, Part No. 327000.
+
+**STANDARD SALES TERMS AND CONDITIONS** February, 1969
+
+The following are applicable to all transactions except U.S. Government end-use.
+Standard terms and Conditions relating to the latter will be supplied on
+request.
+
+**1. Price, Payment and Delivery**
+
+A. Prices are net f.o.b. carrier’s equipment, our Skokie, Illinois plant
+(ex-factory for export transactions): they do not include installation or
+maintenance.
+
+B. Orders which call for deliveries beyond twelve months from the first day of
+the month following the receipt thereof must be specifically accepted in writing
+by us. Any deliveries made pursuant to rescheduling of an original order, at
+your request, shall be at our most-favored-customer price then in effect with
+respect to any such deliveries made after twelve months from the first day of
+the month following receipt of the original order.
+
+C. Invoices dated during any month are due and payable 30 days from date (60
+days, in U.S. funds, outside continental North America) unless your order
+specifies twentieth of the month following date of invoice.
+
+D. If credit has not been established with us, domestic terms will be c.o.d. or
+cash in advance and export terms will be irrevocable L/C on The Northern Trust
+Company, Chicago, Illinois, or, for orders under $500.00, S/D on The Northern
+Trust Company. Such L/C or S/D must be in the minimum amount of the purchase
+price of all items ordered, plus any other charges made by us; it may, at your
+option, also make provision for charges and fees payable to others.
+
+E. Delivery for export will be made in the continental U.S. to a freight
+forwarder designated by you, whose responsibility it will be to make all export
+arrangements. Unless you expressly designate such a freight forwarder, you will
+be deemed to have authorized us to select a forwarder so to act on your behalf.
+
+**2. Taxes**
+
+Prices do not include any sales, use, excise, or similar taxes. These will be
+billed and paid as a separate item on the invoice.
+
+**3. Patents**
+
+A. Patent Infrigement
+
+With respect to any article furnished by us, we will at our own expense defend
+all suits alleging infringement of any United States patent by reason of the use
+or resale of said article for the purposes furnished, and will save you harmless
+from all expenses of defending said suits and from all payments which by final
+judgments therein you may be compelled to pay to the complainant as profit,
+damages, or costs on account of such infringement. If such use or resale shall
+be prevented by permanent injunction in any such suit, we will in addition, at
+our option either (1) replace said article, (2) modify it so that it will not
+infringe, (3) procure without cost to you the right to continue to use and
+resell, or (4) remove the infringing article and refund to you the amount paid
+to Teletype therefore, less a reasonable allowance for use, damage, and
+obsolescence. All of our obligations recited in this paragraph are on the
+condition that we be given immediate written notice of all claims of
+infringement and full authority to dispose thereof. In connection therewith you
+agree to furnish such reasonable assistance as we may request. In any event,
+however, our obligation shall not apply to any combination of said article with
+anything not furnished by us, and also shall not apply to any infringement
+arising out of compliance with your specifications. Our liability shall be
+limited to the obligations expressed in this paragraph.
+
+B. No Implied License
+
+The furnishing of any article does not convey any license, other than such as
+may be implied by law, to use the same in any. patented system or combination.
+
+**4. Guarantee**
+
+We guarantee that everything supplied by us will be free from defects of
+workmanship and material and that, on receipt of notice from you, we will remedy
+any actual defects by, at our option, repair, replacement or allowing return for
+full credit. In no event shall anything be returned without express
+authorization. This paragraph states our entire obligation for defects.
+
+**5. Technical Literature**
+
+One copy of each applicable technical bulletin and/or specification will be
+furnished, no charge, with each set of equipment. Requests for additional copies
+should be addressed to our Equipment Sales Service Section.
+
+**6. Confirming Orders**
+
+All confirming orders must be clearly marked, otherwise we will assume no
+liability for duplicate shipments.
+
+**7. Packaging, Packing and Marking**
+
+A. Our prices include only our standard commercial packaging, packing and
+marking for domestic shipment.
+
+B. Prices for special and export packaging, packing and marking will be quoted
+upon request.
+
+**8. Routing**
+
+Shipment will be made the most economical way unless otherwise directed in
+writing.
+
+**9. Delivery Loss and Delay**
+
+Risk of loss is on customer ex-factory, Skokie, Illinois. Delivery schedules are
+subject to delays caused by fire,-flood, wind storm, and other acts of God, and
+to strikes, riots, and civil commotions.
+
+**10. Manufacturing, Inspection and Testing Information**
+
+A. Nothing furnished hereunder is subject to test or inspection at our plant by
+the customer.
+
+B. We will not furnish manufacturing drawings, information, or samples of our
+products.
+
+**11. Return of Equipment or Parts not Covered by Product Guarantee**
+
+Prior written authorization must be given before any equipment or parts are
+returned for credit or repair.
+
+**12. Teletype Training Center**
+
+Teletype Corporation operates a tuition-free training center for instruction of
+key customer personnel in the maintenance of Teletype equipment. For details,
+please write to Teletype Corporation, Technical Training Center, 201 North Wells
+Street, Chicago, Illinois 60606.
+
+Telephone: (312) 346-0585.
+
+*Page 28:*
+
+## customer maintenance training
+
+As a continuing service to users of our equipment, Teletype Corporation operates
+a tuition-free technical training center for instruction in maintenance of
+Teletype equipment. The training program offered is designed to give your key
+maintenance personnel a basic working knowledge of Teletype equipment and its
+uses.
+
+We recommend and urge our customers to take advantage of the courses offered.
+For details, please write: Teletype Corporation Technical Training Center,
+201 North Wells Street, Chicago, Illinois 60606 — Telephone: (312) 346-0585
+
+**TELETYPE CORPORATION**
+
+**GENERAL OFFICES:** 5555 Touhy Avenue, Skokie, Illinois 60076 • Telephone: 312
+982-2000 • TWX: 910-223-3611 and TELEX: 25-4051 (both have 24-hour automatic
+answering service)
+
+**AREA OFFICES:**
+- **Chicago** *Sales*—5555 W. Touhy Ave., Skokie, Ill. 60076, phone 312 982-2500 •
+  *Product Service*—9930 Derby Lane, Westchester, Ill. 60153, phone 312 345-7920
+- **Los Angeles:** 5720 E. Washington Blvd., City of Commerce, Calif. 90022 •
+  *Sales*—phone 213 724-6040 •
+  *Product Service*—phone 213 724-5051
+- **New York:** 140 Sylvan Ave., Englewood Cliffs, N.J. 07632 •
+  *Sales*—phone 201 461-7070 •
+  *Product Service*—phone 201 947-7300
+- **Washington, D.C.:** 1800 N. Kent St., Arlington, Va. 22209 •
+  *Sales*—phone 703 528-6050 •
+  *Product Service*—phone 703 522-7118
+
+Printed in U.S.A. \
+37 CAT 5M1070
