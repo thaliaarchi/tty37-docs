@@ -1102,11 +1102,11 @@ GENERAL CHARACTERISTICS APPLICABLE TO ALL 37/102 TERMINALS (RO)
       <th></th>
     </tr>
     <tr>
-      <th colspan=2>ARRANGEMENT NO.</th>
-      <th colspan=18>COMPONENT FEATURES (NOTE 3)</th>
-      <th colspan=15>OPTIONAL FEATURE GROUPS (NOTE 3)</th>
-      <th colspan=7>CABINETRY OPTIONS (NOTE 3)</th>
-      <th>CATALOG NO.</th>
+      <th style="text-align: center;" colspan=2>ARRANGEMENT NO.</th>
+      <th style="text-align: center;" colspan=18>COMPONENT FEATURES (NOTE 3)</th>
+      <th style="text-align: center;" colspan=15>OPTIONAL FEATURE GROUPS (NOTE 3)</th>
+      <th style="text-align: center;" colspan=7>CABINETRY OPTIONS (NOTE 3)</th>
+      <th style="text-align: center;">CATALOG NO.</th>
     </tr>
   </thead>
   <tbody>
@@ -1347,11 +1347,11 @@ GENERAL CHARACTERISTICS APPLICABLE TO ALL 37/202 TERMINALS (KSR)
       <th></th>
     </tr>
     <tr>
-      <th colspan=2>ARRANGEMENT NO.</th>
-      <th colspan=18>COMPONENT FEATURES (NOTE 3)</th>
-      <th colspan=15>OPTIONAL FEATURE GROUPS (NOTE 3)</th>
-      <th colspan=7>CABINETRY OPTIONS (NOTE 3)</th>
-      <th>CATALOG NO.</th>
+      <th style="text-align: center;" colspan=2>ARRANGEMENT NO.</th>
+      <th style="text-align: center;" colspan=18>COMPONENT FEATURES (NOTE 3)</th>
+      <th style="text-align: center;" colspan=15>OPTIONAL FEATURE GROUPS (NOTE 3)</th>
+      <th style="text-align: center;" colspan=7>CABINETRY OPTIONS (NOTE 3)</th>
+      <th style="text-align: center;">CATALOG NO.</th>
     </tr>
   </thead>
   <tbody>
@@ -1745,12 +1745,12 @@ GENERAL CHARACTERISTICS APPLICABLE TO ALL 37/302 TERMINALS (ASR)
       <th></th>
     </tr>
     <tr>
-      <th colspan=2>ARRANGEMENT NO.</th>
-      <th colspan=20>COMPONENT FEATURES (NOTE 3)</th>
-      <th colspan=17>OPTIONAL FEATURE GROUPS (NOTE 3)</th>
-      <th colspan=10>CABINETRY OPTIONS (NOTE 3)</th>
+      <th style="text-align: center;" colspan=2>ARRANGEMENT NO.</th>
+      <th style="text-align: center;" colspan=20>COMPONENT FEATURES (NOTE 3)</th>
+      <th style="text-align: center;" colspan=17>OPTIONAL FEATURE GROUPS (NOTE 3)</th>
+      <th style="text-align: center;" colspan=10>CABINETRY OPTIONS (NOTE 3)</th>
       <th></th>
-      <th>CATALOG NO.</th>
+      <th style="text-align: center;">CATALOG NO.</th>
     </tr>
   </thead>
   <tbody>
@@ -1912,4 +1912,138 @@ GENERAL CHARACTERISTICS APPLICABLE TO ALL 37/302 TERMINALS (ASR)
   module to form a complete set. (A Catalog No. on this page represents a
   complete, compatible ASR Set).
 
-*Page 23:*
+*Pages 23 and 24:*
+
+## Model 37/400 Punch and Reader Module\* For Switched Network Services
+
+GENERAL CHARACTERISTICS APPLICABLE TO ALL 37/402 TERMINALS
+
+- SPEED: 150 wpm—150 Baud — 15
+- CODE: 8 level—10 unit code
+  - 1 start, 8 information and 1 stop bit
+- INPUT POWER: 115V AC ± 10%,
+- PAINT FINISH: Charcoal Gray and Ivory
+
+\*These sets require an appropriate Model 37/300 Terminal for their operation.
+
+<table>
+  <thead>
+    <tr style="height: 700px; white-space: nowrap;">
+      <th colspan=2></th>
+      <!--Component Features-->
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Serial Signal Input to Punch</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Punches 1" Wide Tape—USAS X3.18</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        10 Characters/Inch Spacing</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Fully Perforated Tape</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Off-Line Tape Backspace (Punch)</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Tape-Out Alarm (Lamp)</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Tape Supply Capacity 1000 Ft.</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Manual Tape Feed-Out (Delete)</div></th>
+      <th></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Parallel Signal to Control Logic</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Reads 1" Wide Tape—USAS X3.18</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Run-Stop-Free Control Lever</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Tangled Tape and Tape-Out Sensors</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Read Feed Sequence of Operation</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Fully Perforated Tape</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Single Character Read—Step Switch</div></th>
+      <th></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Tilt-Back Punch Cover</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Interface Circuitry</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Taut Tape Sensor</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Integrated Tape Handling Capability</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        Visible Chad Level Container</div></th>
+      <!--Optional Features-->
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        No Tape Handling</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        With Tape Storage Bin, With More than 50 Foot Capacity</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        With 1 Tape Winder and Storage Bin 8 1/2" Tape Reels (Note 1)</div></th>
+      <th style="vertical-align: bottom;"><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
+        With 1 Tape Winder, 1 Tape Winder/Unwinder & Tape Storage Bin, 8 1/2" Tape Reels*</div></th>
+      <th></th>
+    </tr>
+    <tr>
+      <th style="text-align: center;" colspan=2>ARRANGEMENT NO.</th>
+      <th style="text-align: center;" colspan=22>COMPONENT FEATURES</th>
+      <th style="text-align: center;" colspan=4>OPTIONAL FEATURES</th>
+      <th style="text-align: center;">CATALOG NO.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=4>1</td>
+      <td rowspan=4>NON-TYPING PUNCH WITH TAPE READER</td>
+      <!--Component Features-->
+      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
+      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
+      <td rowspan=4>●</td><td rowspan=4>●</td>
+      <td rowspan=4></td>
+      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
+      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
+      <td rowspan=4>●</td>
+      <td rowspan=4></td>
+      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
+      <td rowspan=4>●</td><td rowspan=4>●</td>
+      <!--Optional Features-->
+      <td>●</td><td></td><td></td><td></td>
+      <td style="white-space: nowrap;">37/402-1A</td>
+    </tr>
+    <tr><td></td><td>●</td><td></td><td></td><td style="white-space: nowrap;">37/402-1B</td></tr>
+    <tr><td></td><td></td><td>●</td><td></td><td style="white-space: nowrap;">37/402-1C</td></tr>
+    <tr><td></td><td></td><td></td><td>●</td><td style="white-space: nowrap;">37/402-1D</td></tr>
+  </tbody>
+</table>
+
+\*See supplementary, Technical Data, Pages 26 and 27, for part number.
+
+*Page 25:*
+
+## 37/400 Graphic Feature Information
+
+Fold-out pages 23 and 24, and 25.
+
+**CONTROL PANEL**
+
+\[Photo]
+
+**WITH TAPE WINDER TAPE WINDER/UNWINDER AND TAPE STORAGE BIN**
+
+\[Photo]
+
+**NO TAPE HANDLING**
+
+\[Photo]
+
+**WITH TAPE STORAGE BIN MORE THAN 50-FOOT CAPACITY**
+
+\[Photo]
+
+**WITH TAPE WINDER AND TAPE STORAGE BIN**
+
+\[Photo]
+
+**TAPE STORAGE BIN—OVER 50-FT. CAPACITY (REMOVED FROM PUNCH & READER MODULE)**
+
+\[Photo]
