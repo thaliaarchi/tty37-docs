@@ -995,219 +995,68 @@ GENERAL CHARACTERISTICS APPLICABLE TO ALL 37/102 TERMINALS (RO)
 
 \*Even parity over the 8 bits.
 
-<table>
-  <thead>
-    <tr style="height: 550px; white-space: nowrap; vertical-align: bottom;">
-      <th colspan=2></th>
-      <!--Component Features-->
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        10 Character/Inch Horizontal Spacing</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Backspace</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        6-Row Typebox—Removable by Operator</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Signal Bell</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Terminal Disconnect on E.O.T. Character</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Printing Line 72 Characters (Adjustable)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Print Suppression on Control Functions</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Operator Control for Variable Print Density</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        New Line—Carriage Return and Line Space on Line Feed Character</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Adjustable Switch for Varying End-of-Line Indicator (Lamp)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Local Return (Carriage Return) and Paper Advance (Line Space)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Adjustable Left and Right Margins (Maintenance Man)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Motor Control (On-Line)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Receiving Signal Regenerator</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Control Panel for Terminal Supervision</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Copy Lights for Easy Copy Viewing</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Interrupt Generation (Timed Line-Break)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Even Parity Error Indicator (Error Alarm Lamp)</div></th>
-      <!--Optional Feature Groups-->
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Two-Position Line Space Lever for 3 or 6 Line Spaces/Inch (Note 1)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Low Paper Switch and Alarm (Lamp)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Paper Out Switch and Alarm (Lamp)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Motor Control (Local)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Terminal Out-of-Service-Key</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Horizontal Tabulation</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Horizontal Tabulation Stop Setting</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        20 Character Codeable Answer-Back</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Form Feed for 11" Forms</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Vertical Tabulation</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Vertical Tabulation Stop Setting</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Two Color Printing</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Half Line Space Forward and Reverse</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Reverse Line Space</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Shift-Out (SO) for Additional Graphics (Note 2)</div></th>
-      <!--Cabinetry Options-->
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Right Door W/Cutout for Attendant Set</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Right Door W/Cutout for Attendant Set and Rear Paper Loading</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Right Door W/Cutout for Attendant Set and Front Paper Loading</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Blank Right Door</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Blank Right Door and Rear Paper Loading</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Blank Right Door and Front Paper Loading</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Data Set Mounting Shelf</div></th>
-      <th></th>
-    </tr>
-    <tr>
-      <th style="text-align: center;" colspan=2>ARRANGEMENT NO.</th>
-      <th style="text-align: center;" colspan=18>COMPONENT FEATURES (NOTE 3)</th>
-      <th style="text-align: center;" colspan=15>OPTIONAL FEATURE GROUPS (NOTE 3)</th>
-      <th style="text-align: center;" colspan=7>CABINETRY OPTIONS (NOTE 3)</th>
-      <th style="text-align: center;">CATALOG NO.</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan=2>1</td>
-      <td rowspan=2>8 1/2" FRICTION FEED PLATEN AND WIDE TABLE</td>
-      <!--Component Features-->
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <!--Optional Feature Groups-->
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2></td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2></td>
-      <td rowspan=2></td><td rowspan=2></td><td rowspan=2></td>
-      <td rowspan=2></td><td rowspan=2></td><td rowspan=2></td>
-      <!--Cabinetry Options-->
-      <td>●</td><td></td><td></td><td></td><td></td><td></td><td></td>
-      <td style="white-space: nowrap;">37/102-1A</td>
-    </tr>
-    <tr><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td style="white-space: nowrap;">37/102-1B</td></tr>
-    <tr>
-      <td rowspan=6>2</td>
-      <td rowspan=6>9 1/2" PIN FEED PLATEN AND WIDE TABLE</td>
-      <!--Component Features-->
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <!--Optional Feature Groups-->
-      <td rowspan=6>●</td><td rowspan=6></td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6></td>
-      <td rowspan=6></td><td rowspan=6></td><td rowspan=6></td>
-      <!--Cabinetry Options-->
-      <td>●</td><td></td><td></td><td></td><td></td><td></td><td></td>
-      <td style="white-space: nowrap;">37/102-2A</td>
-    </tr>
-    <tr><td></td><td>●</td><td></td><td></td><td></td><td></td><td></td><td style="white-space: nowrap;">37/102-2B</td></tr>
-    <tr><td></td><td></td><td>●</td><td></td><td></td><td></td><td></td><td style="white-space: nowrap;">37/102-2C</td></tr>
-    <tr><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td style="white-space: nowrap;">37/102-2D</td></tr>
-    <tr><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td><td style="white-space: nowrap;">37/102-2E</td></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td><td style="white-space: nowrap;">37/102-2F</td></tr>
-    <tr>
-      <td rowspan=2>3</td>
-      <td rowspan=2>8 1/2" FRICTION FEED PLATEN AND WIDE TABLE</td>
-      <!--Component Features-->
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <!--Optional Feature Groups-->
-      <td rowspan=2></td><td rowspan=2>●</td><td rowspan=2></td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <!--Cabinetry Options-->
-      <td>●</td><td></td><td></td><td></td><td></td><td></td><td></td>
-      <td style="white-space: nowrap;">37/102-3A</td>
-    </tr>
-    <tr><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td style="white-space: nowrap;">37/102-3B</td></tr>
-    <tr>
-      <td rowspan=6>4</td>
-      <td rowspan=6>9 1/2" PIN FEED PLATEN AND WIDE TABLE</td>
-      <!--Component Features-->
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <!--Optional Feature Groups-->
-      <td rowspan=6></td><td rowspan=6></td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <!--Cabinetry Options-->
-      <td>●</td><td></td><td></td><td></td><td></td><td></td><td></td>
-      <td style="white-space: nowrap;">37/102-4A</td>
-    </tr>
-    <tr><td></td><td>●</td><td></td><td></td><td></td><td></td><td></td><td style="white-space: nowrap;">37/102-4B</td></tr>
-    <tr><td></td><td></td><td>●</td><td></td><td></td><td></td><td></td><td style="white-space: nowrap;">37/102-4C</td></tr>
-    <tr><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td style="white-space: nowrap;">37/102-4D</td></tr>
-    <tr><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td><td style="white-space: nowrap;">37/102-4E</td></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td><td style="white-space: nowrap;">37/102-4F</td></tr>
-    <tr>
-      <td rowspan=2>5</td>
-      <td rowspan=2>8 1/2" FRICTION FEED PLATEN AND NARROW TABLE</td>
-      <!--Component Features-->
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <!--Optional Feature Groups-->
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2></td>
-      <td rowspan=2></td><td rowspan=2></td><td rowspan=2></td>
-      <td rowspan=2></td><td rowspan=2></td><td rowspan=2></td>
-      <td rowspan=2></td><td rowspan=2></td><td rowspan=2></td>
-      <td rowspan=2></td><td rowspan=2></td><td rowspan=2></td>
-      <!--Cabinetry Options-->
-      <td>&nbsp;</td><td></td><td></td><td></td><td></td><td></td><td></td>
-      <td style="white-space: nowrap;">37/102-5A</td>
-    </tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td><td style="white-space: nowrap;">37/102-5B</td></tr>
-  </tbody>
-</table>
+**Arrangements:**
+
+1. 8 1/2" Friction Feed Platen and Wide Table
+2. 9 1/2" Pin Feed Platen and Wide Table
+3. 8 1/2" Friction Feed Platen and Wide Table
+4. 9 1/2" Pin Feed Platen and Wide Table
+5. 8 1/2" Friction Feed Platen and Narrow Table
+
+**Component Features (Note 3) (All Arrangements):**
+
+- 10 Character/Inch Horizontal Spacing
+- Backspace
+- 6-Row Typebox—Removable by Operator
+- Signal Bell
+- Terminal Disconnect on E.O.T. Character
+- Printing Line 72 Characters (Adjustable)
+- Print Suppression on Control Functions
+- Operator Control for Variable Print Density
+- New Line—Carriage Return and Line Space on Line Feed Character
+- Adjustable Switch for Varying End-of-Line Indicator (Lamp)
+- Local Return (Carriage Return) and Paper Advance (Line Space)
+- Adjustable Left and Right Margins (Maintenance Man)
+- Motor Control (On-Line)
+- Receiving Signal Regenerator
+- Control Panel for Terminal Supervision
+- Copy Lights for Easy Copy Viewing
+- Interrupt Generation (Timed Line-Break)
+- Even Parity Error Indicator (Error Alarm Lamp)
+
+**Optional Feature Groups (Note 3):**
+
+| Optional Feature                                                   | 1 | 2 | 3 | 4 | 5 |
+| ------------------------------------------------------------------ | - | - | - | - | - |
+| Two-Position Line Space Lever for 3 or 6 Line Spaces/Inch (Note 1) | ● | ● |   |   | ● |
+| Low Paper Switch and Alarm (Lamp)                                  | ● |   | ● |   | ● |
+| Paper Out Switch and Alarm (Lamp)                                  |   | ● |   | ● |   |
+| Motor Control (Local)                                              | ● | ● | ● | ● |   |
+| Terminal Out-of-Service-Key                                        | ● | ● | ● | ● |   |
+| Horizontal Tabulation                                              | ● | ● | ● | ● |   |
+| Horizontal Tabulation Stop Setting                                 | ● | ● | ● | ● |   |
+| 20 Character Codeable Answer-Back                                  | ● | ● | ● | ● |   |
+| Form Feed for 11" Forms                                            |   | ● | ● | ● |   |
+| Vertical Tabulation                                                |   | ● | ● | ● |   |
+| Vertical Tabulation Stop Setting                                   |   | ● | ● | ● |   |
+| Two Color Printing                                                 |   |   | ● | ● |   |
+| Half Line Space Forward and Reverse                                |   |   | ● | ● |   |
+| Reverse Line Space                                                 |   |   | ● | ● |   |
+| Shift-Out (SO) for Additional Graphics (Note 2)                    |   |   | ● | ● |   |
+
+**Cabinetry Options (Note 3):**
+
+| Cabinetry Option                                              | 1A | 1B | 2A | 2B | 2C | 2D | 2E | 2F | 3A | 3B | 4A | 4B | 4C | 4D | 4E | 4F | 5A | 5B |
+| ------------------------------------------------------------- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| Right Door W/Cutout for Attendant Set                         | ●  |    | ●  |    |    |    |    |    | ●  |    | ●  |    |    |    |    |    |    |    |
+| Right Door W/Cutout for Attendant Set and Rear Paper Loading  |    |    |    | ●  |    |    |    |    |    |    |    | ●  |    |    |    |    |    |    |
+| Right Door W/Cutout for Attendant Set and Front Paper Loading |    |    |    |    | ●  |    |    |    |    |    |    |    | ●  |    |    |    |    |    |
+| Blank Right Door                                              |    | ●  |    |    |    | ●  |    |    |    | ●  |    |    |    | ●  |    |    |    |    |
+| Blank Right Door and Rear Paper Loading                       |    |    |    |    |    |    | ●  |    |    |    |    |    |    |    | ●  |    |    |    |
+| Blank Right Door and Front Paper Loading                      |    |    |    |    |    |    |    | ●  |    |    |    |    |    |    |    | ●  |    |    |
+| Data Set Mounting Shelf                                       |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ●  |
+
+Catalog numbers are 37/102-{arrangement}{letter}
 
 - Note 1: Not available on page printer equipped with the half forward or
   reverse line space feature.
@@ -1240,219 +1089,68 @@ GENERAL CHARACTERISTICS APPLICABLE TO ALL 37/202 TERMINALS (KSR)
 
 \*Even Parity over the 8 bits
 
-<table>
-  <thead>
-    <tr style="height: 550px; white-space: nowrap; vertical-align: bottom;">
-      <th colspan=2></th>
-      <!--Component Features-->
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        10 Character/Inch Horizontal Spacing</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Backspace</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        6-Row Typebox—Removable by Operator</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Signal Bell</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Terminal Disconnect on E.O.T. Character</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Printing Line 72 Characters (Adjustable)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Print Suppression on Control Functions</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Operator Control for Variable Print Density</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        New Line—Carriage Return and Line Space on Line Feed Character</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Adjustable Switch for Varying End-of-Line Indicator (Lamp)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Local Return (Carriage Return) and Paper Advance (Line Space)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Adjustable Left and Right Margins (Maintenance Man)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Motor Control</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Receiving Signal Regenerator</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Control Panel for Terminal Supervision</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Copy Lights for Easy Copy Viewing</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Interrupt Generation (Timed Line-Break)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Repeat Feature on 10 Keyboard Keys</div></th>
-      <!--Optional Feature Groups-->
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Low Paper Switch and Alarm (Lamp)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Paper Out Switch and Alarm (Lamp)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Two-Position Line Space Lever for 3 or 6 Line Spaces/Inch (Note 1)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Line Control of Proceed (Keyboard Blind or Unblind)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Horizontal Tabulation</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Horizontal Tabulation Stop Setting</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        20 Character Codeable Answer-Back</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Form Feed for 11" Forms</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Vertical Tabulation</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Vertical Tabulation Stop Setting</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Terminal Out-of-Service Key</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Two Color Printing</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Half Line Space Forward and Reverse</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Reverse Line Space</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Shift-Out (SO) for Additional Graphics (Note 2)</div></th>
-      <!--Cabinetry Options-->
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Right Door W/Cutout for Attendant Set</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Right Door W/Cutout for Attendant Set and Rear Paper Loading</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Right Door W/Cutout for Attendant Set and Front Paper Loading</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Blank Right Door</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Blank Right Door and Rear Paper Loading</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Blank Right Door and Front Paper Loading</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Data Set Mounting Shelf</div></th>
-      <th></th>
-    </tr>
-    <tr>
-      <th style="text-align: center;" colspan=2>ARRANGEMENT NO.</th>
-      <th style="text-align: center;" colspan=18>COMPONENT FEATURES (NOTE 3)</th>
-      <th style="text-align: center;" colspan=15>OPTIONAL FEATURE GROUPS (NOTE 3)</th>
-      <th style="text-align: center;" colspan=7>CABINETRY OPTIONS (NOTE 3)</th>
-      <th style="text-align: center;">CATALOG NO.</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan=2>1</td>
-      <td rowspan=2>8 1/2" FRICTION FEED PLATEN AND WIDE TABLE</td>
-      <!--Component Features-->
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <!--Optional Feature Groups-->
-      <td rowspan=2>●</td><td rowspan=2></td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2></td>
-      <td rowspan=2></td><td rowspan=2></td><td rowspan=2></td>
-      <td rowspan=2></td><td rowspan=2></td><td rowspan=2></td>
-      <!--Cabinetry Options-->
-      <td>●</td><td></td><td></td><td></td><td></td><td></td><td></td>
-      <td style="white-space: nowrap;">37/202-1A</td>
-    </tr>
-    <tr><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td style="white-space: nowrap;">37/202-1B</td></tr>
-    <tr>
-      <td rowspan=6>2</td>
-      <td rowspan=6>9 1/2" PIN FEED PLATEN AND WIDE TABLE</td>
-      <!--Component Features-->
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <!--Optional Feature Groups-->
-      <td rowspan=6></td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6></td>
-      <td rowspan=6></td><td rowspan=6></td><td rowspan=6></td>
-      <!--Cabinetry Options-->
-      <td>●</td><td></td><td></td><td></td><td></td><td></td><td></td>
-      <td style="white-space: nowrap;">37/202-2A</td>
-    </tr>
-    <tr><td></td><td>●</td><td></td><td></td><td></td><td></td><td></td><td style="white-space: nowrap;">37/202-2B</td></tr>
-    <tr><td></td><td></td><td>●</td><td></td><td></td><td></td><td></td><td style="white-space: nowrap;">37/202-2C</td></tr>
-    <tr><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td style="white-space: nowrap;">37/202-2D</td></tr>
-    <tr><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td><td style="white-space: nowrap;">37/202-2E</td></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td><td style="white-space: nowrap;">37/202-2F</td></tr>
-    <tr>
-      <td rowspan=2>3</td>
-      <td rowspan=2>8 1/2" FRICTION FEED PLATEN AND WIDE TABLE</td>
-      <!--Component Features-->
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <!--Optional Feature Groups-->
-      <td rowspan=2>●</td><td rowspan=2></td><td rowspan=2></td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <!--Cabinetry Options-->
-      <td>●</td><td></td><td></td><td></td><td></td><td></td><td></td>
-      <td style="white-space: nowrap;">37/202-3A</td>
-    </tr>
-    <tr><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td style="white-space: nowrap;">37/202-3B</td></tr>
-    <tr>
-      <td rowspan=6>4</td>
-      <td rowspan=6>9 1/2" PIN FEED PLATEN AND WIDE TABLE</td>
-      <!--Component Features-->
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <!--Optional Feature Groups-->
-      <td rowspan=6></td><td rowspan=6>●</td><td rowspan=6></td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <td rowspan=6>●</td><td rowspan=6>●</td><td rowspan=6>●</td>
-      <!--Cabinetry Options-->
-      <td>●</td><td></td><td></td><td></td><td></td><td></td><td></td>
-      <td style="white-space: nowrap;">37/202-4A</td>
-    </tr>
-    <tr><td></td><td>●</td><td></td><td></td><td></td><td></td><td></td><td style="white-space: nowrap;">37/202-4B</td></tr>
-    <tr><td></td><td></td><td>●</td><td></td><td></td><td></td><td></td><td style="white-space: nowrap;">37/202-4C</td></tr>
-    <tr><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td style="white-space: nowrap;">37/202-4D</td></tr>
-    <tr><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td><td style="white-space: nowrap;">37/202-4E</td></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td><td style="white-space: nowrap;">37/202-4F</td></tr>
-    <tr>
-      <td rowspan=2>5</td>
-      <td rowspan=2>8 1/2" FRICTION FEED PLATEN AND NARROW TABLE</td>
-      <!--Component Features-->
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <td rowspan=2>●</td><td rowspan=2>●</td><td rowspan=2>●</td>
-      <!--Optional Feature Groups-->
-      <td rowspan=2>●</td><td rowspan=2></td><td rowspan=2>●</td>
-      <td rowspan=2></td><td rowspan=2></td><td rowspan=2></td>
-      <td rowspan=2></td><td rowspan=2></td><td rowspan=2></td>
-      <td rowspan=2></td><td rowspan=2></td><td rowspan=2></td>
-      <td rowspan=2></td><td rowspan=2></td><td rowspan=2></td>
-      <!--Cabinetry Options-->
-      <td>&nbsp;</td><td></td><td></td><td></td><td></td><td></td><td></td>
-      <td style="white-space: nowrap;">37/202-5A</td>
-    </tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td><td style="white-space: nowrap;">37/202-5B</td></tr>
-  </tbody>
-</table>
+**Arrangements:**
+
+1. 8 1/2" Friction Feed Platen and Wide Table
+2. 9 1/2" Pin Feed Platen and Wide Table
+3. 8 1/2" Friction Feed Platen and Wide Table
+4. 9 1/2" Pin Feed Platen and Wide Table
+5. 8 1/2" Friction Feed Platen and Narrow Table
+
+**Component Features (Note 3) (All Arrangements):**
+
+- 10 Character/Inch Horizontal Spacing
+- Backspace
+- 6-Row Typebox—Removable by Operator
+- Signal Bell
+- Terminal Disconnect on E.O.T. Character
+- Printing Line 72 Characters (Adjustable)
+- Print Suppression on Control Functions
+- Operator Control for Variable Print Density
+- New Line—Carriage Return and Line Space on Line Feed Character
+- Adjustable Switch for Varying End-of-Line Indicator (Lamp)
+- Local Return (Carriage Return) and Paper Advance (Line Space)
+- Adjustable Left and Right Margins (Maintenance Man)
+- Motor Control
+- Receiving Signal Regenerator
+- Control Panel for Terminal Supervision
+- Copy Lights for Easy Copy Viewing
+- Interrupt Generation (Timed Line-Break)
+- Repeat Feature on 10 Keyboard Keys
+
+**Optional Feature Groups (Note 3):**
+
+| Optional Feature                                                   | 1 | 2 | 3 | 4 | 5 |
+| ------------------------------------------------------------------ | - | - | - | - | - |
+| Low Paper Switch and Alarm (Lamp)                                  | ● |   | ● |   | ● |
+| Paper Out Switch and Alarm (Lamp)                                  |   | ● |   | ● |   |
+| Two-Position Line Space Lever for 3 or 6 Line Spaces/Inch (Note 1) | ● | ● |   |   | ● |
+| Line Control of Proceed (Keyboard Blind or Unblind)                | ● | ● | ● | ● |   |
+| Horizontal Tabulation                                              | ● | ● | ● | ● |   |
+| Horizontal Tabulation Stop Setting                                 | ● | ● | ● | ● |   |
+| 20 Character Codeable Answer-Back                                  | ● | ● | ● | ● |   |
+| Form Feed for 11" Forms                                            | ● | ● | ● | ● |   |
+| Vertical Tabulation                                                |   | ● | ● | ● |   |
+| Vertical Tabulation Stop Setting                                   |   | ● | ● | ● |   |
+| Terminal Out-of-Service Key                                        |   | ● | ● | ● |   |
+| Two Color Printing                                                 |   |   | ● | ● |   |
+| Half Line Space Forward and Reverse                                |   |   | ● | ● |   |
+| Reverse Line Space                                                 |   |   | ● | ● |   |
+| Shift-Out (SO) for Additional Graphics (Note 2)                    |   |   | ● | ● |   |
+
+**Cabinetry Options (Note 3):**
+
+| Cabinetry Option                                              | 1A | 1B | 2A | 2B | 2C | 2D | 2E | 2F | 3A | 3B | 4A | 4B | 4C | 4D | 4E | 4F | 5A | 5B |
+| ------------------------------------------------------------- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| Right Door W/Cutout for Attendant Set                         | ●  |    | ●  |    |    |    |    |    | ●  |    | ●  |    |    |    |    |    |    |    |
+| Right Door W/Cutout for Attendant Set and Rear Paper Loading  |    |    |    | ●  |    |    |    |    |    |    |    | ●  |    |    |    |    |    |    |
+| Right Door W/Cutout for Attendant Set and Front Paper Loading |    |    |    |    | ●  |    |    |    |    |    |    |    | ●  |    |    |    |    |    |
+| Blank Right Door                                              |    | ●  |    |    |    | ●  |    |    |    | ●  |    |    |    | ●  |    |    |    |    |
+| Blank Right Door and Rear Paper Loading                       |    |    |    |    |    |    | ●  |    |    |    |    |    |    |    | ●  |    |    |    |
+| Blank Right Door and Front Paper Loading                      |    |    |    |    |    |    |    | ●  |    |    |    |    |    |    |    | ●  |    |    |
+| Data Set Mounting Shelf                                       |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ●  |
+
+Catalog numbers are 37/202-{arrangement}{letter}
 
 - Note 1: Not available on page printer equipped with the half forward or
   reverse line space feature.
@@ -1621,257 +1319,76 @@ GENERAL CHARACTERISTICS APPLICABLE TO ALL 37/302 TERMINALS (ASR)
 
 \*Even parity over the 8 bits.
 
-<table>
-  <thead>
-    <tr style="height: 650px; white-space: nowrap; vertical-align: bottom;">
-      <th colspan=2></th>
-      <!--Component Features-->
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        10 Character/Inch Horizontal Spacing</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Backspace</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        6-Row Typebox—Removable by Operator</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Signal Bell</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Terminal Disconnect on E.O.T. Character</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Printing Line 72 Characters (Adjustable)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Print Suppression on Control Functions</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Operator Control for Variable Print Density</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        New Line—Carriage Return and Line Space on Line Feed Character</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Adjustable Switch for Varying End-of-Line Indicator (Lamp)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Local Return (Carriage Return) and Paper Advance (Line Space)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Adjustable Left and Right Margins (Maintenance Man)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Half or Full Duplex Operation (Strap Option)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Motor Control</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Receiving Signal Regenerator, Even Parity Error Detec., Error or Alarm Lamp</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Control Panel for Terminal Supervision</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Copy Lights for Easy Copy Viewing</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Interrupt Generation (Timed Line-Break)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Repeat Feature on 10 Keyboard Keys</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Keyboard Character Counter</div></th>
-      <!--Optional Feature Groups-->
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Low Paper Switch and Alarm (Lamp)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Paper Out Switch and Alarm (Lamp)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Two-Position Line Space Lever for 3 or 6 Line Spaces/Inch (Note 1)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Terminal Out-of-Service Key</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Line Control of Proceed (Keyboard Blind)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Horizontal Tabulation</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Horizontal Tabulation Stop Setting</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        20 Character Codeable Answer-Back</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Half or Full Duplex (Machine Controlled)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Punch and Reader Control</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Form Feed for 11" Forms</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Vertical Tabulation</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Vertical Tabulation Stop Setting</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Two Color Printing</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Half Line Space Forward and Reverse</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Reverse Line Space</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Shift-Out (SO) for Additional Graphics (Note 2)</div></th>
-      <!--Cabinetry Options-->
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Right Door W/Cutout for Attendant Set</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Right Door W/Cutout for Attendant Set and Rear Paper Loading</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Right Door W/Cutout for Attendant Set and Front Paper Loading</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Blank Right Door</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Blank Right Door and Rear Paper Loading</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Blank Right Door and Front Paper Loading</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        No Tape Handling on Punch and Reader Module</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        With Tape Storage Bin on Punch and Reader Module</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        With Tape Storage Bin and Tape Winder on Punch and Reader Module</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Tape Storage Bin, Tape Winder, Tape Winder/Unwinder Punch/Reader Module</div></th>
-      <!--Module Suffix-->
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Model 37/400 Module Suffix. See Page 25 for Description (Note 4)</div></th>
-      <th></th>
-    </tr>
-    <tr>
-      <th style="text-align: center;" colspan=2>ARRANGEMENT NO.</th>
-      <th style="text-align: center;" colspan=20>COMPONENT FEATURES (NOTE 3)</th>
-      <th style="text-align: center;" colspan=17>OPTIONAL FEATURE GROUPS (NOTE 3)</th>
-      <th style="text-align: center;" colspan=10>CABINETRY OPTIONS (NOTE 3)</th>
-      <th></th>
-      <th style="text-align: center;">CATALOG NO.</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan=4>1</td>
-      <td rowspan=4>8 1/2" FRICTION FEED PLATEN AND WIDE TABLE</td>
-      <!--Component Features-->
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td>
-      <!--Optional Feature Groups-->
-      <td rowspan=4>●</td><td rowspan=4></td><td rowspan=4>●</td>
-      <td rowspan=4></td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4></td><td rowspan=4></td>
-      <td rowspan=4></td><td rowspan=4></td><td rowspan=4></td>
-      <td rowspan=4></td><td rowspan=4></td>
-      <!--Cabinetry Options-->
-      <td>●</td><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td>
-      <td>1B</td><td style="white-space: nowrap;">37/302-1A</td>
-    </tr>
-    <tr><td>●</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td> <td>1C</td><td style="white-space: nowrap;">37/302-1B</td></tr>
-    <tr><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td>●</td><td></td><td></td> <td>1B</td><td style="white-space: nowrap;">37/302-1C</td></tr>
-    <tr><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td></td><td>●</td><td></td> <td>1C</td><td style="white-space: nowrap;">37/302-1D</td></tr>
-    <tr>
-      <td rowspan=8>2</td>
-      <td rowspan=8>9 1/2" PIN FEED PLATEN AND WIDE TABLE</td>
-      <!--Component Features-->
-      <td rowspan=8>●</td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8>●</td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8>●</td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8>●</td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8>●</td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8>●</td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8>●</td><td rowspan=8>●</td>
-      <!--Optional Feature Groups-->
-      <td rowspan=8></td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8></td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8>●</td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8>●</td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8>●</td><td rowspan=8></td><td rowspan=8></td>
-      <td rowspan=8></td><td rowspan=8></td>
-      <!--Cabinetry Options-->
-      <td></td><td>●</td><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td>
-      <td>1B</td><td style="white-space: nowrap;">37/302-2A</td>
-    </tr>
-    <tr><td></td><td>●</td><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td> <td>1C</td><td style="white-space: nowrap;">37/302-2B</td></tr>
-    <tr><td></td><td></td><td>●</td><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td> <td>1B</td><td style="white-space: nowrap;">37/302-2C</td></tr>
-    <tr><td></td><td></td><td>●</td><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td> <td>1C</td><td style="white-space: nowrap;">37/302-2D</td></tr>
-    <tr><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td><td>●</td><td></td><td></td> <td>1B</td><td style="white-space: nowrap;">37/302-2E</td></tr>
-    <tr><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td>●</td><td></td> <td>1C</td><td style="white-space: nowrap;">37/302-2F</td></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td><td>●</td><td></td><td></td> <td>1B</td><td style="white-space: nowrap;">37/302-2G</td></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td><td>●</td><td></td> <td>1C</td><td style="white-space: nowrap;">37/302-2H</td></tr>
-    <tr>
-      <td rowspan=4>3</td>
-      <td rowspan=4>8 1/2" FRICTION FEED PLATEN AND WIDE TABLE</td>
-      <!--Component Features-->
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td>
-      <!--Optional Feature Groups-->
-      <td rowspan=4>●</td><td rowspan=4></td><td rowspan=4></td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td>
-      <!--Cabinetry Options-->
-      <td>●</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td>
-      <td>1C</td><td style="white-space: nowrap;">37/302-3A</td>
-    </tr>
-    <tr><td>●</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td> <td>1D</td><td style="white-space: nowrap;">37/302-3B</td></tr>
-    <tr><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td></td><td>●</td><td></td> <td>1C</td><td style="white-space: nowrap;">37/302-3C</td></tr>
-    <tr><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td></td><td></td><td>●</td> <td>1D</td><td style="white-space: nowrap;">37/302-3D</td></tr>
-    <tr>
-      <td rowspan=8>4</td>
-      <td rowspan=8>9 1/2" PIN FEED PLATEN AND WIDE TABLE</td>
-      <!--Component Features-->
-      <td rowspan=8>●</td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8>●</td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8>●</td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8>●</td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8>●</td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8>●</td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8>●</td><td rowspan=8>●</td>
-      <!--Optional Feature Groups-->
-      <td rowspan=8></td><td rowspan=8>●</td><td rowspan=8></td>
-      <td rowspan=8>●</td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8>●</td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8>●</td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8>●</td><td rowspan=8>●</td><td rowspan=8>●</td>
-      <td rowspan=8>●</td><td rowspan=8>●</td>
-      <!--Cabinetry Options-->
-      <td></td><td>●</td><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td>
-      <td>1C</td><td style="white-space: nowrap;">37/302-4A</td>
-    </tr>
-    <tr><td></td><td>●</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td> <td>1D</td><td style="white-space: nowrap;">37/302-4B</td></tr>
-    <tr><td></td><td></td><td>●</td><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td> <td>1C</td><td style="white-space: nowrap;">37/302-4C</td></tr>
-    <tr><td></td><td></td><td>●</td><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td> <td>1D</td><td style="white-space: nowrap;">37/302-4D</td></tr>
-    <tr><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td>●</td><td></td> <td>1C</td><td style="white-space: nowrap;">37/302-4E</td></tr>
-    <tr><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td></td><td>●</td> <td>1D</td><td style="white-space: nowrap;">37/302-4F</td></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td><td>●</td><td></td> <td>1C</td><td style="white-space: nowrap;">37/302-4G</td></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td>●</td> <td>1D</td><td style="white-space: nowrap;">37/302-4H</td></tr>
-    <tr>
-      <td rowspan=4>5</td>
-      <td rowspan=4>8 1/2" FRICTION FEED PLATEN AND WIDE TABLE</td>
-      <!--Component Features-->
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td>
-      <!--Optional Feature Groups-->
-      <td rowspan=4>●</td><td rowspan=4></td><td rowspan=4>●</td>
-      <td rowspan=4></td><td rowspan=4></td><td rowspan=4></td>
-      <td rowspan=4></td><td rowspan=4></td><td rowspan=4></td>
-      <td rowspan=4></td><td rowspan=4></td><td rowspan=4></td>
-      <td rowspan=4></td><td rowspan=4></td><td rowspan=4></td>
-      <td rowspan=4></td><td rowspan=4></td>
-      <!--Cabinetry Options-->
-      <td>●</td><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td>
-      <td>1A</td><td style="white-space: nowrap;">37/302-5A</td>
-    </tr>
-    <tr><td>●</td><td></td><td></td><td></td><td></td><td></td><td></td><td>●</td><td></td><td></td> <td>1B</td><td style="white-space: nowrap;">37/302-5B</td></tr>
-    <tr><td></td><td></td><td></td><td>●</td><td></td><td></td><td>●</td><td></td><td></td><td></td> <td>1A</td><td style="white-space: nowrap;">37/302-5C</td></tr>
-    <tr><td></td><td></td><td></td><td>●</td><td></td><td></td><td></td><td>●</td><td></td><td></td> <td>1B</td><td style="white-space: nowrap;">37/302-5D</td></tr>
-  </tbody>
-</table>
+**Arrangements:**
+
+1. 8 1/2" Friction Feed Platen and Wide Table
+2. 9 1/2" Pin Feed Platen and Wide Table
+3. 8 1/2" Friction Feed Platen and Wide Table
+4. 9 1/2" Pin Feed Platen and Wide Table
+5. 8 1/2" Friction Feed Platen and Wide Table
+
+**Component Features (Note 3) (All Arrangements):**
+
+- 10 Character/Inch Horizontal Spacing
+- Backspace
+- 6-Row Typebox—Removable by Operator
+- Signal Bell
+- Terminal Disconnect on E.O.T. Character
+- Printing Line 72 Characters (Adjustable)
+- Print Suppression on Control Functions
+- Operator Control for Variable Print Density
+- New Line—Carriage Return and Line Space on Line Feed Character
+- Adjustable Switch for Varying End-of-Line Indicator (Lamp)
+- Local Return (Carriage Return) and Paper Advance (Line Space)
+- Adjustable Left and Right Margins (Maintenance Man)
+- Half or Full Duplex Operation (Strap Option)
+- Motor Control
+- Receiving Signal Regenerator, Even Parity Error Detec., Error or Alarm Lamp
+- Control Panel for Terminal Supervision
+- Copy Lights for Easy Copy Viewing
+- Interrupt Generation (Timed Line-Break)
+- Repeat Feature on 10 Keyboard Keys
+- Keyboard Character Counter
+
+**Optional Feature Groups (Note 3):**
+
+| Optional Feature                                                   | 1 | 2 | 3 | 4 | 5 |
+| ------------------------------------------------------------------ | - | - | - | - | - |
+| Low Paper Switch and Alarm (Lamp)                                  | ● |   | ● |   | ● |
+| Paper Out Switch and Alarm (Lamp)                                  |   | ● |   | ● |   |
+| Two-Position Line Space Lever for 3 or 6 Line Spaces/Inch (Note 1) | ● | ● |   |   | ● |
+| Terminal Out-of-Service Key                                        |   |   | ● | ● |   |
+| Line Control of Proceed (Keyboard Blind)                           | ● | ● | ● | ● |   |
+| Horizontal Tabulation                                              | ● | ● | ● | ● |   |
+| Horizontal Tabulation Stop Setting                                 | ● | ● | ● | ● |   |
+| 20 Character Codeable Answer-Back                                  | ● | ● | ● | ● |   |
+| Half or Full Duplex (Machine Controlled)                           | ● | ● | ● | ● |   |
+| Punch and Reader Control                                           | ● | ● | ● | ● |   |
+| Form Feed for 11" Forms                                            |   | ● | ● | ● |   |
+| Vertical Tabulation                                                |   | ● | ● | ● |   |
+| Vertical Tabulation Stop Setting                                   |   | ● | ● | ● |   |
+| Two Color Printing                                                 |   |   | ● | ● |   |
+| Half Line Space Forward and Reverse                                |   |   | ● | ● |   |
+| Reverse Line Space                                                 |   |   | ● | ● |   |
+| Shift-Out (SO) for Additional Graphics (Note 2)                    |   |   | ● | ● |   |
+
+**Cabinetry Options (Note 3):**
+
+| Cabinetry Option                                                        | 1A | 1B | 1C | 1D | 2A | 2B | 2C | 2D | 2E | 2F | 2G | 2H | 3A | 3B | 3C | 3D | 4A | 4B | 4C | 4D | 4E | 4F | 4G | 4H | 5A | 5B | 5C | 5D |
+| ----------------------------------------------------------------------- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| Right Door W/Cutout for Attendant Set                                   | ●  | ●  |    |    |    |    |    |    |    |    |    |    | ●  | ●  |    |    |    |    |    |    |    |    |    |    | ●  | ●  |    |    |
+| Right Door W/Cutout for Attendant Set and Rear Paper Loading            |    |    |    |    | ●  | ●  |    |    |    |    |    |    |    |    |    |    | ●  | ●  |    |    |    |    |    |    |    |    |    |    |
+| Right Door W/Cutout for Attendant Set and Front Paper Loading           |    |    |    |    |    |    | ●  | ●  |    |    |    |    |    |    |    |    |    |    | ●  | ●  |    |    |    |    |    |    |    |    |
+| Blank Right Door                                                        |    |    | ●  | ●  |    |    |    |    |    |    |    |    |    |    | ●  | ●  |    |    |    |    |    |    |    |    |    |    | ●  | ●  |
+| Blank Right Door and Rear Paper Loading                                 |    |    |    |    |    |    |    |    | ●  | ●  |    |    |    |    |    |    |    |    |    |    | ●  | ●  |    |    |    |    |    |    |
+| Blank Right Door and Front Paper Loading                                |    |    |    |    |    |    |    |    |    |    | ●  | ●  |    |    |    |    |    |    |    |    |    |    | ●  | ●  |    |    |    |    |
+| No Tape Handling on Punch and Reader Module                             |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ●  |    | ●  |    |
+| With Tape Storage Bin on Punch and Reader Module                        | ●  |    | ●  |    | ●  |    | ●  |    | ●  |    | ●  |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ●  |    | ●  |
+| With Tape Storage Bin and Tape Winder on Punch and Reader Module        |    | ●  |    | ●  |    | ●  |    | ●  |    | ●  |    | ●  | ●  |    | ●  |    | ●  |    | ●  |    | ●  |    | ●  |    |    |    |    |    |
+| Tape Storage Bin, Tape Winder, Tape Winder/Unwinder Punch/Reader Module |    |    |    |    |    |    |    |    |    |    |    |    |    | ●  |    | ●  |    | ●  |    | ●  |    | ●  |    | ●  |    |    |    |    |
+| Model 37/400 Module Suffix. See Page 25 for Description (Note 4)        | 1B | 1C | 1B | 1C | 1B | 1C | 1B | 1C | 1B | 1C | 1B | 1C | 1C | 1D | 1C | 1D | 1C | 1D | 1C | 1D | 1C | 1D | 1C | 1D | 1A | 1B | 1A | 1B |
+
+Catalog numbers are 37/302-{arrangement}{letter}
 
 - Note 1: Not available on page printer equipped with the half forward or
   reverse line space feature.
@@ -1909,95 +1426,45 @@ GENERAL CHARACTERISTICS APPLICABLE TO ALL 37/402 TERMINALS
 
 \*These sets require an appropriate Model 37/300 Terminal for their operation.
 
-<table>
-  <thead>
-    <tr style="height: 700px; white-space: nowrap; vertical-align: bottom;">
-      <th colspan=2></th>
-      <!--Component Features-->
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Serial Signal Input to Punch</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Punches 1" Wide Tape—USAS X3.18</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        10 Characters/Inch Spacing</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Fully Perforated Tape</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Off-Line Tape Backspace (Punch)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Tape-Out Alarm (Lamp)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Tape Supply Capacity 1000 Ft.</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Manual Tape Feed-Out (Delete)</div></th>
-      <th></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Parallel Signal to Control Logic</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Reads 1" Wide Tape—USAS X3.18</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Run-Stop-Free Control Lever</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Tangled Tape and Tape-Out Sensors</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Read Feed Sequence of Operation</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Fully Perforated Tape</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Single Character Read—Step Switch</div></th>
-      <th></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Tilt-Back Punch Cover</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Interface Circuitry</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Taut Tape Sensor</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Integrated Tape Handling Capability</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        Visible Chad Level Container</div></th>
-      <!--Optional Features-->
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        No Tape Handling</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        With Tape Storage Bin, With More than 50 Foot Capacity</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        With 1 Tape Winder and Storage Bin 8 1/2" Tape Reels (Note 1)</div></th>
-      <th><div style="transform: rotate(-90deg); transform-origin: 0.5em 0.5em; width: 1em;">
-        With 1 Tape Winder, 1 Tape Winder/Unwinder & Tape Storage Bin, 8 1/2" Tape Reels*</div></th>
-      <th></th>
-    </tr>
-    <tr>
-      <th style="text-align: center;" colspan=2>ARRANGEMENT NO.</th>
-      <th style="text-align: center;" colspan=22>COMPONENT FEATURES</th>
-      <th style="text-align: center;" colspan=4>OPTIONAL FEATURES</th>
-      <th style="text-align: center;">CATALOG NO.</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan=4>1</td>
-      <td rowspan=4>NON-TYPING PUNCH WITH TAPE READER</td>
-      <!--Component Features-->
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4></td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td>
-      <td rowspan=4></td>
-      <td rowspan=4>●</td><td rowspan=4>●</td><td rowspan=4>●</td>
-      <td rowspan=4>●</td><td rowspan=4>●</td>
-      <!--Optional Features-->
-      <td>●</td><td></td><td></td><td></td>
-      <td style="white-space: nowrap;">37/402-1A</td>
-    </tr>
-    <tr><td></td><td>●</td><td></td><td></td><td style="white-space: nowrap;">37/402-1B</td></tr>
-    <tr><td></td><td></td><td>●</td><td></td><td style="white-space: nowrap;">37/402-1C</td></tr>
-    <tr><td></td><td></td><td></td><td>●</td><td style="white-space: nowrap;">37/402-1D</td></tr>
-  </tbody>
-</table>
+**Arrangements:**
+
+1. Non-Typing Punch with Tape Reader
+
+**Component Features (All Arrangements):**
+
+- Serial Signal Input to Punch
+- Punches 1" Wide Tape—USAS X3.18
+- 10 Characters/Inch Spacing
+- Fully Perforated Tape
+- Off-Line Tape Backspace (Punch)
+- Tape-Out Alarm (Lamp)
+- Tape Supply Capacity 1000 Ft.
+- Manual Tape Feed-Out (Delete)
+- —
+- Parallel Signal to Control Logic
+- Reads 1" Wide Tape—USAS X3.18
+- Run-Stop-Free Control Lever
+- Tangled Tape and Tape-Out Sensors
+- Read Feed Sequence of Operation
+- Fully Perforated Tape
+- Single Character Read—Step Switch
+- —
+- Tilt-Back Punch Cover
+- Interface Circuitry
+- Taut Tape Sensor
+- Integrated Tape Handling Capability
+- Visible Chad Level Container
+
+**Optional Features:**
+
+| Optional Feature                                                                  | 1A | 1B | 1C | 1D |
+| --------------------------------------------------------------------------------- | -- | -- | -- | -- |
+| No Tape Handling                                                                  | ●  |    |    |    |
+| With Tape Storage Bin, With More than 50 Foot Capacity                            |    | ●  |    |    |
+| With 1 Tape Winder and Storage Bin 8 1/2" Tape Reels (Note 1)                     |    |    | ●  |    |
+| With 1 Tape Winder, 1 Tape Winder/Unwinder & Tape Storage Bin, 8 1/2" Tape Reels* |    |    |    | ●  |
+
+Catalog numbers are 37/402-{arrangement}{letter}
 
 \*See supplementary, Technical Data, Pages 26 and 27, for part number.
 
@@ -2039,88 +1506,24 @@ Fold-out pages 23 and 24, and 25.
 
 (X3.4 - 1967)
 
-<table>
-  <thead>
-    <tr style="white-space: nowrap;">
-      <th style="text-align: center;" colspan=4>Bits</th><th>b7 b6 b5</th>
-      <th>0 0 0</th><th>0 0 1</th><th>0 1 0</th><th>0 1 1</th>
-      <th>1 0 0</th><th>1 0 1</th><th>1 1 0</th><th>1 1 1</th>
-    </tr>
-    <tr>
-      <th rowspan=2>b4</th><th rowspan=2>b3</th><th rowspan=2>b2</th><th rowspan=2>b1</th>
-      <th>Column</th>
-      <th rowspan=2>0</th><th rowspan=2>1</th><th rowspan=2>2</th><th rowspan=2>3</th>
-      <th rowspan=2>4</th><th rowspan=2>5</th><th rowspan=2>6</th><th rowspan=2>7</th>
-    </tr>
-    <tr><th>Row</th></tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th><th>0</th><th>0</th><th>0</th><th>0</th>
-      <td>NUL</td><td>DLE</td><td>SP</td><td>0</td><td>@</td><td>P</td><td>`</td><td>p</td>
-    </tr>
-    <tr>
-      <th>0</th><th>0</th><th>0</th><th>1</th><th>1</th>
-      <td>SOH</td><td>DC1</td><td>!</td><td>1</td><td>A</td><td>Q</td><td>a</td><td>q</td>
-    </tr>
-    <tr>
-      <th>0</th><th>0</th><th>1</th><th>0</th><th>2</th>
-      <td>STX</td><td>DC2</td><td>"</td><td>2</td><td>B</td><td>R</td><td>b</td><td>r</td>
-    </tr>
-    <tr>
-      <th>0</th><th>0</th><th>1</th><th>1</th><th>3</th>
-      <td>ETX</td><td>DC3</td><td>#</td><td>3</td><td>C</td><td>S</td><td>c</td><td>s</td>
-    </tr>
-    <tr>
-      <th>0</th><th>1</th><th>0</th><th>0</th><th>4</th>
-      <td>EOT</td><td>DC4</td><td>$</td><td>4</td><td>D</td><td>T</td><td>d</td><td>t</td>
-    </tr>
-    <tr>
-      <th>0</th><th>1</th><th>0</th><th>1</th><th>5</th>
-      <td>ENQ</td><td>NAK</td><td>%</td><td>5</td><td>E</td><td>U</td><td>e</td><td>u</td>
-    </tr>
-    <tr>
-      <th>0</th><th>1</th><th>1</th><th>0</th><th>6</th>
-      <td>ACK</td><td>SYN</td><td>&amp;</td><td>6</td><td>F</td><td>V</td><td>f</td><td>v</td>
-    </tr>
-    <tr>
-      <th>0</th><th>1</th><th>1</th><th>1</th><th>7</th>
-      <td>BEL</td><td>ETB</td><td>'</td><td>7</td><td>G</td><td>W</td><td>g</td><td>w</td>
-    </tr>
-    <tr>
-      <th>1</th><th>0</th><th>0</th><th>0</th><th>8</th>
-      <td>BS</td><td>CAN</td><td>(</td><td>8</td><td>H</td><td>X</td><td>h</td><td>x</td>
-    </tr>
-    <tr>
-      <th>1</th><th>0</th><th>0</th><th>1</th><th>9</th>
-      <td>HT</td><td>EM</td><td>)</td><td>9</td><td>I</td><td>Y</td><td>i</td><td>y</td>
-    </tr>
-    <tr>
-      <th>1</th><th>0</th><th>1</th><th>0</th><th>10</th>
-      <td>LF</td><td>SUB</td><td>*</td><td>:</td><td>J</td><td>Z</td><td>j</td><td>z</td>
-    </tr>
-    <tr>
-      <th>1</th><th>0</th><th>1</th><th>1</th><th>11</th>
-      <td>VT</td><td>ESC</td><td>+</td><td>;</td><td>K</td><td>[</td><td>k</td><td>{</td>
-    </tr>
-    <tr>
-      <th>1</th><th>1</th><th>0</th><th>0</th><th>12</th>
-      <td>FF</td><td>FS</td><td>,</td><td>&lt;</td><td>L</td><td>\</td><td>l</td><td>|</td>
-    </tr>
-    <tr>
-      <th>1</th><th>1</th><th>0</th><th>1</th><th>13</th>
-      <td>CR</td><td>GS</td><td>-</td><td>=</td><td>M</td><td>]</td><td>m</td><td>}</td>
-    </tr>
-    <tr>
-      <th>1</th><th>1</th><th>1</th><th>0</th><th>14</th>
-      <td>SO</td><td>RS</td><td>.</td><td>&gt;</td><td>N</td><td>^</td><td>n</td><td>~</td>
-    </tr>
-    <tr>
-      <th>1</th><th>1</th><th>1</th><th>1</th><th>15</th>
-      <td>SI</td><td>US</td><td>/</td><td>?</td><td>O</td><td>_</td><td>o</td><td>DEL</td>
-    </tr>
-  </tbody>
-</table>
+|      | 000 | 001 | 010 | 011 | 100 | 101 | 110 | 111 |
+| ---- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0000 | NUL | DLE | SP  | 0   | @   | P   | \`   | p  |
+| 0001 | SOH | DC1 | !   | 1   | A   | Q   | a   | q   |
+| 0010 | STX | DC2 | "   | 2   | B   | R   | b   | r   |
+| 0011 | ETX | DC3 | #   | 3   | C   | S   | c   | s   |
+| 0100 | EOT | DC4 | $   | 4   | D   | T   | d   | t   |
+| 0101 | ENQ | NAK | %   | 5   | E   | U   | e   | u   |
+| 0110 | ACK | SYN | &   | 6   | F   | V   | f   | v   |
+| 0111 | BEL | ETB | '   | 7   | G   | W   | g   | w   |
+| 1000 | BS  | CAN | (   | 8   | H   | X   | h   | x   |
+| 1001 | HT  | EM  | )   | 9   | I   | Y   | i   | y   |
+| 1010 | LF  | SUB | *   | :   | J   | Z   | j   | z   |
+| 1011 | VT  | ESC | +   | ;   | K   | [   | k   | {   |
+| 1100 | FF  | FS  | ,   | <   | L   | \   | l   | \|  |
+| 1101 | CR  | GS  | -   | =   | M   | ]   | m   | }   |
+| 1110 | SO  | RS  | .   | >   | N   | ^   | n   | ~   |
+| 1111 | SI  | US  | /   | ?   | O   | _   | o   | DEL |
 
 **SINGLE SHEET OR MULTI-COPY PIN-FEED FORM**
 
