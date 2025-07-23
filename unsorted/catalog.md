@@ -638,15 +638,6 @@ Both friction and pin feed printers use this feature. They’re presently offere
 equipped to form-feed 11 inches. Various length form-feed parts will be
 available to handle forms up to 15 inches in length.
 
-**Reverse Line Space and Half Forward and Reverse Line Spacing.** These
-features, controlled by two-character sequences, enable the operator or a
-distant terminal to follow formats which had been previously impractical or
-impossible. In addition, correction of errors, printing of fractions, and other
-operations are easily accomplished. When these features are in a page printer
-with Vertical Tabulation and Form Feed, the line spacing rate of the Vertical
-Tabulation and Form Feed is approximately one and one-half times the normal rate
-of line spacing (and the Double Line Space feature is not provided).
-
 *Page 10:*
 
 **Two Color Printing.** This feature, controlled by the operator or on-line from
@@ -665,35 +656,6 @@ locally or on-line.
 When a terminal is turned on, the ribbon will shift to the ribbon color chosen
 for the terminal. When using red-black ribbons, terminals normally are in the
 state to print in black.
-
-**Escape.** Control functions other than those defined by specific ASCII control
-characters are initiated by using the ASCII control character Escape (ESC)
-followed by a graphic character. (Escape is designated on the keyboard as the
-Prefix keytop).
-
-Recognition of “escape” sequences is performed by the stunt box which, in turn,
-activates the selected control function. Printing is suppressed for all
-characters in the Escape sequence. The page printer always returns to the
-unsuppressed mode after the graphic character unless the graphic of the “escape”
-sequence is in column 2 of the ASCII code. Print and space suppression will be
-affected continually as long as all following graphics are from this row.
-
-The control function description for the “escape” sequence is labeled on the
-control panel above the top row of keytops on the keyboard and is as follows:
-
-| SEQUENCE                          | FUNCTION                |
-| --------------------------------- | ----------------------- |
-| Prefix followed by Numeric 1      | Horizontal Tab set      |
-| Prefix followed by Numeric 2      | Horizontal Tab clear    |
-| Prefix followed by Numeric 3      | Red Printing            |
-| Prefix followed by Numeric 4      | Black Printing          |
-| Prefix followed by Numeric 5      | Vertical Tab set        |
-| Prefix followed by Numeric 6      | Vertical Tab clear      |
-| Prefix followed by Numeric 7      | Reverse Line-Space      |
-| Prefix followed by Numeric 8      | Half Reverse Line-Space |
-| Prefix followed by Numeric 9      | Half Forward Line-Space |
-| Prefix followed by Colon (:)      | Full Duplex             |
-| Prefix followed by Semi-colon (;) | Half Duplex             |
 
 ## Control Logic Module
 

@@ -94,7 +94,6 @@ variable features:
 - Local paper feed-out \[2.03]
 - Horizontal tabulation on-line control (variable) \[2.04]
 - Vertical tabulation on-line control (variable) \[2.04]
-- Half-forward, Half-reverse, and reverse line feed (variable) \[2.04]
 - Nonrepeat form feed (variable) \[2.04]
 - Disconnect capability on EOT character (variable) \[2.04]
 - Form advance (form-out) (variable) \[2.04]

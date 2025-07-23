@@ -19,7 +19,7 @@ with pallets in the upper two rows for 32 control characters. \[2.02, 2.05,
 4.08]
 
 A keyboard interlock prevents errors caused from two keys simultaneously
-pressed. \[Catalog 7]
+pressed. \[Catalog p7]
 
 Questions:
 - Does “aggregate motion” simply refer to two-dimensional movement?
@@ -31,6 +31,155 @@ Questions:
 Generates all 128 ASCII characters with even parity (standard feature).
 \[Gen301 2.02]\[Gen304 2.02]
 
+## Escape sequences
+
+\[Type 4.23]\[Catalog p10]
+
+| Sequence | Function               |
+| -------- | ---------------------- |
+| ESC 1    | Horizontal Tab Set     |
+| ESC 2    | Horizontal Tab Clear   |
+| ESC 3    | Print Red              |
+| ESC 4    | Print Black            |
+| ESC 5    | Vertical Tab Set       |
+| ESC 6    | Vertical Tab Clear     |
+| ESC 7    | Reverse Line Feed      |
+| ESC 8    | Half-Reverse Line Feed |
+| ESC 9    | Half-Line Feed         |
+| ESC :    | Full Duplex (FDX)      |
+| ESC ;    | Half-Duplex (HDX)      |
+
+Variable features: Half-forward, Half-reverse, and reverse line feed.
+\[Gen301 2.04]
+
+Horizontal Tabulation On-Line Control - This is an on-line feature used to
+set and clear tabulation stops in the typing unit horizontal tabulation
+mechanism. The characters ESC 1 are used to set tabulator stops and the
+characters ESC 2 are used to clear the stops. \[Gen301 2.11]
+
+Vertical Tabulation On-Line Control - This is an on-line feature used to set
+and clear the tabulation stops in the typing unit vertical tabulation
+mechanism. The characters ESC 5 are used to set the tabulator stops and the
+characters ESC 6 are used to clear the stops. \[Gen301 2.11]
+
+**Reverse Line Space and Half Forward and Reverse Line Spacing.** These
+features, controlled by two-character sequences, enable the operator or a
+distant terminal to follow formats which had been previously impractical or
+impossible. In addition, correction of errors, printing of fractions, and other
+operations are easily accomplished. When these features are in a page printer
+with Vertical Tabulation and Form Feed, the line spacing rate of the Vertical
+Tabulation and Form Feed is approximately one and one-half times the normal rate
+of line spacing (and the Double Line Space feature is not provided).
+\[Catalog p9]
+
+\[Catalog p10]:
+
+**Escape.** Control functions other than those defined by specific ASCII control
+characters are initiated by using the ASCII control character Escape (ESC)
+followed by a graphic character. (Escape is designated on the keyboard as the
+Prefix keytop).
+
+Recognition of “escape” sequences is performed by the stunt box which, in turn,
+activates the selected control function. Printing is suppressed for all
+characters in the Escape sequence. The page printer always returns to the
+unsuppressed mode after the graphic character unless the graphic of the “escape”
+sequence is in column 2 of the ASCII code. Print and space suppression will be
+affected continually as long as all following graphics are from this row.
+
+The control function description for the “escape” sequence is labeled on the
+control panel above the top row of keytops on the keyboard and is as follows:
+
+## Function
+
+Suppression code bar can be operated by stunt box to inhibit operation of
+certain function bars. \[Catalog p4]
+
+Question: Which?
+
+FUNCTION MECHANISM
+- Senses each new character received. Detects presence of function character and
+  operates mechanical linkage or electrical contacts to initiate function.
+- Can suppress subsequent print hammer, spacing, and ribbon feed mechanisms.
+- Can sense parity (eighth) level.
+- Function box contains 42 slots for function bars.
+
+CONTROL FUNCTIONS \[Type 2.10]
+
+2.10 Additional time is required by the typing unit to perform certain machine
+control functions. Delete (DEL) characters are used as fill characters in tapes
+transmitted and received by the typing unit to provide this additional time;
+these fill characters are listed in the following table.
+
+TABLE
+
+DELETE FILL CHARACTERS FOR CONTROL FUNCTIONS
+
+| FUNCTIONS                 | STD UNITS | WIDE PLATEN |
+| ------------------------- | --------- | ----------- |
+| Carriage Return           | 2         | 3           |
+| New Line                  | 2         | 3           |
+| Form-Feed                 | 1         | 2           |
+| Vertical Tab-Clear        | 1         | 2           |
+| Vertical Tab-Set          | 1         | 0           |
+| Horizontal Tab-Clear      | 1         | 2           |
+| Horizontal Tab-Set        | 1         | 0           |
+| DC2                       | 1         | 1           |
+| DC4                       | 1         | 1           |
+| Carriage Return/Line Feed | 1         | 2           |
+| Form-Out                  | 0         | 2           |
+| Vertical Tab              | 0         | 2           |
+| Horizontal Tab            | 0         | 2           |
+
+Note: Any function that uses a transmitter stop control, requires two deletes
+after the control function.
+
+Question: What is "transmitter stop control"?
+Note: DEL is a nop.
+
+2.11 The typing unit is designed to accept a full range of options that are
+on-line controllable. These options are furnished in the form of modification
+kits listed below. \[Type 2.11]
+
+- Horizontal Tab
+- Horizontal Tab-Stop Control
+- Vertical Tab and Form Feed
+- Vertical Tab-Stop Control
+- Half-Forward and Reverse Line Feed
+- Two-Color Ribbon
+- Print (Only) Suppress
+- Print, Space and Function Suppression
+- Printed Graphics Extension
+- Low-Paper Alarm Switch (Friction Feed)
+- Paper-Out Alarm Switch (Sprocket Feed)
+- Auto Carriage Return and Line Feed
+- To Convert Friction Feed to Sprocket Feed
+- Escape Mechanism
+- Printed Graphics Extension
+- Character Received Contacts
+- Visual Aid Feature
+
+**Y. Function Bar Coding**
+
+4.85 The function bar code chart, Figure 60, shows the coding for the ASCII. The
+table at the end of this section shows the coding for the common function bars.
+The no. 8 tine is shown for even parity. If odd parity or no parity is desired,
+the 8th lever may be altered. Refer to Figure 56 to code the function bar tines
+1 through 8, and refer to the following instructions for coding the 9th, lOth,
+and 11th tines.
+
+Figure 60 - Function Bar Code Chart (Even Parity)
+
+\[Table]
+
+Figure 63 - Visual Aid Overlay
+
+\[Graphic]
+Note: This shows the Greek symbols.
+
+TABLE OF FUNCTION BAR CONFIGURATIONS
+
+\[Graphic]
+
 ## Character repeat feature
 
 The keyboard permits you to repeat a character by pressing a key harder than
@@ -39,7 +188,7 @@ character repeatedly at the maximum character rate. \[Gen301 2.15]\[Gen304 2.12]
 
 Any key can be made repeatable by a technician with a simple modification. In
 the standard arrangement, only the ten most commonly used keys are repeatable
-(in both the shift and unshift states): \[Catalog 7]\[Gen301 2.04]
+(in both the shift and unshift states): \[Catalog p7]\[Gen301 2.04]
 
 - Space
 - NEW LINE
@@ -74,6 +223,12 @@ have repeat enabled should also be configurable, though possibly by a
 technician. \[table I note c]\[figure 1 note 1] The user should be able to
 completely disable it, perhaps by moving the repeat mode pressure adjustment to
 an extreme position. \[3.2.1]
+
+## Definitions
+
+- Space and mark are the signals corresponding to 0 and 1 bits, respectively.
+  Producing such a signal is spacing or marking.
+  \[Type figure 15 (p15)]\[Catalog p26]
 
 ## References
 
