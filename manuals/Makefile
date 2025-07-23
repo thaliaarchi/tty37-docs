@@ -1,5 +1,5 @@
 MANUALS := 574-301-100-iss1-7106 574-302-102-iss1-7105 574-302-300-iss1-7204 \
-	catalog_1969.ocr
+	574-320-101-iss2-7302 catalog_1969.ocr
 PDF := $(patsubst %, %.pdf, $(MANUALS))
 FIGURES := keyboard.png control_panel.png
 

@@ -1,4 +1,4 @@
-Referenced as \[Catalog69]
+Referenced as \[Catalog]
 
 *Source*: <https://archive.org/details/TNM_Model_37_terminal_product_catalog_-_Teletype__20170923_0036>
 
