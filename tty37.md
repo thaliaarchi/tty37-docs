@@ -230,6 +230,19 @@ an extreme position. \[3.2.1]
   Producing such a signal is spacing or marking.
   \[Type figure 15 (p15)]\[Catalog p26]
 
+## Extant machines
+
+- The [Connections Museum Seattle](https://www.telcomhistory.org/ConnectionsSeattle.html)
+  [[Wikipedia](https://en.wikipedia.org/wiki/Connections_Museum)] has a Teletype
+  Model 37 ASR in their [collection](https://wiki.connections.museum/w/CMS:Teletype_Collection).
+  A [2013 video](https://www.youtube.com/watch?v=MikoF6KZjm0) shows it connected
+  to a System V Release 3.2.2 machine, which relayed chat messages to it and
+  another 37 at the LCM, dialing with a Dataphone.
+- The Living Computers Museum had a Teletype Model 37 ASR in their collection.
+  A [2018 video](https://www.youtube.com/watch?v=WqgFK9h75eg) shows it connected
+  to a System V Release 3.2.2 machine. It is not listed in the
+  [August 2024 auction](https://onlineonly.christies.com/s/firsts-history-computing-paul-g-allen-collection/lots/3726).
+
 ## References
 
 - \[Catalog]: Teletype Corporation. [“Teletype Model 37 Product Catalog”](https://archive.org/details/TNM_Model_37_terminal_product_catalog_-_Teletype__20170923_0036).
