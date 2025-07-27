@@ -238,10 +238,16 @@ an extreme position. \[3.2.1]
   A [2013 video](https://www.youtube.com/watch?v=MikoF6KZjm0) shows it connected
   to a System V Release 3.2.2 machine, which relayed chat messages to it and
   another 37 at the LCM, dialing with a Dataphone.
-- The Living Computers Museum had a Teletype Model 37 ASR in their collection.
+- The Living Computers Museum had a Teletype Model 37 ASR in their [collection](https://web.archive.org/web/20161024131926/http://www.livingcomputermuseum.org/The-Collection/Exhibit-Hall.aspx).
   A [2018 video](https://www.youtube.com/watch?v=WqgFK9h75eg) shows it connected
   to a System V Release 3.2.2 machine. It is not listed in the
   [August 2024 auction](https://onlineonly.christies.com/s/firsts-history-computing-paul-g-allen-collection/lots/3726).
+- The National Museum of American History, part of the Smithsonian, has
+  [a Teletype Model 37](https://www.si.edu/object/teletype-corporation-model-37-teletypewriter-printer:nmah_714260),
+  but it is not on display.
+- [RTTY Electronics](https://www.johnwhitney.com/misc/paul-rtty.htm) in El
+  Sobrante, California sells Teletype machines and parts, probably including the
+  Model 37.
 
 ## References
 
@@ -400,3 +406,6 @@ Referrers:
   - 37 Automatic Send-Receive (ASR) with RFI Suppression (NAVELEX 0967-428-5040) (338B/RF Vol. 4)
   - 37 Automatic Send-Receive Set (ASR) (1214B)
   - 37 Typing Reperforator (ROTR) Set (1217B)
+- [Teletype documents](https://www.soemtron.org/teletypemanuals.html) on
+  soemtron.org: hosts documents including for Teletype Model 33, 35, and 43 (not
+  37), as well as information on [PDP-7 serial numbers](https://www.soemtron.org/pdp7.html)
