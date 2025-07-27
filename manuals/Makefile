@@ -7,7 +7,7 @@ FIGURES := keyboard.png control_panel.png
 docs: $(PDF) $(FIGURES)
 
 %.pdf:
-	wget https://www.navy-radio.virhistory.com/manuals/tty/m37/$@
+	wget https://www.navy-radio.com/manuals/tty/m37/$@
 
 catalog_1969.pdf:
 	wget -O $@ https://archive.org/download/TNM_Model_37_terminal_product_catalog_-_Teletype__20170923_0036/TNM_Model_37_terminal_product_catalog_-_Teletype__20170923_0036.pdf
