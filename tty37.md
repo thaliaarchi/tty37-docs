@@ -300,6 +300,11 @@ modification kits described in Specification 50386S for 9-1/2" and Specification
     Teletype Model 37 KSR than \[Gen301], as it does not describe ASR, omits
     some features, and makes some optional features standard.
 
+- \[Trouble]: Teletype Corporation. [“37 Automatic Send-Receive (ASR)
+  Teletypewriter Set for Switched Network Service: Troubleshooting”](https://www.navy-radio.com/manuals/tty/m37/574-302-300-iss1-7204.pdf).
+  Bell System Practices, Section 574-302-300, Issue 1, April 1972.
+  - Outlines troubleshooting procedures and possible failures.
+
 - \[Type]: Teletype Corporation. [“37 Typing Unit (37P003 and up): Description
   and Principles of Operation”](https://www.navy-radio.com/manuals/tty/m37/574-320-101-iss2-7302.pdf).
   Bell System Practices, Section 574-320-101, Issue 2, February 1973.
@@ -434,6 +439,13 @@ Referrers:
 | Specification 5534S  | Instructions for Installing the Manual Power Drive Backspace, and Backspace Cover Modification Kits on Model 28 or Model 35 Perforator or Reperforator (LPR, LPE, LRPE, LTPE, LARP) and Model 37 Reperforator (YPR, YRPE)                                                                                            | [Issue 14, 1971-06](https://www.navy-radio.com/manuals/tty/spec/5534S-iss14-7106.pdf)        |
 | Specification 57925  | Instructions for Installing Modification Kits (172625, 176181 through 176197, 178568 through 178584, 306686 through 306702, 153926) to Convert a Model 28 or 35 Friction Feed Printer Set to a Sprocket Feed Printer Set and for Replacing the 153771 through 153787 Guide Bracket Using the 159356 Modification Kit | [Issue 17, 1973-08](https://www.navy-radio.com/manuals/tty/jh/ttyman6/specs/5792S-Iss17.pdf) |
 | Specification 50494S | Instructions for Installing Modification Kit 319820 to Convert a Model 37 Friction Feed Typing Unit to a Sprocket Feed Typing Unit                                                                                                                                                                                   | [Issue 1, 1967-07](https://www.navy-radio.com/manuals/tty/spec/50494S-6707.pdf)              |
+| Specification 50755S | Instructions for Installing the 343264 Manual Keyboard Entry Modification Kit in Model 37 Contention Type Selective Calling System                                                                                                                                                                                   | 1973-11                                                                                      |
+
+### Collections
+
+- navy-radio: [Teletype Corporation Specifications](https://www.navy-radio.com/tty/ttycorp-specs.htm)
+- navy-radio: [Teletype Corp. Maintenance, Installation, Operation, and Parts Publications
+  (plus some miscellaneous TTY/RATT/RTTY manuals)](https://www.navy-radio.com/manuals-ttycorp.htm)
 
 ### Other
 
