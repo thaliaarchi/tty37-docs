@@ -65,6 +65,13 @@ Supported terminals and their identifiers:
 - `tn300`, `terminet`, `tn`: TermiNet 300
 - `hp`: HP 2645
 
+When no terminal is specified, it attempts to automatically detect the terminal
+with `gtty`. A 300-baud terminal with CR mapping on (`CRMOD`) but uppercase
+mapping off (`LCASE`) is assumed to be a Terminet 300, and it runs a simplified
+version of initialization for that model. A 150-baud terminal with neither CR
+mapping nor uppercase mapping is assumed to be a Teletype Model 37 and
+initialized as such.
+
 Procedure for the Teletype Model 37:
 
 1. Shift in: SI
@@ -86,3 +93,8 @@ Procedure for the Teletype Model 37:
 - V7 /usr/man/man0/intro
 - V7 /usr/src/cmd/tabs.c
 - V7 /usr/man/man1/tabs.1
+
+TODO:
+- V7 /usr/sys/dev/tty.c: Teletype handling in the kernel
+- V7 /usr/sys/dev/dc.c: [DC11](https://gunkies.org/wiki/DC11_asynchronous_serial_line_interface)
+  driver
