@@ -177,49 +177,58 @@ Figure 63 - Visual Aid Overlay
 \[Graphic]
 Note: This shows the Greek symbols.
 
-TABLE OF FUNCTION BAR CONFIGURATIONS
-
-\[Graphic]
-
 ## Typebox
 
 ASCII characters with their locations in an 8-row typebox and function bar
 configurations: \[Type figure 28]
 
 Columns:
-1. ASCII character name
-2. Short ASCII character name used in typebox table. \[Type figure 28] This
-   seems to be used for brevity only in the table and not elsewhere.
-3. ASCII character code in big-endian binary \[Type figure 28]
-4. Parity bit (8th bit), to obtain even parity. \[Type figure 16] It is 1 when
-   the ASCII code has an odd number of 1 bits.
-5. Coordinate in 8-row typebox \[Type figure 28]
-   - Row: 0–7, top to bottom in below table
-   - Column: 0–15, right to left in below table
-6. Function bar code, indicating which code levels are marking (bits which are
-   1). \[Type figure 28] It is derived from the ASCII code in binary (code
-   levels 1–7) with the parity bit (code level 8). Horizontal positioning with
-   code levels is described in \[Type section G] and vertical positioning with
-   code levels is described in \[Type section I]. The row in the typebox is
-   calculated with `b6*4 + b7*2 + b5` and the column with
-   `!b1*8 + b2*4 + b4*2 + b3`, using the values for each bit.
-   - Code level 1: shift horizontally by 8
-   - Code level 2: shift horizontally by 4
-   - Code level 3: shift horizontally by 1
-   - Code level 4: shift horizontally by 2
-   - Code level 5: shift vertically by 1
-   - Code level 6: shift vertically by 4
-   - Code level 7: shift vertically by 2
-   - Code level 8: parity check
-7. Function bar code, indicating which code levels are spacing (bits which are
-   0). It is used for configuring a function bar for a code; for each level
-   indicated, remove the marking tine, and for each level not indicated, remove
-   the spacing tine, leaving one tine per level in the function bar
-   \[Type figure 60] It is the complement of column 6.
+- **Name**: ASCII character name
+- **Abbr**: Short ASCII character name used in typebox table. \[Type figure 28]
+  This seems to be used for brevity only in the table and not elsewhere.
+- **ASCII**: ASCII character code in big-endian binary \[Type figure 28]
+- **P**: Parity bit (8th bit), to obtain even parity. \[Type figure 16] It is 1
+  when the ASCII code has an odd number of 1 bits.
+- **Coord**: Coordinate in 8-row typebox \[Type figure 28]
+  - Row: 0–7, top to bottom in below table
+  - Column: 0–15, right to left in below table
+- **Marking**: Function bar code, indicating which code levels are marking (bits
+  which are 1). \[Type figure 28] Code levels 1–7 are the ASCII bits
+  (least-significant bit first) and code level 8 is the parity bit. Horizontal
+  positioning uses code levels 1–4 and is described in \[Type section G];
+  vertical positioning uses code levels 5–7 and is described in
+  \[Type section I]. The row in the typebox is calculated with
+  `b6*4 + b7*2 + b5` and the column with `!b1*8 + b2*4 + b4*2 + b3`, using the
+  values for each bit.
+  - Code level 1: shift horizontally by 8
+  - Code level 2: shift horizontally by 4
+  - Code level 3: shift horizontally by 1
+  - Code level 4: shift horizontally by 2
+  - Code level 5: shift vertically by 1
+  - Code level 6: shift vertically by 4
+  - Code level 7: shift vertically by 2
+  - Code level 8: parity check
+- **Spacing**: Function bar code, indicating which code levels are spacing (bits
+   which are 0). It is used for configuring a function bar for a code; for each
+   level indicated, remove the marking tine, and for each level not indicated,
+   remove the spacing tine, leaving one tine per level in the function bar
+   \[Type figure 60] It is the complement of column Marking.
+- **11–1**: Function bar configurations with S (spacing), M (marking), \* (both
+  tines removed), or - (unclear) for each level. Each level has one or zero
+  tines, a spacing tine to the right, a marking tine to the left, or neither.
+  \[Type p66–68] Note that the bit order is reversed from columns Spacing and
+  Marking.
+- **Style**: Groups of similarly derived function bar configurations, from my
+  observation.
+  - A: Parity bit at level 8 and ASCII bits (most-significant bit first) at
+    levels 7–1.
+  - A+9S: Style A, plus spacing at level 9.
+  - _?: Not specified by \[Type p66–68], but inferred from columns Marking and
+    Spacing.
+- **Function bar name**: The name used in Table of Function Bar Configurations,
+  when different from column Name. \[Type p66–68]
 
 Question: How is the parity check performed?
-
-TODO: Incorporate Table of Function Bar Configurations \[Type p66–68]
 
 TODO: Locate these parts. They could resolve the ambiguities in Table of
 Function Bar Configurations.
@@ -227,136 +236,169 @@ Function Bar Configurations.
 > tines) can be coded with any function. Note 3: For coding number 9, 10, and 11
 > blocking bars, refer to table of function bar configurations.
 
-| Char  | Abbr | ASCII   | P | Coord | Marking    | Spacing         |
-| ----- | ---- | ------- | - | ----- | ---------- | --------------- |
-| NUL   | NL   | 0000000 | 0 | 0,8   | `________` | 1·2·3·4·5·6·7·8 |
-| SOH   | SH   | 0000001 | 1 | 0,0   | `1______8` | 2·3·4·5·6·7     |
-| STX   | SX   | 0000010 | 1 | 0,12  | `_2_____8` | 1·3·4·5·6·7     |
-| ETX   | EX   | 0000011 | 0 | 0,4   | `12______` | 3·4·5·6·7·8     |
-| EOT   | ET   | 0000100 | 1 | 0,9   | `__3____8` | 1·2·4·5·6·7     |
-| ENQ   | EQ   | 0000101 | 0 | 0,1   | `1_3_____` | 2·4·5·6·7·8     |
-| ACK   | AK   | 0000110 | 0 | 0,13  | `_23_____` | 1·4·5·6·7·8     |
-| BEL   | BL   | 0000111 | 1 | 0,5   | `123____8` | 4·5·6·7         |
-| BS    |      | 0001000 | 1 | 0,10  | `___4___8` | 1·2·3·5·6·7     |
-| HT    |      | 0001001 | 0 | 0,2   | `1__4____` | 2·3·5·6·7·8     |
-| LF    |      | 0001010 | 0 | 0,14  | `_2_4____` | 1·3·5·6·7·8     |
-| VT    |      | 0001011 | 1 | 0,6   | `12_4___8` | 3·5·6·7         |
-| FF    |      | 0001100 | 0 | 0,11  | `__34____` | 1·2·5·6·7·8     |
-| CR    |      | 0001101 | 1 | 0,3   | `1_34___8` | 2·5·6·7         |
-| SO    |      | 0001110 | 1 | 0,15  | `_234___8` | 1·5·6·7         |
-| SI    |      | 0001111 | 0 | 0,7   | `1234____` | 5·6·7·8         |
-| DLE   | DL   | 0010000 | 1 | 1,8   | `____5__8` | 1·2·3·4·6·7     |
-| DC1   | D1   | 0010001 | 0 | 1,0   | `1___5___` | 2·3·4·6·7·8     |
-| DC2   | D2   | 0010010 | 0 | 1,12  | `_2__5___` | 1·3·4·6·7·8     |
-| DC3   | D3   | 0010011 | 1 | 1,4   | `12__5__8` | 3·4·6·7         |
-| DC4   | D4   | 0010100 | 0 | 1,9   | `__3_5___` | 1·2·4·6·7·8     |
-| NAK   | NK   | 0010101 | 1 | 1,1   | `1_3_5__8` | 2·4·6·7         |
-| SYN   | SY   | 0010110 | 1 | 1,13  | `_23_5__8` | 1·4·6·7         |
-| ETB   | EB   | 0010111 | 0 | 1,5   | `123_5___` | 4·6·7·8         |
-| CAN   | CN   | 0011000 | 0 | 1,10  | `___45___` | 1·2·3·6·7·8     |
-| EM    |      | 0011001 | 1 | 1,2   | `1__45__8` | 2·3·6·7         |
-| SUB   | SB   | 0011010 | 1 | 1,14  | `_2_45__8` | 1·3·6·7         |
-| ESC   | ES   | 0011011 | 0 | 1,6   | `12_45___` | 3·6·7·8         |
-| FS    |      | 0011100 | 1 | 1,11  | `__345__8` | 1·2·6·7         |
-| GS    |      | 0011101 | 0 | 1,3   | `1_345___` | 2·6·7·8         |
-| RS    |      | 0011110 | 0 | 1,15  | `_2345___` | 1·6·7·8         |
-| US    |      | 0011111 | 1 | 1,7   | `12345__8` | 6·7             |
-| Space | SP   | 0100000 | 1 | 4,8   | `_____6_8` | 1·2·3·4·5·7     |
-| !     |      | 0100001 | 0 | 4,0   | `1____6__` | 2·3·4·5·7·8     |
-| "     |      | 0100010 | 0 | 4,12  | `_2___6__` | 1·3·4·5·7·8     |
-| #     |      | 0100011 | 1 | 4,4   | `12___6_8` | 3·4·5·7         |
-| $     |      | 0100100 | 0 | 4,9   | `__3__6__` | 1·2·4·5·7·8     |
-| %     |      | 0100101 | 1 | 4,1   | `1_3__6_8` | 2·4·5·7         |
-| &     |      | 0100110 | 1 | 4,13  | `_23__6_8` | 1·4·5·7         |
-| '     |      | 0100111 | 0 | 4,5   | `123__6__` | 4·5·7·8         |
-| (     |      | 0101000 | 0 | 4,10  | `___4_6__` | 1·2·3·5·7·8     |
-| )     |      | 0101001 | 1 | 4,2   | `1__4_6_8` | 2·3·5·7         |
-| *     |      | 0101010 | 1 | 4,14  | `_2_4_6_8` | 1·3·5·7         |
-| +     |      | 0101011 | 0 | 4,6   | `12_4_6__` | 3·5·7·8         |
-| ,     |      | 0101100 | 1 | 4,11  | `__34_6_8` | 1·2·5·7         |
-| -     |      | 0101101 | 0 | 4,3   | `1_34_6__` | 2·5·7·8         |
-| .     |      | 0101110 | 0 | 4,15  | `_234_6__` | 1·5·7·8         |
-| /     |      | 0101111 | 1 | 4,7   | `1234_6_8` | 5·7             |
-| 0     |      | 0110000 | 0 | 5,8   | `____56__` | 1·2·3·4·7·8     |
-| 1     |      | 0110001 | 1 | 5,0   | `1___56_8` | 2·3·4·7         |
-| 2     |      | 0110010 | 1 | 5,12  | `_2__56_8` | 1·3·4·7         |
-| 3     |      | 0110011 | 0 | 5,4   | `12__56__` | 3·4·7·8         |
-| 4     |      | 0110100 | 1 | 5,9   | `__3_56_8` | 1·2·4·7         |
-| 5     |      | 0110101 | 0 | 5,1   | `1_3_56__` | 2·4·7·8         |
-| 6     |      | 0110110 | 0 | 5,13  | `_23_56__` | 1·4·7·8         |
-| 7     |      | 0110111 | 1 | 5,5   | `123_56_8` | 4·7             |
-| 8     |      | 0111000 | 1 | 5,10  | `___456_8` | 1·2·3·7         |
-| 9     |      | 0111001 | 0 | 5,2   | `1__456__` | 2·3·7·8         |
-| :     |      | 0111010 | 0 | 5,14  | `_2_456__` | 1·3·7·8         |
-| ;     |      | 0111011 | 1 | 5,6   | `12_456_8` | 3·7             |
-| <     |      | 0111100 | 0 | 5,11  | `__3456__` | 1·2·7·8         |
-| =     |      | 0111101 | 1 | 5,3   | `1_3456_8` | 2·7             |
-| >     |      | 0111110 | 1 | 5,15  | `_23456_8` | 1·7             |
-| ?     |      | 0111111 | 0 | 5,7   | `123456__` | 7·8             |
-| @     |      | 1000000 | 1 | 2,8   | `______78` | 1·2·3·4·5·6     |
-| A     |      | 1000001 | 0 | 2,0   | `1_____7_` | 2·3·4·5·6·8     |
-| B     |      | 1000010 | 0 | 2,12  | `_2____7_` | 1·3·4·5·6·8     |
-| C     |      | 1000011 | 1 | 2,4   | `12____78` | 3·4·5·6         |
-| D     |      | 1000100 | 0 | 2,9   | `__3___7_` | 1·2·4·5·6·8     |
-| E     |      | 1000101 | 1 | 2,1   | `1_3___78` | 2·4·5·6         |
-| F     |      | 1000110 | 1 | 2,13  | `_23___78` | 1·4·5·6         |
-| G     |      | 1000111 | 0 | 2,5   | `123___7_` | 4·5·6·8         |
-| H     |      | 1001000 | 0 | 2,10  | `___4__7_` | 1·2·3·5·6·8     |
-| I     |      | 1001001 | 1 | 2,2   | `1__4__78` | 2·3·5·6         |
-| J     |      | 1001010 | 1 | 2,14  | `_2_4__78` | 1·3·5·6         |
-| K     |      | 1001011 | 0 | 2,6   | `12_4__7_` | 3·5·6·8         |
-| L     |      | 1001100 | 1 | 2,11  | `__34__78` | 1·2·5·6         |
-| M     |      | 1001101 | 0 | 2,3   | `1_34__7_` | 2·5·6·8         |
-| N     |      | 1001110 | 0 | 2,15  | `_234__7_` | 1·5·6·8         |
-| O     |      | 1001111 | 1 | 2,7   | `1234__78` | 5·6             |
-| P     |      | 1010000 | 0 | 3,8   | `____5_7_` | 1·2·3·4·6·8     |
-| Q     |      | 1010001 | 1 | 3,0   | `1___5_78` | 2·3·4·6         |
-| R     |      | 1010010 | 1 | 3,12  | `_2__5_78` | 1·3·4·6         |
-| S     |      | 1010011 | 0 | 3,4   | `12__5_7_` | 3·4·6·8         |
-| T     |      | 1010100 | 1 | 3,9   | `__3_5_78` | 1·2·4·6         |
-| U     |      | 1010101 | 0 | 3,1   | `1_3_5_7_` | 2·4·6·8         |
-| V     |      | 1010110 | 0 | 3,13  | `_23_5_7_` | 1·4·6·8         |
-| W     |      | 1010111 | 1 | 3,5   | `123_5_78` | 4·6             |
-| X     |      | 1011000 | 1 | 3,10  | `___45_78` | 1·2·3·6         |
-| Y     |      | 1011001 | 0 | 3,2   | `1__45_7_` | 2·3·6·8         |
-| Z     |      | 1011010 | 0 | 3,14  | `_2_45_7_` | 1·3·6·8         |
-| [     |      | 1011011 | 1 | 3,6   | `12_45_78` | 3·6             |
-| \     |      | 1011100 | 0 | 3,11  | `__345_7_` | 1·2·6·8         |
-| ]     |      | 1011101 | 1 | 3,3   | `1_345_78` | 2·6             |
-| ^     |      | 1011110 | 1 | 3,15  | `_2345_78` | 1·6             |
-| _     |      | 1011111 | 0 | 3,7   | `12345_7_` | 6·8             |
-| `     |      | 1100000 | 0 | 6,8   | `_____67_` | 1·2·3·4·5·8     |
-| a     |      | 1100001 | 1 | 6,0   | `1____678` | 2·3·4·5         |
-| b     |      | 1100010 | 1 | 6,12  | `_2___678` | 1·3·4·5         |
-| c     |      | 1100011 | 0 | 6,4   | `12___67_` | 3·4·5·8         |
-| d     |      | 1100100 | 1 | 6,9   | `__3__678` | 1·2·4·5         |
-| e     |      | 1100101 | 0 | 6,1   | `1_3__67_` | 2·4·5·8         |
-| f     |      | 1100110 | 0 | 6,13  | `_23__67_` | 1·4·5·8         |
-| g     |      | 1100111 | 1 | 6,5   | `123__678` | 4·5             |
-| h     |      | 1101000 | 1 | 6,10  | `___4_678` | 1·2·3·5         |
-| i     |      | 1101001 | 0 | 6,2   | `1__4_67_` | 2·3·5·8         |
-| j     |      | 1101010 | 0 | 6,14  | `_2_4_67_` | 1·3·5·8         |
-| k     |      | 1101011 | 1 | 6,6   | `12_4_678` | 3·5             |
-| l     |      | 1101100 | 0 | 6,11  | `__34_67_` | 1·2·5·8         |
-| m     |      | 1101101 | 1 | 6,3   | `1_34_678` | 2·5             |
-| n     |      | 1101110 | 1 | 6,15  | `_234_678` | 1·5             |
-| o     |      | 1101111 | 0 | 6,7   | `1234_67_` | 5·8             |
-| p     |      | 1110000 | 1 | 7,8   | `____5678` | 1·2·3·4         |
-| q     |      | 1110001 | 0 | 7,0   | `1___567_` | 2·3·4·8         |
-| r     |      | 1110010 | 0 | 7,12  | `_2__567_` | 1·3·4·8         |
-| s     |      | 1110011 | 1 | 7,4   | `12__5678` | 3·4             |
-| t     |      | 1110100 | 0 | 7,9   | `__3_567_` | 1·2·4·8         |
-| u     |      | 1110101 | 1 | 7,1   | `1_3_5678` | 2·4             |
-| v     |      | 1110110 | 1 | 7,13  | `_23_5678` | 1·4             |
-| w     |      | 1110111 | 0 | 7,5   | `123_567_` | 4·8             |
-| x     |      | 1111000 | 0 | 7,10  | `___4567_` | 1·2·3·8         |
-| y     |      | 1111001 | 1 | 7,2   | `1__45678` | 2·3             |
-| z     |      | 1111010 | 1 | 7,14  | `_2_45678` | 1·3             |
-| {     |      | 1111011 | 0 | 7,6   | `12_4567_` | 3·8             |
-| \|    |      | 1111100 | 1 | 7,11  | `__345678` | 1·2             |
-| }     |      | 1111101 | 0 | 7,3   | `1_34567_` | 2·8             |
-| ~     |      | 1111110 | 0 | 7,15  | `_234567_` | 1·8             |
-| DEL   | DE   | 1111111 | 1 | 7,7   | `12345678` | NONE            |
+TODO: Note whether high bits are in each function bar from the figures.
+
+| Name  | Abbr | ASCII   | P | Coord | Marking    | Spacing         | 11| 10| 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | Style | Function bar name |
+| ----- | ---- | ------- | - | ----- | ---------- | --------------- | - | - | - | - | - | - | - | - | - | - | - | ----- | ----------------- |
+| NUL   | NL   | 0000000 | 0 | 0,8   | `________` | 1·2·3·4·5·6·7·8 | - | - | - | S | S | S | S | S | S | S | S | A     | |
+| SOH   | SH   | 0000001 | 1 | 0,0   | `1______8` | 2·3·4·5·6·7     | - | - | - | M | S | S | S | S | S | S | M | A     | |
+| STX   | SX   | 0000010 | 1 | 0,12  | `_2_____8` | 1·3·4·5·6·7     | - | - | - | M | S | S | S | S | S | M | S | A     | |
+| ETX   | EX   | 0000011 | 0 | 0,4   | `12______` | 3·4·5·6·7·8     | - | - | S | S | S | S | S | S | S | M | M | A+9S  | |
+| EOT   | ET   | 0000100 | 1 | 0,9   | `__3____8` | 1·2·4·5·6·7     | - | - | S | M | S | S | S | S | M | S | S | A+9S  | |
+| ENQ   | EQ   | 0000101 | 0 | 0,1   | `1_3_____` | 2·4·5·6·7·8     | - | - | S | S | S | S | S | S | M | S | M | A+9S  | |
+| ACK   | AK   | 0000110 | 0 | 0,13  | `_23_____` | 1·4·5·6·7·8     | - | - | S | S | S | S | S | S | M | M | S | A+9S  | |
+| BEL   | BL   | 0000111 | 1 | 0,5   | `123____8` | 4·5·6·7         | - | - | S | M | S | S | S | S | M | M | M | A+9S  | |
+| BS    |      | 0001000 | 1 | 0,10  | `___4___8` | 1·2·3·5·6·7     | - | - | S | M | S | S | S | M | S | S | S | A+9S  | |
+| HT    |      | 0001001 | 0 | 0,2   | `1__4____` | 2·3·5·6·7·8     | - | - | S | S | S | S | S | M | S | S | M | A+9S  | |
+| LF    |      | 0001010 | 0 | 0,14  | `_2_4____` | 1·3·5·6·7·8     | - | - | S | S | S | S | S | M | S | M | S | A+9S  | |
+| VT    |      | 0001011 | 1 | 0,6   | `12_4___8` | 3·5·6·7         | - | - | S | M | S | S | S | M | S | M | M | A+9S  | |
+| FF    |      | 0001100 | 0 | 0,11  | `__34____` | 1·2·5·6·7·8     | - | - | S | S | S | S | S | M | M | S | S | A+9S  | |
+| CR    |      | 0001101 | 1 | 0,3   | `1_34___8` | 2·5·6·7         | - | - | S | M | S | S | S | M | M | S | M | A+9S  | |
+| SO    |      | 0001110 | 1 | 0,15  | `_234___8` | 1·5·6·7         | - | - | S | M | S | S | S | M | M | M | S | A+9S  | |
+| SI    |      | 0001111 | 0 | 0,7   | `1234____` | 5·6·7·8         | - | - | S | S | S | S | S | M | M | M | M | A+9S  | |
+| DLE   | DL   | 0010000 | 1 | 1,8   | `____5__8` | 1·2·3·4·6·7     | - | - | S | M | S | S | M | S | S | S | S | A+9S  | |
+| DC1   | D1   | 0010001 | 0 | 1,0   | `1___5___` | 2·3·4·6·7·8     | - | - | S | S | S | S | M | S | S | S | M | A+9S  | |
+| DC2   | D2   | 0010010 | 0 | 1,12  | `_2__5___` | 1·3·4·6·7·8     | - | - | S | S | S | S | M | S | S | M | S | A+9S  | |
+| DC3   | D3   | 0010011 | 1 | 1,4   | `12__5__8` | 3·4·6·7         | - | - | S | M | S | S | M | S | S | M | M | A+9S  | |
+| DC4   | D4   | 0010100 | 0 | 1,9   | `__3_5___` | 1·2·4·6·7·8     | - | - | S | S | S | S | M | S | M | S | S | A+9S  | |
+| NAK   | NK   | 0010101 | 1 | 1,1   | `1_3_5__8` | 2·4·6·7         | - | - | S | M | S | S | M | S | M | S | M | A+9S  | |
+| SYN   | SY   | 0010110 | 1 | 1,13  | `_23_5__8` | 1·4·6·7         | - | - | - | M | S | S | M | S | M | M | S | A     | |
+| ETB   | EB   | 0010111 | 0 | 1,5   | `123_5___` | 4·6·7·8         | - | - | - | S | S | S | M | S | M | M | M | A     | |
+| CAN   | CN   | 0011000 | 0 | 1,10  | `___45___` | 1·2·3·6·7·8     | - | - | - | S | S | S | M | M | S | S | S | A     | |
+| EM    |      | 0011001 | 1 | 1,2   | `1__45__8` | 2·3·6·7         | - | - | - | M | S | S | M | M | S | S | M | A     | |
+| SUB   | SB   | 0011010 | 1 | 1,14  | `_2_45__8` | 1·3·6·7         | - | - | - | M | S | S | M | M | S | M | S | A     | |
+| ESC   | ES   | 0011011 | 0 | 1,6   | `12_45___` | 3·6·7·8         | - | - | - | S | S | S | M | M | S | M | M | A     | |
+| FS    |      | 0011100 | 1 | 1,11  | `__345__8` | 1·2·6·7         | - | - | - | M | S | S | M | M | M | S | S | A     | |
+| GS    |      | 0011101 | 0 | 1,3   | `1_345___` | 2·6·7·8         | - | - | - | S | S | S | M | M | M | S | M | A     | |
+| RS    |      | 0011110 | 0 | 1,15  | `_2345___` | 1·6·7·8         | - | - | - | S | S | S | M | M | M | M | S | A     | |
+| US    |      | 0011111 | 1 | 1,7   | `12345__8` | 6·7             | - | - | - | M | S | S | M | M | M | M | M | A     | |
+| Space | SP   | 0100000 | 1 | 4,8   | `_____6_8` | 1·2·3·4·5·7     | - | - | - | M | S | M | S | S | S | S | S | A?    | |
+| !     |      | 0100001 | 0 | 4,0   | `1____6__` | 2·3·4·5·7·8     | - | - | - | S | S | M | S | S | S | S | M | A?    | |
+| "     |      | 0100010 | 0 | 4,12  | `_2___6__` | 1·3·4·5·7·8     | - | - | - | S | S | M | S | S | S | M | S | A?    | |
+| #     |      | 0100011 | 1 | 4,4   | `12___6_8` | 3·4·5·7         | - | - | - | M | S | M | S | S | S | M | M | A?    | |
+| $     |      | 0100100 | 0 | 4,9   | `__3__6__` | 1·2·4·5·7·8     | - | - | - | S | S | M | S | S | M | S | S | A?    | |
+| %     |      | 0100101 | 1 | 4,1   | `1_3__6_8` | 2·4·5·7         | - | - | - | M | S | M | S | S | M | S | M | A?    | |
+| &     |      | 0100110 | 1 | 4,13  | `_23__6_8` | 1·4·5·7         | - | - | - | M | S | M | S | S | M | M | S | A?    | |
+| '     |      | 0100111 | 0 | 4,5   | `123__6__` | 4·5·7·8         | - | - | - | S | S | M | S | S | M | M | M | A?    | |
+| (     |      | 0101000 | 0 | 4,10  | `___4_6__` | 1·2·3·5·7·8     | - | - | - | S | S | M | S | M | S | S | S | A?    | |
+| )     |      | 0101001 | 1 | 4,2   | `1__4_6_8` | 2·3·5·7         | - | - | - | M | S | M | S | M | S | S | M | A?    | |
+| *     |      | 0101010 | 1 | 4,14  | `_2_4_6_8` | 1·3·5·7         | - | - | - | M | S | M | S | M | S | M | S | A?    | |
+| +     |      | 0101011 | 0 | 4,6   | `12_4_6__` | 3·5·7·8         | - | - | - | S | S | M | S | M | S | M | M | A?    | |
+| ,     |      | 0101100 | 1 | 4,11  | `__34_6_8` | 1·2·5·7         | - | - | - | M | S | M | S | M | M | S | S | A?    | |
+| -     |      | 0101101 | 0 | 4,3   | `1_34_6__` | 2·5·7·8         | - | - | - | S | S | M | S | M | M | S | M | A?    | |
+| .     |      | 0101110 | 0 | 4,15  | `_234_6__` | 1·5·7·8         | - | - | - | S | S | M | S | M | M | M | S | A?    | |
+| /     |      | 0101111 | 1 | 4,7   | `1234_6_8` | 5·7             | - | - | - | M | S | M | S | M | M | M | M | A?    | |
+| 0     |      | 0110000 | 0 | 5,8   | `____56__` | 1·2·3·4·7·8     | - | - | - | S | S | M | M | S | S | S | S | A?    | |
+| 1     |      | 0110001 | 1 | 5,0   | `1___56_8` | 2·3·4·7         | - | - | - | M | S | M | M | S | S | S | M | A?    | |
+| 2     |      | 0110010 | 1 | 5,12  | `_2__56_8` | 1·3·4·7         | - | - | - | M | S | M | M | S | S | M | S | A?    | |
+| 3     |      | 0110011 | 0 | 5,4   | `12__56__` | 3·4·7·8         | - | - | - | S | S | M | M | S | S | M | M | A?    | |
+| 4     |      | 0110100 | 1 | 5,9   | `__3_56_8` | 1·2·4·7         | - | - | - | M | S | M | M | S | M | S | S | A?    | |
+| 5     |      | 0110101 | 0 | 5,1   | `1_3_56__` | 2·4·7·8         | - | - | - | S | S | M | M | S | M | S | M | A?    | |
+| 6     |      | 0110110 | 0 | 5,13  | `_23_56__` | 1·4·7·8         | - | - | - | S | S | M | M | S | M | M | S | A?    | |
+| 7     |      | 0110111 | 1 | 5,5   | `123_56_8` | 4·7             | - | - | - | M | S | M | M | S | M | M | M | A?    | |
+| 8     |      | 0111000 | 1 | 5,10  | `___456_8` | 1·2·3·7         | - | - | - | M | S | M | M | M | S | S | S | A?    | |
+| 9     |      | 0111001 | 0 | 5,2   | `1__456__` | 2·3·7·8         | - | - | - | S | S | M | M | M | S | S | M | A?    | |
+| :     |      | 0111010 | 0 | 5,14  | `_2_456__` | 1·3·7·8         | - | - | - | S | S | M | M | M | S | M | S | A?    | |
+| ;     |      | 0111011 | 1 | 5,6   | `12_456_8` | 3·7             | - | - | - | M | S | M | M | M | S | M | M | A?    | |
+| <     |      | 0111100 | 0 | 5,11  | `__3456__` | 1·2·7·8         | - | - | - | S | S | M | M | M | M | S | S | A?    | |
+| =     |      | 0111101 | 1 | 5,3   | `1_3456_8` | 2·7             | - | - | - | M | S | M | M | M | M | S | M | A?    | |
+| >     |      | 0111110 | 1 | 5,15  | `_23456_8` | 1·7             | - | - | - | M | S | M | M | M | M | M | S | A?    | |
+| ?     |      | 0111111 | 0 | 5,7   | `123456__` | 7·8             | - | - | - | S | S | M | M | M | M | M | M | A?    | |
+| @     |      | 1000000 | 1 | 2,8   | `______78` | 1·2·3·4·5·6     | - | - | - | M | M | S | S | S | S | S | S | A?    | |
+| A     |      | 1000001 | 0 | 2,0   | `1_____7_` | 2·3·4·5·6·8     | - | - | - | S | M | S | S | S | S | S | M | A?    | |
+| B     |      | 1000010 | 0 | 2,12  | `_2____7_` | 1·3·4·5·6·8     | - | - | - | S | M | S | S | S | S | M | S | A?    | |
+| C     |      | 1000011 | 1 | 2,4   | `12____78` | 3·4·5·6         | - | - | - | M | M | S | S | S | S | M | M | A?    | |
+| D     |      | 1000100 | 0 | 2,9   | `__3___7_` | 1·2·4·5·6·8     | - | - | - | S | M | S | S | S | M | S | S | A?    | |
+| E     |      | 1000101 | 1 | 2,1   | `1_3___78` | 2·4·5·6         | - | - | - | M | M | S | S | S | M | S | M | A?    | |
+| F     |      | 1000110 | 1 | 2,13  | `_23___78` | 1·4·5·6         | - | - | - | M | M | S | S | S | M | M | S | A?    | |
+| G     |      | 1000111 | 0 | 2,5   | `123___7_` | 4·5·6·8         | - | - | - | S | M | S | S | S | M | M | M | A?    | |
+| H     |      | 1001000 | 0 | 2,10  | `___4__7_` | 1·2·3·5·6·8     | - | - | - | S | M | S | S | M | S | S | S | A?    | |
+| I     |      | 1001001 | 1 | 2,2   | `1__4__78` | 2·3·5·6         | - | - | - | M | M | S | S | M | S | S | M | A?    | |
+| J     |      | 1001010 | 1 | 2,14  | `_2_4__78` | 1·3·5·6         | - | - | - | M | M | S | S | M | S | M | S | A?    | |
+| K     |      | 1001011 | 0 | 2,6   | `12_4__7_` | 3·5·6·8         | - | - | - | S | M | S | S | M | S | M | M | A?    | |
+| L     |      | 1001100 | 1 | 2,11  | `__34__78` | 1·2·5·6         | - | - | - | M | M | S | S | M | M | S | S | A?    | |
+| M     |      | 1001101 | 0 | 2,3   | `1_34__7_` | 2·5·6·8         | - | - | - | S | M | S | S | M | M | S | M | A?    | |
+| N     |      | 1001110 | 0 | 2,15  | `_234__7_` | 1·5·6·8         | - | - | - | S | M | S | S | M | M | M | S | A?    | |
+| O     |      | 1001111 | 1 | 2,7   | `1234__78` | 5·6             | - | - | - | M | M | S | S | M | M | M | M | A?    | |
+| P     |      | 1010000 | 0 | 3,8   | `____5_7_` | 1·2·3·4·6·8     | - | - | - | S | M | S | M | S | S | S | S | A?    | |
+| Q     |      | 1010001 | 1 | 3,0   | `1___5_78` | 2·3·4·6         | - | - | - | M | M | S | M | S | S | S | M | A?    | |
+| R     |      | 1010010 | 1 | 3,12  | `_2__5_78` | 1·3·4·6         | - | - | - | M | M | S | M | S | S | M | S | A?    | |
+| S     |      | 1010011 | 0 | 3,4   | `12__5_7_` | 3·4·6·8         | - | - | - | S | M | S | M | S | S | M | M | A?    | |
+| T     |      | 1010100 | 1 | 3,9   | `__3_5_78` | 1·2·4·6         | - | - | - | M | M | S | M | S | M | S | S | A?    | |
+| U     |      | 1010101 | 0 | 3,1   | `1_3_5_7_` | 2·4·6·8         | - | - | - | S | M | S | M | S | M | S | M | A?    | |
+| V     |      | 1010110 | 0 | 3,13  | `_23_5_7_` | 1·4·6·8         | - | - | - | S | M | S | M | S | M | M | S | A?    | |
+| W     |      | 1010111 | 1 | 3,5   | `123_5_78` | 4·6             | - | - | - | M | M | S | M | S | M | M | M | A?    | |
+| X     |      | 1011000 | 1 | 3,10  | `___45_78` | 1·2·3·6         | - | - | - | M | M | S | M | M | S | S | S | A?    | |
+| Y     |      | 1011001 | 0 | 3,2   | `1__45_7_` | 2·3·6·8         | - | - | - | S | M | S | M | M | S | S | M | A?    | |
+| Z     |      | 1011010 | 0 | 3,14  | `_2_45_7_` | 1·3·6·8         | - | - | - | S | M | S | M | M | S | M | S | A?    | |
+| [     |      | 1011011 | 1 | 3,6   | `12_45_78` | 3·6             | - | - | - | M | M | S | M | M | S | M | M | A?    | |
+| \     |      | 1011100 | 0 | 3,11  | `__345_7_` | 1·2·6·8         | - | - | - | S | M | S | M | M | M | S | S | A?    | |
+| ]     |      | 1011101 | 1 | 3,3   | `1_345_78` | 2·6             | - | - | - | M | M | S | M | M | M | S | M | A?    | |
+| ^     |      | 1011110 | 1 | 3,15  | `_2345_78` | 1·6             | - | - | - | M | M | S | M | M | M | M | S | A?    | |
+| _     |      | 1011111 | 0 | 3,7   | `12345_7_` | 6·8             | - | - | - | S | M | S | M | M | M | M | M | A?    | |
+| `     |      | 1100000 | 0 | 6,8   | `_____67_` | 1·2·3·4·5·8     | - | - | - | S | M | M | S | S | S | S | S | A?    | |
+| a     |      | 1100001 | 1 | 6,0   | `1____678` | 2·3·4·5         | - | - | - | M | M | M | S | S | S | S | M | A?    | |
+| b     |      | 1100010 | 1 | 6,12  | `_2___678` | 1·3·4·5         | - | - | - | M | M | M | S | S | S | M | S | A?    | |
+| c     |      | 1100011 | 0 | 6,4   | `12___67_` | 3·4·5·8         | - | - | - | S | M | M | S | S | S | M | M | A?    | |
+| d     |      | 1100100 | 1 | 6,9   | `__3__678` | 1·2·4·5         | - | - | - | M | M | M | S | S | M | S | S | A?    | |
+| e     |      | 1100101 | 0 | 6,1   | `1_3__67_` | 2·4·5·8         | - | - | - | S | M | M | S | S | M | S | M | A?    | |
+| f     |      | 1100110 | 0 | 6,13  | `_23__67_` | 1·4·5·8         | - | - | - | S | M | M | S | S | M | M | S | A?    | |
+| g     |      | 1100111 | 1 | 6,5   | `123__678` | 4·5             | - | - | - | M | M | M | S | S | M | M | M | A?    | |
+| h     |      | 1101000 | 1 | 6,10  | `___4_678` | 1·2·3·5         | - | - | - | M | M | M | S | M | S | S | S | A?    | |
+| i     |      | 1101001 | 0 | 6,2   | `1__4_67_` | 2·3·5·8         | - | - | - | S | M | M | S | M | S | S | M | A?    | |
+| j     |      | 1101010 | 0 | 6,14  | `_2_4_67_` | 1·3·5·8         | - | - | - | S | M | M | S | M | S | M | S | A?    | |
+| k     |      | 1101011 | 1 | 6,6   | `12_4_678` | 3·5             | - | - | - | M | M | M | S | M | S | M | M | A?    | |
+| l     |      | 1101100 | 0 | 6,11  | `__34_67_` | 1·2·5·8         | - | - | - | S | M | M | S | M | M | S | S | A?    | |
+| m     |      | 1101101 | 1 | 6,3   | `1_34_678` | 2·5             | - | - | - | M | M | M | S | M | M | S | M | A?    | |
+| n     |      | 1101110 | 1 | 6,15  | `_234_678` | 1·5             | - | - | - | M | M | M | S | M | M | M | S | A?    | |
+| o     |      | 1101111 | 0 | 6,7   | `1234_67_` | 5·8             | - | - | - | S | M | M | S | M | M | M | M | A?    | |
+| p     |      | 1110000 | 1 | 7,8   | `____5678` | 1·2·3·4         | - | - | - | M | M | M | M | S | S | S | S | A?    | |
+| q     |      | 1110001 | 0 | 7,0   | `1___567_` | 2·3·4·8         | - | - | - | S | M | M | M | S | S | S | M | A?    | |
+| r     |      | 1110010 | 0 | 7,12  | `_2__567_` | 1·3·4·8         | - | - | - | S | M | M | M | S | S | M | S | A?    | |
+| s     |      | 1110011 | 1 | 7,4   | `12__5678` | 3·4             | - | - | - | M | M | M | M | S | S | M | M | A?    | |
+| t     |      | 1110100 | 0 | 7,9   | `__3_567_` | 1·2·4·8         | - | - | - | S | M | M | M | S | M | S | S | A?    | |
+| u     |      | 1110101 | 1 | 7,1   | `1_3_5678` | 2·4             | - | - | - | M | M | M | M | S | M | S | M | A?    | |
+| v     |      | 1110110 | 1 | 7,13  | `_23_5678` | 1·4             | - | - | - | M | M | M | M | S | M | M | S | A?    | |
+| w     |      | 1110111 | 0 | 7,5   | `123_567_` | 4·8             | - | - | - | S | M | M | M | S | M | M | M | A?    | |
+| x     |      | 1111000 | 0 | 7,10  | `___4567_` | 1·2·3·8         | - | - | - | S | M | M | M | M | S | S | S | A?    | |
+| y     |      | 1111001 | 1 | 7,2   | `1__45678` | 2·3             | - | - | - | M | M | M | M | M | S | S | M | A?    | |
+| z     |      | 1111010 | 1 | 7,14  | `_2_45678` | 1·3             | - | - | - | M | M | M | M | M | S | M | S | A?    | |
+| {     |      | 1111011 | 0 | 7,6   | `12_4567_` | 3·8             | - | - | - | S | M | M | M | M | S | M | M | A?    | |
+| \|    |      | 1111100 | 1 | 7,11  | `__345678` | 1·2             | - | - | - | M | M | M | M | M | M | S | S | A?    | |
+| }     |      | 1111101 | 0 | 7,3   | `1_34567_` | 2·8             | - | - | - | S | M | M | M | M | M | S | M | A?    | |
+| ~     |      | 1111110 | 0 | 7,15  | `_234567_` | 1·8             | - | - | - | S | M | M | M | M | M | M | S | A?    | |
+| DEL   | DE   | 1111111 | 1 | 7,7   | `12345678` | NONE            | - | - | - | M | M | M | M | M | M | M | M | A     | PRINT & SPACE SUPPRESS DELETE |
+
+Other function bar configurations: \[Type p66–68]
+
+|                                     | 11| 10| 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 |
+| ----------------------------------- | - | - | - | - | - | - | - | - | - | - | - |
+| NEW LINE (LF & VT) **               |   |   | S |   | S | S | S | M | S | M |   |
+| ESC HOLD                            |   |   | M |   | S | M | S |   |   |   |   |
+| ESC TERMINATE                       |   |   | M |   |   |   |   |   |   |   |   |
+| PRINT & SPACE SUPPRESS FUNCTION *** |   |   | S |   | S | S |   |   |   |   |   |
+| CR & FF ***                         |   |   | S |   | S | S | S | M | M | S |   |
+| PRINT & SUPPRESS SHIFT-OUT ***      |   |   |   |   | M | M |   |   |   |   |   |
+| PRINT SUPPRESS NO. 1 ***            |   |   | S |   | S | M |   |   |   |   |   |
+| PRINT SUPPRESS NO. 2 ***            |   |   | S |   | M |   |   |   |   |   |   |
+| CR & FF (SPECIAL) ***               |   |   |   |   | S | S | S | M | M | S |   |
+| LF & VT (SPECIAL) ***               |   |   |   |   | S | S | S | M | S | M |   |
+| TILDE (OVERSCORE)                   |   |   | S |   | M | M | M | M | M | M | S |
+| HYPHEN (TIME)                       |   |   | S |   | S | M | S | M | M | S | M |
+| BLACK                               |   | S | M | M | S | M | M | S | M | S | S |
+| RED                                 |   | S | M | S | S | M | M | S | S | M | M |
+| HORIZ TAB SET                       |   | S | M | M | S | M | M | S | S | S | M |
+| HORIZ TAB CLEAR                     |   | S | M | M | S | M | M | S | S | M | S |
+| VERT TAB SET                        |   | S | M | S | S | M | M | S | M | S | M |
+| VERT TAB CLEAR                      |   | S | M | S | S | M | M | S | M | M | S |
+| REVERSE LINE FEED                   |   | S | M | M | S | M | M | S | M | M | M |
+| HALF REVERSE LINE FEED              |   | S | M | M | S | M | M | M | S | S | S |
+| HALF LINE FEED                      |   | S | M | S | S | M | M | M | S | S | M |
+| HALF DUPLEX                         |   | S | M | M | S | M | M | M | S | M | M |
+| FULL DUPLEX                         |   | S | M | S | S | M | M | M | S | M | S |
+| PRINT SUPPRESS (ESCAPE ^)           |   | S | M | M | M | S | M | M | M | M | S |
+| PRINT SUPPRESS DISABLE (ESCAPE \)   |   | S | M | S | M | S | M | M | M | S | S |
+| AUTO CR & LF (SEE Note)             | S | * | * | * | * | * | * | * | * | * | * |
 
 8-row typebox arrangement, as viewed from the print hammer: \[Type figure 28]
 
