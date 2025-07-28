@@ -224,6 +224,37 @@ technician. \[table I note c]\[figure 1 note 1] The user should be able to
 completely disable it, perhaps by moving the repeat mode pressure adjustment to
 an extreme position. \[3.2.1]
 
+## Paper
+
+### Sprocket feed
+
+Sprocket feed typing units have the following paper width options:
+[Spec50494S table 1 (p15)]
+
+- 9-1/2"
+- 9"
+- 8-1/2"
+- 8"
+- 7-1/2"
+- 7"
+- 6-1/2"
+- 6-3/8"
+- 6-1/4"
+- 6"
+- 5-3/4"
+- 5-1/2"
+- 5"
+- 4-1/2"
+- 4-5/16"
+- 4-1/4"
+- 4"
+- 3-5/8"
+
+To convert a friction feed typing unit to sprocket feed, see Specification
+50494S. To adapt the paper width for a sprocket feed typing unit, see the
+modification kits described in Specification 50386S for 9-1/2" and Specification
+57925 for the other widths.
+
 ## Definitions
 
 - Space and mark are the signals corresponding to 0 and 1 bits, respectively.
@@ -272,6 +303,28 @@ an extreme position. \[3.2.1]
 - \[Type]: Teletype Corporation. [“37 Typing Unit (37P003 and up): Description
   and Principles of Operation”](https://www.navy-radio.com/manuals/tty/m37/574-320-101-iss2-7302.pdf).
   Bell System Practices, Section 574-320-101, Issue 2, February 1973.
+
+- \[Spec50494S]: Teletype Corporation. [“Instructions for Installing
+  Modification Kit 319820 to Convert a Model 37 Friction Feed Typing Unit to a
+  Sprocket Feed Typing Unit”](https://www.navy-radio.com/manuals/tty/spec/50494S-6707.pdf).
+  Specification 50494S, Issue 1, July 1967.
+  - Has illustrations of the typebox and feed mechanisms and a list of sprocket
+    feed paper widths. References the modification kits covered by \[Spec57925]
+    and \[Spec50386S].
+
+- \[Spec57925]: Teletype Corporation. [“Instructions for Installing Modification
+  Kits (172625, 176181 through 176197, 178568 through 178584, 306686 through
+  306702, 153926) to Convert a Model 28 or 35 Friction Feed Printer Set to a
+  Sprocket Feed Printer Set and for Replacing the 153771 through 153787 Guide
+  Bracket Using the 159356 Modification Kit”](https://www.navy-radio.com/manuals/tty/jh/ttyman6/specs/5792S-Iss17.pdf).
+  Specification 57925, Issue 17, August 1973.
+  - Referenced by \[Spec50494S], so must also apply to Model 37.
+
+- \[Spec50386S]: Teletype Corporation. [“Instructions for Installing the 305037
+  and 310733 Modification Kits to Adapt a Model 35 or Model 28 Sprocket Feed
+  Typing Unit to Take 9-1/2 Inch Width Paper, Respectively”](https://www.navy-radio.com/manuals/tty/jh/ttyman6/specs/50386S-Iss1.pdf).
+  Specification 50386S, Issue 1, March 1965.
+  - Referenced by \[Spec50494S], so must also apply to Model 37.
 
 - \[Dolotta]: T. A. Dolotta. [“Functional Specifications for Typewriter-Like
   Time-Sharing Terminals”](https://dl.acm.org/doi/10.1145/356561.356563).
@@ -375,6 +428,12 @@ Referrers:
 | 592-801-701   | Tape Reader                              | Lubrication                                                          |                                                                                                                      | 1         |
 | 592-801-702   | Tape Reader                              | Disassembly and Reassembly                                           |                                                                                                                      | 1         |
 | WDP0283       | Wiring Diagrams and Circuit Descriptions | KSR Set - WD Package                                                 |                                                                                                                      | 2         |
+
+| Number               | Title                                                                                                                                                                                                                                                                                                                | Version                                                                                      |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Specification 5534S  | Instructions for Installing the Manual Power Drive Backspace, and Backspace Cover Modification Kits on Model 28 or Model 35 Perforator or Reperforator (LPR, LPE, LRPE, LTPE, LARP) and Model 37 Reperforator (YPR, YRPE)                                                                                            | [Issue 14, 1971-06](https://www.navy-radio.com/manuals/tty/spec/5534S-iss14-7106.pdf)        |
+| Specification 57925  | Instructions for Installing Modification Kits (172625, 176181 through 176197, 178568 through 178584, 306686 through 306702, 153926) to Convert a Model 28 or 35 Friction Feed Printer Set to a Sprocket Feed Printer Set and for Replacing the 153771 through 153787 Guide Bracket Using the 159356 Modification Kit | [Issue 17, 1973-08](https://www.navy-radio.com/manuals/tty/jh/ttyman6/specs/5792S-Iss17.pdf) |
+| Specification 50494S | Instructions for Installing Modification Kit 319820 to Convert a Model 37 Friction Feed Typing Unit to a Sprocket Feed Typing Unit                                                                                                                                                                                   | [Issue 1, 1967-07](https://www.navy-radio.com/manuals/tty/spec/50494S-6707.pdf)              |
 
 ### Other
 
