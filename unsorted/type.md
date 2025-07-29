@@ -11,52 +11,6 @@
 DESCRIPTION AND PRINCIPLES OF OPERATION
 </h1>
 
-## CONTENTS
-
-- [1. GENERAL](#1-general)
-- [2. DESCRIPTION](#2-description)
-  - [BASIC UNIT](#basic-unit)
-  - [WIDE PLATEN](#wide-platen)
-  - [CONTROL FUNCTIONS](#control-functions)
-  - [OPTIONAL FEATURES](#optional-features)
-- [3. TECHNICAL DATA](#3-technical-data)
-- [4. PRINCIPLES OF OPERATION](#4-principles-of-operation)
-  - [A. Selector Mechanism](#a-selector-mechanism)
-  - [B. Transfer Mechanism](#b-transfer-mechanism)
-  - [C. Codebar Shift Mechanism](#c-codebar-shift-mechanism)
-  - [D. Codebar Mechanism](#d-codebar-mechanism)
-  - [E. Codebar Positioning](#e-codebar-positioning)
-  - [F. Typebox and Typebox Carriage](#f-typebox-and-typebox-carriage)
-  - [G. Horizontal Positioning](#g-horizontal-positioning)
-  - [H. Horizontal Dampener Mechanism](#h-horizontal-dampener-mechanism)
-  - [I. Vertical Positioning](#i-vertical-positioning)
-  - [J. Vertical Dampening](#j-vertical-dampening)
-  - [K. Trip Shaft Mechanism](#k-trip-shaft-mechanism)
-  - [L. Print Hammer Carriage and Printing Drive Mechanism](#l-print-hammer-carriage-and-printing-drive-mechanism)
-  - [M. Spacing Mechanism](#m-spacing-mechanism)
-  - [N. Backspace Mechanism](#n-backspace-mechanism)
-  - [O. Retraction Mechanism](#o-retraction-mechanism)
-  - [P. Function Box and Function Box Drive Mechanism](#p-function-box-and-function-box-drive-mechanism)
-  - [Q. Ribbon Positioning Mechanism](#q-ribbon-positioning-mechanism)
-  - [R. Ribbon Feeding and Reversing Mechanism](#r-ribbon-feeding-and-reversing-mechanism)
-  - [S. Print, Space, and Function Suppression](#s-print-space-and-function-suppression)
-  - [T. Carriage Return Mechanism](#t-carriage-return-mechanism)
-  - [U. Line Feed Mechanism](#u-line-feed-mechanism)
-  - [V. Vertical Tabulation Mechanism](#v-vertical-tabulation-mechanism)
-  - [W. Horizontal Tabulation Mechanism](#w-horizontal-tabulation-mechanism)
-  - [X. Half-Forward and Reverse Line Feed](#x-half-forward-and-reverse-line-feed)
-  - [Y. Function Bar Coding](#y-function-bar-coding)
-- [5. REFERENCES](#5-references)
-- [6. APPENDIX](#6-appendix)
-  - [A. Printed Graphics Extension (Shift-Out, Shift-In)](#a-printed-graphics-extension-shift-out-shift-in)
-  - [B. Visual Aid With Graphic Extension](#b-visual-aid-with-graphic-extension)
-  - [C. Character Received Contact Mechanism](#c-character-received-contact-mechanism)
-
-Prepared for American Telephone and Telegraph Company by Teletype Corporation \
-© 1966, 1970, 1971, and hl72 by Teletype Corporation \
-All rights reserved \
-Printed in U.S.A. "Page 1
-
 ## 1. GENERAL
 
 \[Photo]
@@ -295,21 +249,7 @@ function clutch, and line feed clutch. The selector clutch provides power for
 operating the selector, and also trips the codebar clutch and resets the
 retraction mechanism.
 
-\[Photo]
-
-- TAPERED SHAFT (Selector Cam and Clutch Mounted Here)
-
-(Front View)
-
-Figure 7 - Main Shaft
-
 *Page 8:*
-
-\[Figure]
-
-(Right Front View)
-
-Figure 8 - Selector Cam and Clutch
 
 The codebar clutch drives the codebar positioning mechanism, trips the function
 clutch and print hammer clutch. The print hammer clutch drives the print hammer,
@@ -332,36 +272,6 @@ plate, cable assembly, spacing drum and pulley assemblies have been changed. The
 spacing drum differs from the standard unit; it contains the carriage return
 spring and spacing ratchet. For detailed information on the spacing drum and
 cable assembly, refer to Section 574-320-705 on disassembly and reassembly.
-
-### CONTROL FUNCTIONS
-
-2.10 Additional time is required by the typing unit to perform certain machine
-control functions. Delete (DEL) characters are used as fill characters in tapes
-transmitted and received by the typing unit to provide this additional time;
-these fill characters are listed in the following table.
-
-TABLE
-
-<u>DELETE FILL CHARACTERS FOR CONTROL FUNCTIONS</u>
-
-| FUNCTIONS                 | STD UNITS | WIDE PLATEN |
-| ------------------------- | --------- | ----------- |
-| Carriage Return           | 2         | 3           |
-| New Line                  | 2         | 3           |
-| Form-Feed                 | 1         | 2           |
-| Vertical Tab-Clear        | 1         | 2           |
-| Vertical Tab-Set          | 1         | 0           |
-| Horizontal Tab-Clear      | 1         | 2           |
-| Horizontal Tab-Set        | 1         | 0           |
-| DC2                       | 1         | 1           |
-| DC4                       | 1         | 1           |
-| Carriage Return/Line Feed | 1         | 2           |
-| Form-Out                  | 0         | 2           |
-| Vertical Tab              | 0         | 2           |
-| Horizontal Tab            | 0         | 2           |
-
-<u>Note</u>: Any function that uses a transmitter stop control, requires two
-deletes after the control function.
 
 ### OPTIONAL FEATURES
 
@@ -406,26 +316,6 @@ vertical tab or form feed.
 
 Figure 9 - 37 Typing Unit
 
-\[Figure]
-
-- MAIN SHAFT BEARING
-- CLUTCH DRUM
-- LINE FEED CLUTCH ASSEMBLY
-- DRIVEN GEAR
-- COLLAR
-- CLUTCH DRUM
-- FUNCTION CLUTCH ASSEMBLY
-- COLLAR
-- CLUTCH DRUM
-- SPACING CLUTCH ASSEMBLY
-- CLUTCH DRUM
-- PRINT HAMMER CLUTCH ASSEMBLY
-- CLUTCH DRUM
-- CODEBAR CLUTCH ASSEMBLY
-- MAIN SHAFT BEARING
-
-(Bottom View)
-
 Figure 10 - Main Shaft
 
 <u>Note:</u> When the typing unit is mated with the keyboard, refer to Section
@@ -433,21 +323,6 @@ Figure 10 - Main Shaft
 main shaft driven gear and the intermediate gear assembly.
 
 *Page 10:*
-
-\[Photo]
-
-- LEFT PULLEY DRUM
-- SPACING MECHANISM
-- HORIZONTAL TAB RING
-- SPACING AND CARRIAGE RETURN DRUM
-- HORIZONTAL TAB MECHANISM
-- RIGHT PULLEY DRUM
-- PAPER FINGER
-- PAPER GUIDE (Each Side)
-
-(Right Front View)
-
-Figure 11 - 37 Wide Platen
 
 ## 3. TECHNICAL DATA
 
@@ -494,24 +369,6 @@ are:
 - Weight: 32 pounds
 
 *Page 11:*
-
-\[Photo]
-
-- SELECTOR/SIGNAL LINE CONNECTOR
-- 36-PIN FUNCTION MECHANISM CONNECTOR
-- BACKSPACE MECHANISM
-- FUNCTION MECHANISM
-- LINE FEED MECHANISM
-- INTERMEDIATE CASTING
-- TRIP SHAFT EXTENSION
-- MAIN SHAFT COUPLER
-- HORIZONTAL TAB SENSING CABLE
-- CABLE MOUNTING BRACKET (Not Shown)
-- SUPPORT BRACKET AND TIMER MOUNTING BRACKET
-
-(Rear View)
-
-Figure 12 - 37 Wide Platen
 
 **Temperature Ranges**
 
@@ -581,18 +438,6 @@ ELECTRICAL POWER TO THE SET AND REMOVE THE TYPING UNIT FROM ITS BASE.
   to its retracted position (a desirable condition when checking print hammer
   operation).
 
-\[Figure]
-
-- TRANSVERSE SHAFT
-- TRANSVERSE SHAFT ARM
-- RETRACTION SLIDE
-- TIE BACK RESET SLIDE
-- RESET SLIDE
-
-(Left Side View)
-
-Figure 13 - Typing Unit
-
 *Page 13:*
 
 - (b) Attach a selector armature clip (TP321071) to the back of the selector
@@ -630,25 +475,7 @@ Figure 13 - Typing Unit
   causes the code level to go spacing (there is no change in the transfer levers
   at this time).
 
-\[Figure]
-
-- ARMATURE
-- ARMATURE STOP BRACKET
-- ARMATURE CLIP
-- LIFT LEVER
-- LUBRICATOR ASSEMBLY
-
-Figure 14 - Selector Armature Clip
-
 *Page 14:*
-
-\[Figure]
-
-- SELECTOR CLUTCH DRUM
-- RESET CLAMP SCREW
-- HANDWHEEL WITH RUBBER GRIP
-
-Figure 15 - Selector With Handwheel
 
 - (c) Push back the intermediate arm latch bail by moving the auxiliary reset
   lever in the same manner as described in coding the push levers, refer to
@@ -687,45 +514,6 @@ the selector magnet pole pieces. In this stop position, the selector armature
 blocks the start lever.
 
 *Page 15:*
-
-| ●__   | ●_●  | ●●_  | ●●●  | 5 | 4 | 3 | 2 | 1 |
-| ----- | ---- | ---- | ---- | - | - | - | - | - |
-| NULL  | SP ● | @ ●  | `    |   |   |   |   |   |
-| SOH ● | !    | A    | a ●  |   |   |   |   | ● |
-| STX ● | "    | B    | b ●  |   |   |   | ● |   |
-| ETX   | # ●  | C ●  | c    |   |   |   | ● | ● |
-| EOT ● | $    | D    | d ●  |   |   | ● |   |   |
-| ENQ   | % ●  | E ●  | e    |   |   | ● |   | ● |
-| ACK   | & ●  | F ●  | f    |   |   | ● | ● |   |
-| BELL ●| '    | G    | g ●  |   |   | ● | ● | ● |
-| BS ●  | (    | H    | h ●  |   | ● |   |   |   |
-| HT    | ) ●  | I ●  | i    |   | ● |   |   | ● |
-| LF *  | * ●  | J ●  | j    |   | ● |   | ● |   |
-| VT ●  | +    | K    | k ●  |   | ● |   | ● | ● |
-| FF    | , ●  | L ●  | l    |   | ● | ● |   |   |
-| CR ●  | -    | M    | m ●  |   | ● | ● |   | ● |
-| SO ●  | .    | N    | n ●  |   | ● | ● | ● |   |
-| SI    | / ●  | O ●  | o    |   | ● | ● | ● | ● |
-| DLE ● | 0    | P    | p ●  | ● |   |   |   |   |
-| DC1   | 1 ●  | Q ●  | q    | ● |   |   |   | ● |
-| DC2   | 2 ●  | R ●  | r    | ● |   |   | ● |   |
-| DC3 ● | 3    | S    | s ●  | ● |   |   | ● | ● |
-| DC4   | 4 ●  | T ●  | t    | ● |   | ● |   |   |
-| NAK ● | 5    | U    | u ●  | ● |   | ● |   | ● |
-| SYN ● | 6    | V    | v ●  | ● |   | ● | ● |   |
-| ETB   | 7 ●  | W ●  | w    | ● |   | ● | ● | ● |
-| CAN   | 8 ●  | X ●  | x    | ● | ● |   |   |   |
-| EM ●  | 9    | Y    | y ●  | ● | ● |   |   | ● |
-| SUB ● | :    | Z    | z ●  | ● | ● |   | ● |   |
-| ESC   | ; ●  | [ ●  | {    | ● | ● |   | ● | ● |
-| FS ●  | <    | \    | \| ● | ● | ● | ● |   |   |
-| GS    | = ●  | ] ●  | }    | ● | ● | ● |   | ● |
-| RS    | > ●  | ^ ●  | ~    | ● | ● | ● | ● |   |
-| US ●  | ?    | _    | DEL ●| ● | ● | ● | ● | ● |
-
-DEL: non typing
-
-\*Where appropriate, this character may have the meaning "NEW LINE" (NL).
 
 ●Mark to obtain even parity, the characters and functions shown with shaded
 backgrounds have 8th bit marking.
@@ -880,40 +668,7 @@ Disengage selector cam sleeve from main shaft.
   by start lever whose inward movement is blocked by armature extension. Stop
   arm engages shoe lever to disengage cam sleeve from rotating clutch drum.
 
-\[Figure]
-
-- AUXILIARY RESET LEVER
-- NO. 1 PUSH LEVER
-- NO. 2 PUSH LEVER
-- NO. 3 PUSH LEVER
-- NO. 4 PUSH LEVER
-- NO. 5 PUSH LEVER
-- NO. 6 PUSH LEVER
-- NO. 7 PUSH LEVER
-- NO. 8 PUSH LEVER
-
-(Top View)
-
-Figure 17 - Selector Push Levers
-
 *Page 18:*
-
-\[Photo]
-
-- SELECTOR CLUTCH LIFT LEVER
-- ARMATURE CLIP (Installed)
-- CODEBAR CLUTCH TRIP LEVER
-- CODEBAR CLUTCH
-- PRINTING CLUTCH TRIP LEVER
-- SPACING CLUTCH TRIP LEVER
-- FUNCTION CLUTCH TRIP LEVER
-- FUNCTION CLUTCH
-- LINE FEED CLUTCH
-- RETRACTION MECHANISM
-
-(Rear View)
-
-Figure 18 - 37 Typing Unit
 
 - (5) Clutch disc latched by latchlever.
 - (6) Selector mechanism prepared to receive start (spacing) bit of subsequent
@@ -956,45 +711,7 @@ when pivoted clockwise, permits the range finder scale adjustment. Turning the
 range finder scale, mechanically adjusts the position of the stop arm, stop arm
 bail, lift lever, and cam sleeve.
 
-\[Figure]
-
-- DRUM
-- CLUTCH SHOE
-- CLUTCH SHOE LEVER
-- CLUTCH DISC
-- STOP ARM BAIL
-- START LEVER
-- RANGE FINDER
-- SELECTOR MAGNETS
-- SIGNAL LINE
-- RANGE FINDER CLAMP ARM
-- LATCHLEVER SPRING
-- DISC STOP-LUG
-- LATCHLEVER
-- STOP ARM
-- STOP ARM BAIL SPRING
-- LIFT LEVER
-- START LEVER SPRING
-- STOP ARM CAM (Part of Disc-Cam Sleeve Assembly)
-- DOWNSTOP BRACKET
-- ARMATURE
-- ARMATURE SPRING
-- CONTINUOUS ROTATIONAL MOTION ON MAIN SHAFT
-
-Figure 19 - Selector Start-Stop Operation
-
 *Page 20:*
-
-\[Figure]
-
-- PUSH LEVER RESET BAIL SPRING
-- PUSH LEVER SPRING
-- PUSH LEVER (Shown Spacing)
-- PUSH LEVER RESET BAIL
-- SELECTOR LEVEL NO. 8
-- PUSH LEVER RESET BAIL CAM (Separated From Cam Sleeve)
-
-Figure 20 - Selector Push Lever Reset
 
 View (B) - Marking Condition
 - (1) When marking impulse is received, the spacing locklever is blocked by end
@@ -1021,47 +738,7 @@ View (C) - Spacing Condition
 
 *Page 21:*
 
-\[Figure]
-
-- SPACING LOCKLEVER
-- MARKING LOCKLEVER
-- PUSH LEVER
-- SELECTOR MAGNETS
-- ARMATURE (Marking)
-- SELECTOR CAM SLEEVE
-- SELECTOR LEVER
-
-VIEW A
-
-\[Figure]
-
-- SPACING LOCKLEVER
-- ARMATURE ATTRACTED (Marking)
-
-VIEW B
-
-\[Figure]
-
-- ARMATURE RELEASED (Spacing)
-- MARKING LOCKLEVER
-
-VIEW C
-
-Figure 21 - Selector Operation
-
 *Page 22:*
-
-\[Figure]
-
-- AUXILIARY PUSH LEVER (Peculiar to Push Lever No. 1 Only)
-- PUSH LEVER NO. 1
-- TAB ON AUXILIARY PUSH LEVER
-- SELECTOR LEVER NO. 1
-- SHOULDER ON SELECTOR LEVER NO. 1 FOR AUXILIARY PUSH LEVER
-- AUXILIARY PUSH LEVER SHOWN IN STRIPPED OR SPACING CONDITION
-- AUXILIARY PUSH LEVER SHOWN MARKING
-
-Figure 22 - Selector Auxiliary Push Lever
 
 #### Auxiliary Push Lever (Figure 22)
 
@@ -1087,17 +764,6 @@ latch bail, and trip codebar clutch.
 
 *Page 23:*
 
-\[Figure]
-
-- AUXILIARY RESET LEVER
-- TAB (Resets Auxiliary Push Lever)
-- PAWL (Resets Intermediate Arm Latch Ball)
-- RETRACTION RESET LEVER
-- CODEBAR CLUTCH TRIP CAM
-- CODEBAR CLUTCH TRIP LEVER
-
-Figure 23 - Selector Trip Cam and Reset Mechanisms
-
 #### Trip Cam and Reset Mechanism (Figure 23)
 
 4.17 The codebar clutch trip cam conditions the trip and reset mechanism to
@@ -1116,24 +782,6 @@ initiate operation of codebar shift mechanism (4.19).
 *Page 24:*
 
 ### B. Transfer Mechanism
-
-\[Figure]
-
-- CODEBAR SHIFT BAR (Marking - Toward Rear)
-- CODEBAR SHIFT BAR (Spacing - Toward Front)
-- AUXILIARY RESET LEVER
-- INTERMEDIATE ARM LATCH BAIL
-- TRANSFER LEVER
-- PUSH LEVER (Marking)
-- PUSH LEVER (Spacing)
-- INTERMEDIATE ARM
-- INTERMEDIATE ARM STOP
-- INTERMEDIATE ARM LATCH BAIL
-- SELECTOR LEVER
-
-(Right Front View)
-
-Figure 24 - Transfer Mechanism
 
 4.18 The coded input from the selector levers are conveyed to the codebar shift
 mechanism through the transfer mechanism (Figure 1) by the selected positions of
@@ -1164,25 +812,6 @@ Strip Intermediate Arms
 *Page 25:*
 
 ### C. Codebar Shift Mechanism
-
-\[Figure]
-
-- CODEBAR CAM (In Mid Cycle)
-- CAM FOLLOWER LEVER
-- FOLLOWER SHAFT
-- CODEBAR
-- CODEBAR SHIFT BAR
-- REAR CODEBAR SHIFT LEVER (Positions Marking Codebar Shift-Bars)
-- FRONT CODEBAR SHIFT LEVER (Positions Spacing Codebar Shift-Bars)
-- TRANSFER LEVER
-- INTERMEDIATE ARM
-- SHIFT LEVER LINK
-- LEFT (Mark)
-- REAR (Mark)
-- FRONT (Space)
-- RIGHT (Space)
-
-Figure 25 - Codebar Shift Mechanism
 
 4.19 The purpose of the codebar shift mechanism (Figure 25) is to transfer
 mechanical positions of codebar shiftbar to codebars.
@@ -1249,25 +878,6 @@ clutch trip slide will operate when its codebar is shifted.
 
 Escape Sequence
 
-4.23 Escape sequences when received in the stunt box can give a mechanical or
-electrical output on the last character in the sequence. Sequences preferably
-should be two characters long, however three and more characters each starting
-with ESC (Escape) can be implemented. The last character in the sequence should
-be an ESC terminating character which precludes column 2 of the ASCII chart. The
-following is a list of adopted two-character ESC sequences:
-
-- ESC1 — Horizontal Tab Set
-- ESC2 — Horizontal Tab Clear
-- ESC3 — Print Red
-- ESC4 — Print Black
-- ESC5 — Vertical Tab Set
-- ESC6 — Vertical Tab Clear
-- ESC7 — Reverse Line Feed
-- ESC8 — Half-Reverse Line Feed
-- ESC9 — Half-Line Feed
-- ESC: — Full Duplex (FDX)
-- ESC; — Half-Duplex (HDX)
-
 4.24 Escape sequences are implemented in the unit in the stunt box in
 conjunction with a no. 9 and no. 10 blocking bar.
 
@@ -1306,21 +916,6 @@ have a no. 10 blocking tine to be gated by the no. 10 blocking bar.
 Figure 26 - Codebar Inputs - Horizontal Positioning
 
 *Page 28:*
-
-\[Figure]
-
-- CODEBAR SHIFT LEVER
-- CODEBAR SHIFTBAR (Marking)
-- CODEBAR SHIFTBAR (Spacing)
-- CODEBAR SHIFT LEVER
-- TRANSFER LEVELS
-- GUIDE BRACKET
-- SHIFT LEVER
-- MOUNTING SCREWS
-
-(Front View)
-
-Figure 27 - Codebar Positioning Mechanism
 
 4.28 After second character of the sequence following escape has been selected,
 the escape function lever is unlatched by the stunt box stripper blade which
@@ -1545,24 +1140,6 @@ Figure 28 - 8-Row Typebox Arrangement
 
 *Page 30:*
 
-\[Figure]
-
-- LEFT PULLEY
-- TYPEBOX RAIL
-- LEFT HAND BEARING STUD
-- UPPER LEFT BALL BEARING ROLLER
-- ASSEMBLY SCREW AND NUT
-- PALLETS
-- TYPEBOX
-- PRINT HAMMER
-- TYPEBOX CARRIAGE DRAW ROPE
-- OSCILLATING RAIL
-- SHOULDER SCREW, LOCKWASHER, AND NUT
-
-(Left Front View)
-
-Figure 29 - Typebox, Typebox Carriage and Oscillating Rail
-
 *Page 31:*
 
 ### G. Horizontal Positioning
@@ -1631,57 +1208,6 @@ should not be permitted to exist for more than a few printer cycles.
 
 *Page 32:*
 
-\[Figure]
-
-- OSCILLATING RAIL
-- STOP LUG
-- DRIVE LINK
-- CLUTCH SHOE LEVER
-- LATCH LEVER
-- CLUTCH DISC
-- CLUTCH DRUM AND GEAR ASSEMBLY
-- CODE LEVEL 4
-- CLUTCH STOP SLIDE
-- CODE LEVEL 1
-- LATCHLEVER
-- CODE LEVEL 2
-- CODE LEVEL 3
-- IDLER GEAR
-- SHAFT
-- COUPLER (Extends continuous rotational motion to the keyboard reset mechanism)
-- ECCENTRIC
-
-(Front Left View - Front Plat Removed)
-
-Figure 31 - Horizontal Positioning Mechanism
-
-Operation
-
-Binary input of mark or space, positions each drive link toward left or right of
-pivot points, respectively. Collective positions of drive links provide one of
-sixteen possible output positions.
-
-\[Figure]
-
-- TYPEBOX
-- AGGREGATE MOTION LEVER
-- SECONDARY LEVER
-- PIVOT POINT OF CLUTCH DISC, SHAFT, AND ECCENTRIC
-- CODE LEVEL 4 (Shown Spacing) SHIFTS OUTPUT 2 UNITS
-- PRIMARY LEVER
-- DRIVE LINK
-- CODE LEVEL 1 (Shown Marking) SHIFTS OUTPUT 8 UNITS
-- CODE LEVEL 2 (Shown Spacing) SHIFTS OUTPUT 4 UNITS
-- CODE LEVEL 3 (Shown Spacing) SHIFTS OUTPUT 1 UNIT
-
-<u>Note</u> 1: The code levels shown (pivot points and eccentrics) in the
-spacing position except code level 1, which is marking.
-
-<u>Note</u> 2: The leverage distances of primary, secondary, and aggregate
-motion lever are equal.
-
-Figure 32 - Horizontal Positioning Mechanism Linkage Schematic
-
 *Page 34:*
 
 Operation
@@ -1690,16 +1216,6 @@ View as shown is a stop condition. As oscillating rail is driven to left or
 right, it will pivot oscillating arm which in turn will rotate the horizontal
 dampener detent disc. When printing clutch trips, the detent arm will move up it
 will allow detent lever to move into horizontal dampener detent disc.
-
-\[Figure]
-
-- OSCILLATING RAIL
-- HORIZONTAL DAMPENER DETENT DISC
-- OSCILLATING ARM
-- DETENT LEVER
-- DETENT ARM
-
-Figure 33 - Horizontal Dampener Mechanism
 
 ### I. Vertical Positioning
 
@@ -1716,31 +1232,6 @@ rail and the machine center line.
 
 *Page 35:*
 
-\[Figure]
-
-- CODE LEVEL 7
-- CODE LEVEL 6
-- CODE LEVEL 5
-
-(Left Side View)
-
-Figure 34 - Vertical Positioning Mechanism
-
-\[Figure]
-
-- TYPEBOX
-- PRIMARY LEVER
-- AGGREGATE MOTION LEVER
-- DRIVE LINK
-- ECCENTRIC
-- PIVOT POINT OF CLUTCH DISC, SHAFT, AND ECCENTRIC
-- CODE LEVEL 7 SHIFTS OUTPUT 2 UNITS
-- CODE LEVEL 6 SHIFTS OUTPUT 4 UNITS
-- CODE LEVEL 5 SHIFTS OUTPUT 1 UNIT
-
-Figure 35 - Vertical Positioning Mechanism Linkage Schematic (All Levels Shown
-are Spacing)
-
 *Page 36:*
 
 ### J. Vertical Dampening
@@ -1755,18 +1246,6 @@ follower rides high portion of dampener cam, rotating dampener shaft
 counterclockwise. As dampener shaft rotates, a spring connected from the detent
 arm to the detent lever, causes the detent lever roller to move into the
 vertical dampening detent disc.
-
-\[Figure]
-
-- VERTICAL DAMPENING DETENT DISC
-- DETENT SHAFT
-- DETENT LEVER ROLLER
-- DETENT LEVER
-- DETENT ARM
-- DAMPENER CAM
-- DAMPENER CAM FOLLOWER
-
-Figure 36 - Vertical Dampening
 
 *Page 37:*
 
@@ -1793,19 +1272,6 @@ follower arm mounted on the print hammer clutch. The movement of the trip shaft
 is a clockwise or counterclockwise pivoting action which is caused by the trip
 shaft cam follower mounted to the trip shaft, refer to Figure 37.
 
-\[Figure]
-
-- SUPPRESSION LATCH
-- TRIP SHAFT CAM FOLLOWER
-- SUPPRESSION BAIL
-- TRIP SHAFT CAM
-- PRINT HAMMER CLUTCH TRIP LEVER
-- TRIP SHAFT
-- SPACING CLUTCH TRIP CAM
-- FUNCTION CLUTCH TRIP LEVER
-
-Figure 37 - Trip Shaft Mechanism
-
 *Page 38:*
 
 Engage Function Clutch
@@ -1817,15 +1283,6 @@ clutch trip arm pivots, engaging a post on the intermediate lever, causing the
 function clutch trip lever to move out of engagement with the function clutch
 shoe lever engaging the function clutch.
 
-\[Figure]
-
-- FUNCTION CLUTCH TRIP ARM
-- POST
-- INTERMEDIATE LEVER
-- FUNCTION CLUTCH TRIP LEVER
-
-Figure 38 - Function Trip Mechanism
-
 Engage Print Hammer Clutch
 
 4.40 The trip shaft continues to rotate (Figure 39, the trip shaft cam follower
@@ -1833,13 +1290,6 @@ rides into a low portion of the cam, pivoting the trip shaft in a clockwise
 direction. This movement causes the print hammer clutch trip arm to engage the
 print hammer clutch trip lever, and moves it out of engagement with the print
 hammer clutch shoe lever, operating the print hammer clutch.
-
-\[Figure]
-
-- PRINT HAMMER CLUTCH TRIP ARM
-- PRINT HAMMER CLUTCH TRIP LEVER
-
-Figure 39 - Print Hammer Trip Mechanism
 
 *Page 39:*
 
@@ -1859,29 +1309,6 @@ function box moves the suppression bail in contact with the suppression slide
 post on the cam follower holding the trip shaft cam follower away from the trip
 shaft cam. This operation prevents the trip shaft from pivoting, thus,
 inhibiting the print hammer clutch and spacing clutch from engaging.
-
-\[Figure]
-
-- SPACING CLUTCH TRIP CAM
-- SPACING CLUTCH CAM FOLLOWER ARM
-- SPACING CLUTCH TRIP LEVER
-
-Figure 40 - Spacing Clutch Trip Mechanism
-
-\[Figure]
-
-- SUPPRESSION BAIL
-- TOE
-- FUNCTION LEVER
-- SUPPRESSION SLIDE
-- SUPPRESSION LATCH
-- CAM FOLLOWER POST
-- TRIP SHAFT CAM FOLLOWER
-- TRIP SHAFT CAM
-- MAIN SHAFT
-- TRIP SHAFT
-
-Figure 41 - Print and Space Suppression Mechanism
 
 *Page 40:*
 
@@ -1935,20 +1362,6 @@ rotates counterclockwise, the reset plate will rotate counterclockwise, pivoting
 the latchlever clockwise. This releases accelerating lever and hammer lever to
 move forward, driving print hammer forward.
 
-\[Figure]
-
-- PRINT HAMMER
-- ACCELERATING LEVER
-- LATCHLEVER
-- SQUARE SHAFT
-- HAMMER LEVER
-- RESET PLATE
-- TRACKING GUIDE
-
-(Left Side View)
-
-Figure 42 - Print Hammer Mechanism
-
 *Page 41:*
 
 Printing Drive Mechanism
@@ -1963,19 +1376,6 @@ counterclockwise. As square shaft pivots counterclockwise, it loads and latches
 the print hammer mechanism and feeds the ribbon. As print hammer cam follower
 rides low portion of print hammer cam, it will cause square shaft to rotate
 clockwise tripping print hammer mechanism.
-
-\[Figure]
-
-- SQUARE SHAFT
-- PRINT HAMMER CAM
-- DRIVE LINK
-- DRIVE SHAFT
-- PRINT HAMMER CAM FOLLOWER
-- DRIVE ARM
-
-(Right Side View)
-
-Figure 43 - Printing Drive Mechanism
 
 *Page 42:*
 
@@ -1997,21 +1397,6 @@ amount of the ratchet tooth.
 4.48 A cam on the print hammer clutch trips the spacing clutch through a bail
 which pivots on the trip shaft. This cam is designed so as to allow spacing to
 occur after the character has been printed.
-
-\[Figure]
-
-- BLOCKING PAWL
-- SPACING FEED PAWLS
-- RELEASE LINK
-- RATCHET
-- SPACING DRUM
-- SPACING SHAFT
-- CARRIAGE RETURN LATCH
-- STOP RING
-
-(Front View)
-
-Figure 44 - Spacing Mechanism
 
 ### N. Backspace Mechanism
 
@@ -2071,17 +1456,6 @@ movement of the spacing drum one space which is determined by the spacing pawls
 in relation to the ratchet with lower spacing pawl being kept away from the
 ratchet by the blocking lever during its upward movement, refer to Figure 45.
 
-\[Figure]
-
-- INNER SPACING PAWL
-- OUTER SPACING PAWL
-- BLOCKING LEVER
-- LATCHLEVER
-- BACKSPACE BAIL EXTENSION
-- SPACING DRUM
-
-Figure 45 - 37 Wide Platen Backspace
-
 *Page 44:*
 
 ### O. Retraction Mechanism
@@ -2110,18 +1484,6 @@ vertical positioning clutch control linkage and clutch remain in a spacing
 condition thereby leaving the typebox retracted until normal positioning of the
 typebox takes over.
 
-\[Figure]
-
-- TRANSVERSE SHAFT
-- ARM
-- CAM FOLLOWER
-- SELECTOR TRIP CAM
-- SLIDE
-- RATCHET
-- BLOCKING PAWL (Check Pawl)
-
-Figure 46 - Retraction Mechanism Connecting Linkage
-
 *Page 45:*
 
 Operation
@@ -2144,21 +1506,6 @@ from ratchet. As eccentric gear rotates, a pin attached to it will cause
 latchlever to rotate counterclockwise releasing feed pawl to come back in
 engagement with ratchet.
 
-\[Figure]
-
-- RETRACTION SLIDE
-- BELL CRANK
-- TRIP PLATE
-- RATCHET
-- LATCHLEVER
-- PIN
-- ECCENTRIC CAM
-- FEED PAWL CAM FOLLOWER
-- FEED PAWL
-- BLOCKING PAWL (Check Pawl)
-
-Figure 47 - Retraction Mechanism
-
 *Page 46:*
 
 ### P. Function Box and Function Box Drive Mechanism
@@ -2170,43 +1517,7 @@ from the bottom to the top. This numbering corresponds to the number of the
 codebars mentioned in 4.20 of this section. Refer to Figure 60 for function bar
 coding.
 
-\[Figure]
-
-- FUNCTION PAWL(S)
-- FUNCTION BAR SLOT(S)
-- STRIPPER BLADE
-- FUNCTION BARS
-
-(Front Top View)
-
-Figure 48 - Function Box and Stripper Blade Mechanism
-
-\[Figure]
-
-- CODEBARS
-- FUNCTION BOX
-- STRIPPER BLADE
-
-(Left Rear View)
-
-Figure 49 - Stripper Blade, Function Box, and Codebars
-
 *Page 47:*
-
-\[Figure]
-
-- DRIVE ARMS
-- STRIPPER BLADE
-- CAMMING SHAFT
-- DRIVE LINK
-- STRIPPER BLADE CAM FOLLOWER
-- LOWER ROLLER
-- UPPER ROLLER
-- STRIPPER BLADE CAM
-
-(Rear View)
-
-Figure 50 - Stripper Blade Mechanism
 
 Operation
 
@@ -2232,50 +1543,7 @@ The shaft upon which the guide control arm rides is oscillated by a linkage
 controlled from the print hammer clutch. Immediately after the character has
 been the ribbon is lowered to allow full view of the entire printed line.
 
-\[Figure]
-
-- RIBBON GUIDE
-- POSITION OF RIBBON WHEN TYPING RED
-- POSITION OF RIBBON WHEN TYPING BLACK
-- PLATEN
-- RIBBON RETRACTED
-- BAIL
-
-(Right Side View)
-
-\[Figure]
-
-- VERTICAL POSITIONING RACK
-- SIDE FRAME (Left)
-- RIBBON
-- RIBBON GUIDE
-- PALLETS
-- PRINTER PAPER
-- GUIDE RAIL
-- TIE BRACKET
-- INDICATOR SLIDE
-- BAIL
-
-(Front View)
-
-Figure 51 - Ribbon Positioning Mechanism
-
 *Page 49:*
-
-\[Figure]
-
-- RIBBON GUIDE
-- RIBBON
-- PRINTING SHAFT
-- MAGNET
-- BLOCKING SLIDE (Late Design)
-- TRANSFER LINK
-- CAM
-- FOLLOWER LINE
-
-(Right Side View)
-
-Figure 52 - Two-Color Printing Mechanism
 
 *Page 50:*
 
@@ -2354,70 +1622,7 @@ rotating the left reversing lever clockwise, moving the left feed pawl and left
 check pawl out of engagement with the left ribbon ratchet. The right feed pawl
 is now doing the feeding.
 
-\[Figure]
-
-- RIBBON SPOOL
-- RATCHET
-- SQUARE SHAFT
-- SINTERED BEARING BRACKET
-- FEED PAWL DRIVE CLAMP
-- RIBBON ROLLER
-- DRIVE SHAFT LINK CLAMP
-- RIBBON FEED MAIN BRACKET
-
-(Right Front View)
-
-\[Figure]
-
-- LEFT CHECK PAWL
-- LEFT REVERSING LEVER
-- LEFT FEED PAWL
-- LEFT FEED PAWL EXTENSION
-- LEFT CONNECTING ROD
-- LOCKNUT
-- RATCHET
-- TURNBUCKLE
-- DETENT LEVER
-- RIGHT FEED PAWL EXTENSION
-- RIGHT CHECK PAWL
-
-(Top View)
-
-Figure 53 - Ribbon Feeding and Reversing Mechanism
-
 *Page 52:*
-
-\[Figure]
-
-- LEFT FEED PAWL EXTENSION
-- SPRING BAIL
-- SPOOL SHAFT
-- RATCHET
-- LEFT CHECK PAWL
-- LEFT FEED PAWL
-
-\[Figure]
-
-- LEFT GUIDE LEVER
-- LEFT RIBBON FEED MAIN BRACKET
-
-\[Figure]
-
-- REVERSING EYELET
-- RIBBON
-- RIGHT GUIDE LEVER
-- RIGHT BLOCKING LEVER
-- DETENT LEVER
-- RIGHT FEED PAWL
-- RIGHT CHECK PAWL
-- RIGHT REVERSING LEVER
-- RIGHT DRIVE BAIL
-- RIGHT DRIVE LINK
-- FEED PAWL DRIVE CLAMP
-- SQUARE SHAFT
-- LEFT REVERSING LEVER
-
-Figure 54 - Ribbon Feeding and Reversing Operation
 
 *Page 53:*
 
@@ -2450,17 +1655,6 @@ carriage return by shifting and locking the no. 9 suppression codebar in the
 marking position. The Escape sequences such as tab set and tab clear are
 accomplished by preventing the noo 10 codebar from being latched in the marking
 position for one function selection following the code combination Escape.
-
-\[Figure]
-
-- BAIL AND LATCH (Hidden Behind Drive Link and Bracket)
-- ARMATURE
-- MAGNET
-- PRINT, SPACE, AND FUNCTION SUPPRESSION MECHANISM
-
-(Left Rear View)
-
-Figure 55 - 37 Typing Unit
 
 *Page 54:*
 
@@ -2534,20 +1728,6 @@ the carriage return bail to be released permitting the feed pawls to engage the
 spacing drum.
 
 *Page 55:*
-
-\[Figure]
-
-- REAR SPACING CABLE
-- COORDINATING CABLE
-- FRONT SPACING CABLE
-- TENSION SPRING
-- RATCHET LEVER
-- CAM PLATE
-- SPRING DRUM
-
-(Left Front View)
-
-Figure 56 - Carriage Return Mechanism
 
 ### U. Line Feed Mechanism
 
@@ -2631,17 +1811,6 @@ and are described as follows:
   (blocking) the function bar from sensing the codebars. The form-feed becomes
   operable only after sending a line feed or vertical tabulation to cause the
   tab wheel to advance one or more positions.
-
-\[Figure]
-
-- FORM-FEED STOP
-- VERTICAL TAB-STOP
-- SET POSITION
-- CLEARED POSITION
-- FORM-FEED STOP
-- HANDWHEEL
-
-Figure 57 - Vertical Tab-Stop and Form-Feed Positioning
 
 *Page 57:*
 
@@ -2814,14 +1983,6 @@ time to stop the line feed clutch after one-sixth of a revolution.
 
 (Top View)
 
-\[Figure]
-
-- FUNCTION PAWLS
-- PRESTRIPPER
-- STRIPPER BLADE
-
-(Rear View)
-
 Figure 58 - Function Box for Half-Forward and Reverse Line Feed Mechanism
 
 4.83 Each one-sixth revolution of the line feed clutch causes its attached gear
@@ -2846,28 +2007,6 @@ low position stays in engagement with the platen gear during its movement to the
 high position, thus causing a reversing action of the platen.
 
 *Page 60:*
-
-\[Figure]
-
-- BLOCKING ROLLER
-- LINE FEED CLUTCH
-- CLUTCH TRIP LEVER
-- TRIP ARM
-- SLIDE (Forward)
-- FUNCTION LEVER
-- CLUTCH TRIP BAIL
-- LINE FEED BARS
-- PLATEN GEAR
-- PLATEN
-- LINE FEED BAR LEVER
-- ROLLER
-- ECCENTRICS
-- SLIDE ARM (Reverse)
-- BAIL
-- LINK
-- BLOCKING LEVER
-
-Figure 59 - Half-Forward and Reverse Line Feed Mechanism
 
 *Page 61:*
 
@@ -2904,168 +2043,10 @@ return line feed function bars.
 4.90 Function bars which are used to control the position of the blocking bars
 must have both tines removed for the level that they control.
 
-## 5. REFERENCES
-
-5.01 The following sectionalized literature pertains to the late design Model 37
-typing and keyboard units:
-
-|                                                        | NUMBER      |
-| ------------------------------------------------------ | ----------- |
-| **TYPING UNIT**                                        |             |
-| Adjustments                                            | 574-320-703 |
-| Lubrication                                            | 574-320-704 |
-| Disassembly and Reassembly                             | 574-320-705 |
-| Parts                                                  | 574-320-801 |
-| **KEYBOARD UNIT**                                      |             |
-| Description and Principles of Operation                | 574-321-101 |
-| Adjustments                                            | 574-321-703 |
-| Lubrication                                            | 574-321-704 |
-| Disassembly and Reassembly                             | 574-321-705 |
-| Parts                                                  | 574-321-801 |
-| **BASE UNIT**                                          |             |
-| Description and Operation, Adjustments and Lubrication | 574-331-100 |
-| Parts                                                  | 574-331-800 |
-| **WIRING DIAGRAMS**                                    |             |
-| Typing Unit — Actual and Schematic                     | 7855WD      |
-| Typing Unit Function Box                               | 7860WD      |
-| Typing Unit 85/86 System                               | 7863WD      |
-
 *Page 62:*
-
-|        | LEAVE SPACING TINE (Note 1) |
-| ------ | --------------------------- |
-| NUL    | 1·2·3·4·5·6·7·8 |
-| SOH    | 2·3·4·5·6·7     |
-| STX    | 1·3·4·5·6·7     |
-| ETX    | 3·4·5·6·7·8     |
-| EOT    | 1·2·4·5·6·7     |
-| ENQ    | 2·4·5·6·7·8     |
-| ACK    | 1·4·5·6·7·8     |
-| BEL    | 4·5·6·7         |
-| BS     | 1·2·3·5·6·7     |
-| HT     | 2·3·5·6·7·8     |
-| LF     | 1·3·5·6·7·8     |
-| VT     | 3·5·6·7         |
-| FF     | 1·2·5·6·7·8     |
-| CR     | 2·5·6·7         |
-| SO     | 1·5·6·7         |
-| SI     | 5·6·7·8         |
-| DLE    | 1·2·3·4·6·7     |
-| DC1    | 2·3·4·6·7·8     |
-| DC2    | 1·3·4·6·7·8     |
-| DC3    | 3·4·6·7         |
-| DC4    | 1·2·4·6·7·8     |
-| NAK    | 2·4·6·7         |
-| SYN    | 1·4·6·7         |
-| ETB    | 4·6·7·8         |
-| CAN    | 1·2·3·6·7·8     |
-| EM     | 2·3·6·7         |
-| SUB    | 1·3·6·7         |
-| ESC    | 3·6·7·8         |
-| FS     | 1·2·6·7         |
-| GS     | 2·6·7·8         |
-| RS     | 1·6·7·8         |
-| US     | 6·7             |
-| SPACE  | 1·2·3·4·5·7     |
-| !      | 2·3·4·5·7·8     |
-| "      | 1·3·4·5·7·8     |
-| #      | 3·4·5·7         |
-| $      | 1·2·4·5·7·8     |
-| %      | 2·4·5·7         |
-| &      | 1·4·5·7         |
-| (APOS) | 4·5·7·8         |
-| (      | 1·2·3·5·7·8     |
-| )      | 2·3·5·7         |
-| *      | 1·3·5·7         |
-| +      | 3·5·7·8         |
-| ,      | 1·2·5·7         |
-| -      | 2·5·7·8         |
-| .      | 1·5·7·8         |
-| /      | 5·7             |
-| 0      | 1·2·3·4·7·8     |
-| 1      | 2·3·4·7         |
-| 2      | 1·3·4·7         |
-| 3      | 3·4·7·8         |
-| 4      | 1·2·4·7         |
-| 5      | 2·4·7·8         |
-| 6      | 1·4·7·8         |
-| 7      | 4·7             |
-| 8      | 1·2·3·7         |
-| 9      | 2·3·7·8         |
-| :      | 1·3·7·8         |
-| ;      | 3·7             |
-| <      | 1·2·7·8         |
-| =      | 2·7             |
-| >      | 1·7             |
-| ?      | 7·8             |
-| @      | 1·2·3·4·5·6     |
-| A      | 2·3·4·5·6·8     |
-| B      | 1·3·4·5·6·8     |
-| C      | 3·4·5·6         |
-| D      | 1·2·4·5·6·8     |
-| E      | 2·4·5·6         |
-| F      | 1·4·5·6         |
-| G      | 4·5·6·8         |
-| H      | 1·2·3·5·6·8     |
-| I      | 2·3·5·6         |
-| J      | 1·3·5·6         |
-| K      | 3·5·6·8         |
-| L      | 1·2·5·6         |
-| M      | 2·5·6·8         |
-| N      | 1·5·6·8         |
-| O      | 5·6             |
-| P      | 1·2·3·4·6·8     |
-| Q      | 2·3·4·6         |
-| R      | 1·3·4·6         |
-| S      | 3·4·6·8         |
-| T      | 1·2·4·6         |
-| U      | 2·4·6·8         |
-| V      | 1·4·6·8         |
-| W      | 4·6             |
-| X      | 1·2·3·6         |
-| Y      | 2·3·6·8         |
-| Z      | 1·3·6·8         |
-| [      | 3·6             |
-| \      | 1·2·6·8         |
-| ]      | 2·6             |
-| ^      | 1·6             |
-| _      | 6·8             |
-| `      | 1·2·3·4·5·8     |
-| a      | 2·3·4·5         |
-| b      | 1·3·4·5         |
-| c      | 3·4·5·8         |
-| d      | 1·2·4·5         |
-| e      | 2·4·5·8         |
-| f      | 1·4·5·8         |
-| g      | 4·5             |
-| h      | 1·2·3·5         |
-| i      | 2·3·5·8         |
-| j      | 1·3·5·8         |
-| k      | 3·5             |
-| l      | 1·2·5·8         |
-| m      | 2·5             |
-| n      | 1·5             |
-| o      | 5·8             |
-| p      | 1·2·3·4         |
-| q      | 2·3·4·8         |
-| r      | 1·3·4·8         |
-| s      | 3·4             |
-| t      | 1·2·4·8         |
-| u      | 2·4             |
-| v      | 1·4             |
-| w      | 4·8             |
-| x      | 1·2·3·8         |
-| y      | 2·3             |
-| z      | 1·3             |
-| {      | 3·8             |
-| \|     | 1·2             |
-| }      | 2·8             |
-| ~      | 1·8             |
-| DEL    | NONE            |
 
 \[Figure]
 
-- MARKING SPACING
 - 11 BLOCKING BAR
 - 10 " "
 - 9 " "
@@ -3077,15 +2058,6 @@ typing and keyboard units:
 - 3 " "
 - 2 " "
 - 1 CODEBAR
-
-<u>Note 1:</u> One tine must be removed for each code level. Remove marking tine
-(leave spacing tine) for the levels indicated on the chart. Remove spacing tine
-(leave marking tine) for the levels not shown on the chart. See drawings on
-table following.
-
-<u>Note 2:</u> Universal function bars TP326076 (11 tines) and TP196342 (9
-tines) can be coded with any function. Note 3: For coding number 9, 10, and 11
-blocking bars, refer to table of function bar configurations.
 
 Figure 60 - Function Bar Code Chart (Even Parity)
 
@@ -3136,23 +2108,6 @@ to the right the two bails are coupled by the post on the shift-out slide and
 the typing unit is in the normal printing condition; which permits printing and
 spacing on lower case characters.
 
-\[Figure]
-
-- NO. 7 CLUTCH TRIP LINK POST
-- NO. 7 CODEBAR BAIL
-- SHIFT-OUT SLIDE
-- LEFT SIDE FRAME
-- FUNCTION BOX SLIDE
-- FUNCTION LEVER (Slot No. 30)
-- SHIFT FORK MECHANISM
-- POST (Part of Shift-Out Slide)
-- APERTURE
-- NO. 7 CODEBAR BAIL WITH PLATE
-
-(Top View - Left Front)
-
-Figure 61 - Shift-Out Mechanism Operated
-
 *Page 64:*
 
 ### B. Visual Aid With Graphic Extension
@@ -3198,14 +2153,6 @@ protection circuitry suited to the designed load. These are mechanical contacts
 and bounce can occur; therefore, associated circuitry should be designed
 accordingly.
 
-\[Figure]
-
-- FRONT COVER
-- HOLDER
-- OVERLAY
-
-Figure 62 - Visual Aid Modification Kit
-
 *Page 65:*
 
 \[Figure]
@@ -3213,83 +2160,4 @@ Figure 62 - Visual Aid Modification Kit
 - OVERLAY
 - OVERLAY WITH ADDED GRAPHICS
 
-Figure 63 - Visual Aid Overlay
-
-- CLUTCH DISC
-- COVER
-- CONTACTS
-- PLUNGER
-- CONTACT MECHANISM
-- OPERATING LEVER
-
-(Right Side View)
-
-Figure 64 - Selector Mechanism With Character Received Contacts
-
 *Pages 66–68:*
-
-TABLE OF FUNCTION BAR CONFIGURATIONS
-
-|                                   | 11| 10| 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | Levels |
-| --------------------------------- | - | - | - | - | - | - | - | - | - | - | - | ------ |
-| NUL                               | - | - | - | S | S | S | S | S | S | S | S | 8  |
-| SOH                               | - | - | - | M | S | S | S | S | S | S | M | 8  |
-| STX                               | - | - | - | M | S | S | S | S | S | M | S | 8  |
-| SYN                               | - | - | - | M | S | S | M | S | M | M | S | 8  |
-| ETB                               | - | - | - | S | S | S | M | S | M | M | M | 8  |
-| CAN                               | - | - | - | S | S | S | M | M | S | S | S | 8  |
-| EM                                | - | - | - | M | S | S | M | M | S | S | M | 8  |
-| SUB                               | - | - | - | M | S | S | M | M | S | M | S | 8  |
-| FS                                | - | - | - | M | S | S | M | M | M | S | S | 8  |
-| GS                                | - | - | - | S | S | S | M | M | M | S | M | 8  |
-| RS                                | - | - | - | S | S | S | M | M | M | M | S | 8  |
-| US                                | - | - | - | M | S | S | M | M | M | M | M | 8  |
-| NEW LINE (LF & VT)                | - | - | S |   | S | S | S | M | S | M |   | 9  |
-| ESC                               | - | - |   | S | S | S | M | M | S | M | M | 9  |
-| ESC HOLD                          | - | - | M |   | S | M | S |   |   |   |   | 9  |
-| ESC TERMINATE                     | - | - | M |   |   |   |   |   |   |   |   | 9  |
-| ETX                               | - | - | S | S | S | S | S | S | S | M | M | 9  |
-| EOT                               | - | - | S | M | S | S | S | S | M | S | S | 9  |
-| ENQ                               | - | - | S | S | S | S | S | S | M | S | M | 9  |
-| ACK                               | - | - | S | S | S | S | S | S | M | M | S | 9  |
-| BEL                               | - | - | S | M | S | S | S | S | M | M | M | 9  |
-| BS                                | - | - | S | M | S | S | S | M | S | S | S | 9  |
-| HT                                | - | - | S | S | S | S | S | M | S | S | M | 9  |
-| LF                                | - | - | S | S | S | S | S | M | S | M | S | 9  |
-| VT                                | - | - | S | M | S | S | S | M | S | M | M | 9  |
-| FF                                | - | - | S | S | S | S | S | M | M | S | S | 9  |
-| CR                                | - | - | S | M | S | S | S | M | M | S | M | 9  |
-| SO                                | - | - | S | M | S | S | S | M | M | M | S | 9  |
-| SI                                | - | - | S | S | S | S | S | M | M | M | M | 9  |
-| DLE                               | - | - | S | M | S | S | M | S | S | S | S | 9  |
-| DC1                               | - | - | S | S | S | S | M | S | S | S | M | 9  |
-| DC2                               | - | - | S | S | S | S | M | S | S | M | S | 9  |
-| DC3                               | - | - | S | M | S | S | M | S | S | M | M | 9  |
-| DC4                               | - | - | S | S | S | S | M | S | M | S | S | 9  |
-| NAK                               | - | - | S | M | S | S | M | S | M | S | M | 9  |
-| PRINT & SPACE SUPPRESS FUNCTION   | - | - | S |   | S | S |   |   |   |   |   | 9  |
-| CR & FF                           | - | - | S |   | S | S | S | M | M | S |   | 9  |
-| PRINT & SUPPRESS SHIFT-OUT        | - | - |   |   | M | M |   |   |   |   |   | 9  |
-| PRINT SUPPRESS NO. 1              | - | - | S |   | S | M |   |   |   |   |   | 9  |
-| PRINT SUPPRESS NO. 2              | - | - | S |   | M |   |   |   |   |   |   | 9  |
-| CR & FF (SPECIAL)                 | - | - |   |   | S | S | S | M | M | S |   | 9  |
-| LF & VT (SPECIAL)                 | - | - |   |   | S | S | S | M | S | M |   | 9  |
-| TILDE (OVERSCORE)                 | - | - | S |   | M | M | M | M | M | M | S | 9  |
-| HYPHEN (TIME)                     | - | - | S |   | S | M | S | M | M | S | M | 9  |
-| PRINT & SPACE SUPPRESS DELETE     | - | - |   | M | M | M | M | M | M | M | M | 9  |
-| BLACK                             |   | S | M | M | S | M | M | S | M | S | S | 11 |
-| RED                               |   | S | M | S | S | M | M | S | S | M | M | 11 |
-| HORIZ TAB SET                     |   | S | M | M | S | M | M | S | S | S | M | 11 |
-| HORIZ TAB CLEAR                   |   | S | M | M | S | M | M | S | S | M | S | 11 |
-| VERT TAB SET                      |   | S | M | S | S | M | M | S | M | S | M | 11 |
-| VERT TAB CLEAR                    |   | S | M | S | S | M | M | S | M | M | S | 11 |
-| REVERSE LINE FEED                 |   | S | M | M | S | M | M | S | M | M | M | 11 |
-| HALF REVERSE LINE FEED            |   | S | M | M | S | M | M | M | S | S | S | 11 |
-| HALF LINE FEED                    |   | S | M | S | S | M | M | M | S | S | M | 11 |
-| HALF DUPLEX                       |   | S | M | M | S | M | M | M | S | M | M | 11 |
-| FULL DUPLEX                       |   | S | M | S | S | M | M | M | S | M | S | 11 |
-| PRINT SUPPRESS (ESCAPE ^)         |   | S | M | M | M | S | M | M | M | M | S | 11 |
-| PRINT SUPPRESS DISABLE (ESCAPE \) |   | S | M | S | M | S | M | M | M | S | S | 11 |
-| AUTO CR & LF (SEE Note)           | S | * | * | * | * | * | * | * | * | * | * | 11 |
-
-\*<u>Note</u>: Remove tines where applicable.

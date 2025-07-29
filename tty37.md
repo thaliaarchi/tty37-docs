@@ -32,7 +32,21 @@ Questions:
 Generates all 128 ASCII characters with even parity (standard feature).
 \[Gen301 2.02]\[Gen304 2.02]
 
+Question: Are other parities possible, via customizing the function bar coding?
+
 ## Escape sequences
+
+Escape sequences when received in the stunt box can give a mechanical or
+electrical output on the last character in the sequence. Sequences preferably
+should be two characters long, however three and more characters each starting
+with ESC (Escape) can be implemented. The last character in the sequence should
+be an ESC terminating character which precludes column 2 of the ASCII chart.
+\[Type 4.23]
+
+Question: What is an ESC terminating character? Does it refer to the “ESC
+Terminate” function bar, which has only marking level 9? With spacing level 10
+and the appropriate ASCII character, it produces the escape sequence function
+bars.
 
 \[Type 4.23]\[Catalog p10]
 
@@ -115,7 +129,7 @@ TABLE
 
 DELETE FILL CHARACTERS FOR CONTROL FUNCTIONS
 
-| FUNCTIONS                 | STD UNITS | WIDE PLATEN |
+| Functions                 | Std units | Wide platen |
 | ------------------------- | --------- | ----------- |
 | Carriage Return           | 2         | 3           |
 | New Line                  | 2         | 3           |
@@ -178,6 +192,9 @@ Figure 63 - Visual Aid Overlay
 Note: This shows the Greek symbols.
 
 ## Typebox
+
+The typebox is attached to a rail which moves horizontally and vertically to
+position it. \[Type 4.31–4.33, 4.35]
 
 ASCII characters with their locations in an 8-row typebox (column Coord) and
 three systems for describing function bar configurations (column Marking, column
@@ -250,6 +267,7 @@ Function Bar Configurations.
 > <u>Note 2:</u> Universal function bars TP326076 (11 tines) and TP196342 (9
 > tines) can be coded with any function. Note 3: For coding number 9, 10, and 11
 > blocking bars, refer to table of function bar configurations.
+> \[Type figure 60]
 
 TODO: Note whether high bits are in each function bar from the figures.
 
@@ -384,10 +402,14 @@ TODO: Note whether high bits are in each function bar from the figures.
 | ~     |      | 1111110 | 0 | 7,15  | `_234567_` | 1·8             | - | - | - | S | M | M | M | M | M | M | S | 8?     | A?    |
 | DEL   | DE   | 1111111 | 1 | 7,7   | `12345678` | NONE            | - | - |   | M | M | M | M | M | M | M | M | 9      | A     |
 
-Other function bar configurations: \[Type p66–68]
+- “Where appropriate, \[LF] may have the meaning ‘NEW LINE’ (NL)”
+  \[Type figure 16]
+- DEL is non-typing \[Type figure 16]
 
-Note that “Print and Space Suppress Function” is identical to “DEL” and is
-represented in both tables.
+Note that “Print and Space Suppress Function” has the same function bar
+configuration as DEL and is represented in both tables.
+
+Other function bar configurations: \[Type p66–68]
 
 | Name                              | 11| 10| 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | Levels | Derivation   |
 | --------------------------------- | - | - | - | - | - | - | - | - | - | - | - | ------ | ------------ |
@@ -608,84 +630,93 @@ TODO:
 Referrers:
 1. \[Gen301 5.01] (574-301-100)
 2. \[Gen304 5.01] (574-304-100)
-3. \[PartsIndex]
+3. \[Type 5.01] (574-320-101)
+4. \[PartsIndex] (1209B)
 
-| Number        | Component                                | Title                                                                | Version                                                                                                              | Referrers |
-| ------------- | ---------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | --------- |
-| 570-020-800   |                                          | Type Pallets for Models 28, 35, and 37 Teletypewriter Sets           | [Issue 3, 1974-04](https://www.navy-radio.com/manuals/tty/570-020-800-7404.pdf)                                      |           |
-| 570-020-801   |                                          | Keytops for Models 37, CDT and “DATASPEED®” Printer Terminals        | [Issue 2, 1974-05](https://www.navy-radio.com/manuals/tty/570-020-801-7405.pdf)                                      |           |
-| 570-220-100   | Motor Unit                               | Description and Principles of Operation                              |                                                                                                                      | 1, 2      |
-| 570-220-700   | Motor Unit                               | Adjustments                                                          |                                                                                                                      | 1, 2      |
-| 570-220-701   | Motor Unit                               | Lubrication                                                          |                                                                                                                      | 1, 2      |
-| 570-220-702   | Motor Unit                               | Disassembly and Reassembly                                           |                                                                                                                      | 1         |
-| 570-220-800   | Motor Unit                               | Parts                                                                | [Issue 5, 1972-11](https://www.navy-radio.com/manuals/tty/570-220-800-7211.pdf)                                      | 2         |
-| 574-301-100   | KSR and ASR Set                          | General Description and Operation                                    | [Issue 1, 1971-06](https://www.navy-radio.com/manuals/tty/m37/574-301-100-iss1-7106.pdf)                             |           |
-| 574-301-102   | KSR Set                                  | General Description                                                  | [Issue 1, 1972-12](https://www.navy-radio.com/manuals/tty/m37/574-301-102-iss1-7212.pdf)                             |           |
-| 574-301-200   | KSR Set                                  | Installation                                                         | [Issue 2, 1973-02](https://www.navy-radio.com/manuals/tty/m37/574-301-200-iss2-7302.pdf)                             | 1         |
-| 574-301-400   | KSR Set                                  | Wiring Diagram And Circuit Descriptions                              | [Issue 1, 1969-09](https://www.navy-radio.com/manuals/tty/m37/574-301-400-iss1-6909.pdf)                             |           |
-| 574-301-702   | KSR Set                                  | Removal and Replacement of Components                                | [Issue 1, 1970-03](https://www.navy-radio.com/manuals/tty/m37/574-301-702-iss1-7003.pdf)                             | 1         |
-| 574-302-102   | ASR Set                                  | General Description                                                  | [Issue 1, 1971-05](https://www.navy-radio.com/manuals/tty/m37/574-302-102-iss1-7105.pdf)                             |           |
-| 574-302-200   | ASR Set                                  | Installation                                                         | [Issue 2, 1973-02](https://www.navy-radio.com/manuals/tty/m37/574-302-200-iss2-7302.pdf)                             | 1         |
-| 574-302-300   | ASR Set                                  | Troubleshooting                                                      | [Issue 1, 1972-04](https://www.navy-radio.com/manuals/tty/m37/574-302-300-iss1-7204.pdf)                             |           |
-| 574-302-702   | ASR Set                                  | Removal and Replacement of Components                                | [Issue 1, 1970-03](https://www.navy-radio.com/manuals/tty/m37/574-302-702-iss1-7003.pdf)                             | 1         |
-| 574-303-100   | ROTR Set                                 | Description and Operation                                            | [Issue 2, 1973-06](https://www.navy-radio.com/manuals/tty/m37/574-303-100-iss2-7306.pdf)                             |           |
-| 574-303-200   | ROTR Set                                 | Installation                                                         | [Issue 1, 1970-11](https://www.navy-radio.com/manuals/tty/m37/574-303-200-iss1-7011.pdf)                             |           |
-| 574-303-300   | ROTR Set                                 | Troubleshooting                                                      | [Issue 1, 1973-10](https://www.navy-radio.com/manuals/tty/m37/574-303-300-iss1-7310.pdf)                             |           |
-| 574-303-702   | ROTR Set                                 | Removal and Replacement of Components                                | [Issue 1, 1970-06](https://www.navy-radio.com/manuals/tty/m37/574-303-702-iss1-7006.pdf)                             |           |
-| 574-304-100   | KSR Set                                  | General Description and Operation                                    | [Issue 2, 1972-12](https://www.navy-radio.com/manuals/tty/m37/574-304-100-iss2-7212.pdf)                             | 2         |
-| 574-304-200   | KSR Set                                  | Installation                                                         | [Issue 2, 1972-12](https://www.navy-radio.com/manuals/tty/m37/574-304-200-iss2-7212.pdf)                             | 2         |
-| 574-304-300   | KSR Set                                  | Troubleshooting                                                      | [Issue 2, 1972-12](https://www.navy-radio.com/manuals/tty/m37/574-304-300-iss2-7212.pdf)                             | 2         |
-| 574-320-101   | Typing Unit (37P003 and up)              | Description and Principles of Operation                              | [Issue 2, 1973-02](https://www.navy-radio.com/manuals/tty/m37/574-320-101-iss2-7302.pdf)                             | 1, 2      |
-| 574-320-400   | Typing Unit                              | Wiring Diagrams                                                      | [Issue 1, 1971-01](https://www.navy-radio.com/manuals/tty/m37/574-320-400-iss1-7101.pdf)                             |           |
-| 574-320-700   | Typing Unit (Early Design)               | Adjustments                                                          | [Issue 4, 1971-03](https://www.navy-radio.com/manuals/tty/m37/574-320-700-iss4-7103.pdf)                             |           |
-| 574-320-702   | Typing Unit                              | Disassembly and Reassembly                                           |                                                                                                                      | 2         |
-| 574-320-703   | Typing Unit                              | Adjustments                                                          |                                                                                                                      | 1, 2      |
-| 574-320-704   | Typing Unit                              | Lubrication                                                          |                                                                                                                      | 1, 2      |
-| 574-320-705   | Typing Unit                              | Disassembly and Reassembly                                           |                                                                                                                      | 1         |
-| 574-320-800TC | Typing Unit (YP)                         | Parts                                                                | [Issue 1, 1967-12](https://www.navy-radio.com/manuals/tty/jh/ttyman0/TeletypeManuals/model37/574-320-800TC-Iss1.pdf) | 3         |
-| 574-320-801   | Typing Unit                              | Parts                                                                |                                                                                                                      | 2         |
-| 574-321-101   | Keyboard Unit                            | Description and Principles of Operation                              |                                                                                                                      | 1, 2      |
-| 574-321-703   | Keyboard Unit                            | Adjustments                                                          |                                                                                                                      | 1, 2      |
-| 574-321-704   | Keyboard Unit                            | Lubrication                                                          |                                                                                                                      | 1, 2      |
-| 574-321-705   | Keyboard Unit                            | Disassembly and Reassembly                                           |                                                                                                                      | 1, 2      |
-| 574-321-800TC | Keyboard (YK) and Base (YB)              | Parts                                                                | [Issue 1, 1967-12](https://www.navy-radio.com/manuals/tty/jh/ttyman0/TeletypeManuals/model37/574-321-800TC-Iss1.pdf) | 3         |
-| 574-321-801   | Keyboard Unit                            | Parts                                                                |                                                                                                                      | 2         |
-| 574-322-101   | Electrical Service Unit                  | Description and Operation                                            |                                                                                                                      | 1         |
-| 574-322-800TC | Electrical Service Unit (YESU)           | Parts                                                                | [Issue 1, 1967-12](https://www.navy-radio.com/manuals/tty/jh/ttyman0/TeletypeManuals/model37/574-322-800TC-Iss1.pdf) | 3         |
-| 574-322-801   | Electrical Service Unit                  | Parts                                                                |                                                                                                                      | 2         |
-| 574-323-101   | Table                                    | Description and Operation                                            |                                                                                                                      | 1         |
-| 574-323-703   | Table                                    | Adjustments                                                          |                                                                                                                      | 1         |
-| 574-323-800TC | Table (YT)                               | Parts                                                                | [Issue 1, 1967-12](https://www.navy-radio.com/manuals/tty/jh/ttyman0/TeletypeManuals/model37/574-323-800TC-Iss1.pdf) | 3         |
-| 574-324-800TC | Electronic Distributor (YTD)             | Parts                                                                | [Issue 1, 1967-12](https://www.navy-radio.com/manuals/tty/jh/ttyman0/TeletypeManuals/model37/574-324-800TC-Iss1.pdf) | 3         |
-| 574-325-703   | Answer-Back Unit                         | Adjustments                                                          |                                                                                                                      | 1         |
-| 574-325-704   | Answer-Back Unit                         | Lubrication                                                          |                                                                                                                      | 1         |
-| 574-325-800TC | Answer Back (YAB)                        | Parts                                                                | [Issue 1, 1967-12](https://www.navy-radio.com/manuals/tty/jh/ttyman0/TeletypeManuals/model37/574-325-800TC-Iss1.pdf) | 3         |
-| 574-326-101   | Typing Unit Cover and Pan                | Description and Principles of Operation                              |                                                                                                                      | 1, 2      |
-| 574-326-703   | Typing Unit Cover and Pan                | Adjustments                                                          |                                                                                                                      | 1, 2      |
-| 574-326-704   | Typing Unit Cover and Pan                | Lubrication                                                          |                                                                                                                      | 1, 2      |
-| 574-326-800TC | Typing Unit Cover (YPC)                  | Parts                                                                | [Issue 1, 1967-12](https://www.navy-radio.com/manuals/tty/jh/ttyman0/TeletypeManuals/model37/574-326-800TC-Iss1.pdf) | 3         |
-| 574-326-801   | Typing Unit Cover and Pan                | Parts                                                                |                                                                                                                      | 2         |
-| 574-327-100   | RT Module Cabinet                        | Description and Operation                                            |                                                                                                                      | 1         |
-| 574-327-700   | RT Module Cabinet                        | Adjustments                                                          |                                                                                                                      | 1         |
-| 574-327-701   | RT Module Cabinet                        | Lubrication                                                          |                                                                                                                      | 1         |
-| 574-329-100   | Nontyping Reperforator                   | Description and Principles of Operation                              |                                                                                                                      | 1         |
-| 574-329-700   | Nontyping Reperforator                   | Adjustments                                                          |                                                                                                                      | 1         |
-| 574-329-701   | Nontyping Reperforator                   | Lubrication                                                          |                                                                                                                      | 1         |
-| 574-329-702   | Nontyping Reperforator                   | Disassembly and Reassembly                                           |                                                                                                                      | 1         |
-| 574-330-100   | Typing Reperforator                      | Description and Operation                                            |                                                                                                                      | 1         |
-| 574-330-700   | Typing Reperforator                      | Adjustments                                                          |                                                                                                                      | 1         |
-| 574-330-701   | Typing Reperforator                      | Lubrication                                                          |                                                                                                                      | 1         |
-| 574-330-702   | Typing Reperforator                      | Disassembly and Reassembly                                           |                                                                                                                      | 1         |
-| 574-331-100   | Base                                     | Description and Principles of Operation, Adjustments and Lubrication |                                                                                                                      | 2         |
-| 574-331-800   | Base                                     | Parts                                                                |                                                                                                                      | 2         |
-| 574-332-100   | Paper Winder                             | Description, Installation, Adjustments and Lubrication               |                                                                                                                      | 2         |
-| 574-332-800   | Paper Winder                             | Parts                                                                |                                                                                                                      | 2         |
-| 579-400-350   | KSR Set                                  | Field Maintenance Practice                                           |                                                                                                                      | 1         |
-| 592-801-100   | Tape Reader                              | Description and Principles of Operation                              |                                                                                                                      | 1         |
-| 592-801-700   | Tape Reader                              | Adjustments                                                          |                                                                                                                      | 1         |
-| 592-801-701   | Tape Reader                              | Lubrication                                                          |                                                                                                                      | 1         |
-| 592-801-702   | Tape Reader                              | Disassembly and Reassembly                                           |                                                                                                                      | 1         |
-| WDP0283       | Wiring Diagrams and Circuit Descriptions | KSR Set - WD Package                                                 |                                                                                                                      | 2         |
+| Number        | Component                      | Title                                                                | Version                                                                                                              | Referrers |
+| ------------- | ------------------------------ | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | --------- |
+| 570-020-800   |                                | Type Pallets for Models 28, 35, and 37 Teletypewriter Sets           | [Issue 3, 1974-04](https://www.navy-radio.com/manuals/tty/570-020-800-7404.pdf)                                      |           |
+| 570-020-801   |                                | Keytops for Models 37, CDT and “DATASPEED®” Printer Terminals        | [Issue 2, 1974-05](https://www.navy-radio.com/manuals/tty/570-020-801-7405.pdf)                                      |           |
+| 570-220-100   | Motor Unit                     | Description and Principles of Operation                              |                                                                                                                      | 1, 2      |
+| 570-220-700   | Motor Unit                     | Adjustments                                                          |                                                                                                                      | 1, 2      |
+| 570-220-701   | Motor Unit                     | Lubrication                                                          |                                                                                                                      | 1, 2      |
+| 570-220-702   | Motor Unit                     | Disassembly and Reassembly                                           |                                                                                                                      | 1         |
+| 570-220-800   | Motor Unit                     | Parts                                                                | [Issue 5, 1972-11](https://www.navy-radio.com/manuals/tty/570-220-800-7211.pdf)                                      | 2         |
+| 574-301-100   | KSR and ASR Set                | General Description and Operation                                    | [Issue 1, 1971-06](https://www.navy-radio.com/manuals/tty/m37/574-301-100-iss1-7106.pdf)                             |           |
+| 574-301-102   | KSR Set                        | General Description                                                  | [Issue 1, 1972-12](https://www.navy-radio.com/manuals/tty/m37/574-301-102-iss1-7212.pdf)                             |           |
+| 574-301-200   | KSR Set                        | Installation                                                         | [Issue 2, 1973-02](https://www.navy-radio.com/manuals/tty/m37/574-301-200-iss2-7302.pdf)                             | 1         |
+| 574-301-400   | KSR Set                        | Wiring Diagram And Circuit Descriptions                              | [Issue 1, 1969-09](https://www.navy-radio.com/manuals/tty/m37/574-301-400-iss1-6909.pdf)                             |           |
+| 574-301-702   | KSR Set                        | Removal and Replacement of Components                                | [Issue 1, 1970-03](https://www.navy-radio.com/manuals/tty/m37/574-301-702-iss1-7003.pdf)                             | 1         |
+| 574-302-102   | ASR Set                        | General Description                                                  | [Issue 1, 1971-05](https://www.navy-radio.com/manuals/tty/m37/574-302-102-iss1-7105.pdf)                             |           |
+| 574-302-200   | ASR Set                        | Installation                                                         | [Issue 2, 1973-02](https://www.navy-radio.com/manuals/tty/m37/574-302-200-iss2-7302.pdf)                             | 1         |
+| 574-302-300   | ASR Set                        | Troubleshooting                                                      | [Issue 1, 1972-04](https://www.navy-radio.com/manuals/tty/m37/574-302-300-iss1-7204.pdf)                             |           |
+| 574-302-702   | ASR Set                        | Removal and Replacement of Components                                | [Issue 1, 1970-03](https://www.navy-radio.com/manuals/tty/m37/574-302-702-iss1-7003.pdf)                             | 1         |
+| 574-303-100   | ROTR Set                       | Description and Operation                                            | [Issue 2, 1973-06](https://www.navy-radio.com/manuals/tty/m37/574-303-100-iss2-7306.pdf)                             |           |
+| 574-303-200   | ROTR Set                       | Installation                                                         | [Issue 1, 1970-11](https://www.navy-radio.com/manuals/tty/m37/574-303-200-iss1-7011.pdf)                             |           |
+| 574-303-300   | ROTR Set                       | Troubleshooting                                                      | [Issue 1, 1973-10](https://www.navy-radio.com/manuals/tty/m37/574-303-300-iss1-7310.pdf)                             |           |
+| 574-303-702   | ROTR Set                       | Removal and Replacement of Components                                | [Issue 1, 1970-06](https://www.navy-radio.com/manuals/tty/m37/574-303-702-iss1-7006.pdf)                             |           |
+| 574-304-100   | KSR Set                        | General Description and Operation                                    | [Issue 2, 1972-12](https://www.navy-radio.com/manuals/tty/m37/574-304-100-iss2-7212.pdf)                             | 2         |
+| 574-304-200   | KSR Set                        | Installation                                                         | [Issue 2, 1972-12](https://www.navy-radio.com/manuals/tty/m37/574-304-200-iss2-7212.pdf)                             | 2         |
+| 574-304-300   | KSR Set                        | Troubleshooting                                                      | [Issue 2, 1972-12](https://www.navy-radio.com/manuals/tty/m37/574-304-300-iss2-7212.pdf)                             | 2         |
+| 574-320-101   | Typing Unit (37P003 and up)    | Description and Principles of Operation                              | [Issue 2, 1973-02](https://www.navy-radio.com/manuals/tty/m37/574-320-101-iss2-7302.pdf)                             | 1, 2      |
+| 574-320-400   | Typing Unit                    | Wiring Diagrams                                                      | [Issue 1, 1971-01](https://www.navy-radio.com/manuals/tty/m37/574-320-400-iss1-7101.pdf)                             |           |
+| 574-320-700   | Typing Unit (Early Design)     | Adjustments                                                          | [Issue 4, 1971-03](https://www.navy-radio.com/manuals/tty/m37/574-320-700-iss4-7103.pdf)                             |           |
+| 574-320-702   | Typing Unit                    | Disassembly and Reassembly                                           |                                                                                                                      | 2         |
+| 574-320-703   | Typing Unit                    | Adjustments                                                          |                                                                                                                      | 1, 2, 3   |
+| 574-320-704   | Typing Unit                    | Lubrication                                                          |                                                                                                                      | 1, 2, 3   |
+| 574-320-705   | Typing Unit                    | Disassembly and Reassembly                                           |                                                                                                                      | 1, 3      |
+| 574-320-800TC | Typing Unit (YP)               | Parts                                                                | [Issue 1, 1967-12](https://www.navy-radio.com/manuals/tty/jh/ttyman0/TeletypeManuals/model37/574-320-800TC-Iss1.pdf) | 4         |
+| 574-320-801   | Typing Unit                    | Parts                                                                |                                                                                                                      | 2, 3      |
+| 574-321-101   | Keyboard Unit                  | Description and Principles of Operation                              |                                                                                                                      | 1, 2, 3   |
+| 574-321-703   | Keyboard Unit                  | Adjustments                                                          |                                                                                                                      | 1, 2, 3   |
+| 574-321-704   | Keyboard Unit                  | Lubrication                                                          |                                                                                                                      | 1, 2, 3   |
+| 574-321-705   | Keyboard Unit                  | Disassembly and Reassembly                                           |                                                                                                                      | 1, 2, 3   |
+| 574-321-800TC | Keyboard (YK) and Base (YB)    | Parts                                                                | [Issue 1, 1967-12](https://www.navy-radio.com/manuals/tty/jh/ttyman0/TeletypeManuals/model37/574-321-800TC-Iss1.pdf) | 4         |
+| 574-321-801   | Keyboard Unit                  | Parts                                                                |                                                                                                                      | 2, 3      |
+| 574-322-101   | Electrical Service Unit        | Description and Operation                                            |                                                                                                                      | 1         |
+| 574-322-800TC | Electrical Service Unit (YESU) | Parts                                                                | [Issue 1, 1967-12](https://www.navy-radio.com/manuals/tty/jh/ttyman0/TeletypeManuals/model37/574-322-800TC-Iss1.pdf) | 4         |
+| 574-322-801   | Electrical Service Unit        | Parts                                                                |                                                                                                                      | 2         |
+| 574-323-101   | Table                          | Description and Operation                                            |                                                                                                                      | 1         |
+| 574-323-703   | Table                          | Adjustments                                                          |                                                                                                                      | 1         |
+| 574-323-800TC | Table (YT)                     | Parts                                                                | [Issue 1, 1967-12](https://www.navy-radio.com/manuals/tty/jh/ttyman0/TeletypeManuals/model37/574-323-800TC-Iss1.pdf) | 4         |
+| 574-324-800TC | Electronic Distributor (YTD)   | Parts                                                                | [Issue 1, 1967-12](https://www.navy-radio.com/manuals/tty/jh/ttyman0/TeletypeManuals/model37/574-324-800TC-Iss1.pdf) | 4         |
+| 574-325-703   | Answer-Back Unit               | Adjustments                                                          |                                                                                                                      | 1         |
+| 574-325-704   | Answer-Back Unit               | Lubrication                                                          |                                                                                                                      | 1         |
+| 574-325-800TC | Answer Back (YAB)              | Parts                                                                | [Issue 1, 1967-12](https://www.navy-radio.com/manuals/tty/jh/ttyman0/TeletypeManuals/model37/574-325-800TC-Iss1.pdf) | 4         |
+| 574-326-101   | Typing Unit Cover and Pan      | Description and Principles of Operation                              |                                                                                                                      | 1, 2      |
+| 574-326-703   | Typing Unit Cover and Pan      | Adjustments                                                          |                                                                                                                      | 1, 2      |
+| 574-326-704   | Typing Unit Cover and Pan      | Lubrication                                                          |                                                                                                                      | 1, 2      |
+| 574-326-800TC | Typing Unit Cover (YPC)        | Parts                                                                | [Issue 1, 1967-12](https://www.navy-radio.com/manuals/tty/jh/ttyman0/TeletypeManuals/model37/574-326-800TC-Iss1.pdf) | 4         |
+| 574-326-801   | Typing Unit Cover and Pan      | Parts                                                                |                                                                                                                      | 2         |
+| 574-327-100   | RT Module Cabinet              | Description and Operation                                            |                                                                                                                      | 1         |
+| 574-327-700   | RT Module Cabinet              | Adjustments                                                          |                                                                                                                      | 1         |
+| 574-327-701   | RT Module Cabinet              | Lubrication                                                          |                                                                                                                      | 1         |
+| 574-329-100   | Nontyping Reperforator         | Description and Principles of Operation                              |                                                                                                                      | 1         |
+| 574-329-700   | Nontyping Reperforator         | Adjustments                                                          |                                                                                                                      | 1         |
+| 574-329-701   | Nontyping Reperforator         | Lubrication                                                          |                                                                                                                      | 1         |
+| 574-329-702   | Nontyping Reperforator         | Disassembly and Reassembly                                           |                                                                                                                      | 1         |
+| 574-330-100   | Typing Reperforator            | Description and Operation                                            |                                                                                                                      | 1         |
+| 574-330-700   | Typing Reperforator            | Adjustments                                                          |                                                                                                                      | 1         |
+| 574-330-701   | Typing Reperforator            | Lubrication                                                          |                                                                                                                      | 1         |
+| 574-330-702   | Typing Reperforator            | Disassembly and Reassembly                                           |                                                                                                                      | 1         |
+| 574-331-100   | Base Unit                      | Description and Principles of Operation, Adjustments and Lubrication |                                                                                                                      | 2, 3      |
+| 574-331-800   | Base Unit                      | Parts                                                                |                                                                                                                      | 2, 3      |
+| 574-332-100   | Paper Winder                   | Description, Installation, Adjustments and Lubrication               |                                                                                                                      | 2         |
+| 574-332-800   | Paper Winder                   | Parts                                                                |                                                                                                                      | 2         |
+| 579-400-350   | KSR Set                        | Field Maintenance Practice                                           |                                                                                                                      | 1         |
+| 592-801-100   | Tape Reader                    | Description and Principles of Operation                              |                                                                                                                      | 1         |
+| 592-801-700   | Tape Reader                    | Adjustments                                                          |                                                                                                                      | 1         |
+| 592-801-701   | Tape Reader                    | Lubrication                                                          |                                                                                                                      | 1         |
+| 592-801-702   | Tape Reader                    | Disassembly and Reassembly                                           |                                                                                                                      | 1         |
+
+Wiring Diagrams and Circuit Descriptions:
+
+| Number  | Title                              | Referrers |
+| ------- | ---------------------------------- | --------- |
+| 7855WD  | Typing Unit — Actual and Schematic | 3         |
+| 7860WD  | Typing Unit Function Box           | 3         |
+| 7863WD  | Typing Unit 85/86 System           | 3         |
+| WDP0283 | KSR Set - WD Package               | 2         |
 
 | Number               | Title                                                                                                                                                                                                                                                                                                                | Version                                                                                      |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
