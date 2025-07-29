@@ -226,13 +226,22 @@ Columns:
 - **Levels**: The number of code levels in the function bar. \[Type p66–68] Any
   code levels above this count are marked with -; it is unclear whether such
   function bars are shorter.
-- **Style**: Groups of similarly derived function bar configurations, from my
-  observation.
-  - A: Parity bit at level 8 and ASCII bits (most-significant bit first) at
-    levels 7–1.
-  - A+9S: Style A, plus spacing at level 9.
+- **Derivation**: How the function bar configuration is derived, from my
+  observation. It is one of these styles:
+  - A: An ASCII character with parity, i.e., parity bit at level 8 and ASCII
+    bits (most-significant bit first) at levels 7–1.
+  - A+9S: Style A with spacing level 9.
+  - A+9S+PC: An ASCII character (noted in parentheses) with cleared level 8
+    (parity) and spacing level 9.
+  - E: An ASCII character with parity (noted in parentheses) with spacing level
+    10 and marking level 9. Used for escape sequences.
+  - I+9S: Intersects two ASCII characters (noted in parentheses), clearing the
+    levels which differ, and with spacing level 9.
+  - I+9C: Intersects two ASCII characters (noted in parentheses), clearing the
+    levels which differ, and with cleared level 9.
   - _?: Not specified by \[Type p66–68], but inferred from columns Marking and
     Spacing.
+  - ?: Unknown.
 
 Question: How is the parity check performed?
 
@@ -244,7 +253,7 @@ Function Bar Configurations.
 
 TODO: Note whether high bits are in each function bar from the figures.
 
-| Name  | Abbr | ASCII   | P | Coord | Marking    | Spacing         | 11| 10| 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | Levels | Style |
+| Name  | Abbr | ASCII   | P | Coord | Marking    | Spacing         | 11| 10| 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | Levels | Deriv |
 | ----- | ---- | ------- | - | ----- | ---------- | --------------- | - | - | - | - | - | - | - | - | - | - | - | ------ | ----- |
 | NUL   | NL   | 0000000 | 0 | 0,8   | `________` | 1·2·3·4·5·6·7·8 | - | - | - | S | S | S | S | S | S | S | S | 8      | A     |
 | SOH   | SH   | 0000001 | 1 | 0,0   | `1______8` | 2·3·4·5·6·7     | - | - | - | M | S | S | S | S | S | S | M | 8      | A     |
@@ -377,38 +386,38 @@ TODO: Note whether high bits are in each function bar from the figures.
 
 Other function bar configurations: \[Type p66–68]
 
-Note that “PRINT & SPACE SUPPRESS DELETE” is identical to “DEL” and is
+Note that “Print and Space Suppress Function” is identical to “DEL” and is
 represented in both tables.
 
-|                                   | 11| 10| 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | Levels |
-| --------------------------------- | - | - | - | - | - | - | - | - | - | - | - | ------ |
-| NEW LINE (LF & VT)                | - | - | S |   | S | S | S | M | S | M |   | 9      |
-| ESC HOLD                          | - | - | M |   | S | M | S |   |   |   |   | 9      |
-| ESC TERMINATE                     | - | - | M |   |   |   |   |   |   |   |   | 9      |
-| PRINT & SPACE SUPPRESS FUNCTION   | - | - | S |   | S | S |   |   |   |   |   | 9      |
-| CR & FF                           | - | - | S |   | S | S | S | M | M | S |   | 9      |
-| PRINT & SUPPRESS SHIFT-OUT        | - | - |   |   | M | M |   |   |   |   |   | 9      |
-| PRINT SUPPRESS NO. 1              | - | - | S |   | S | M |   |   |   |   |   | 9      |
-| PRINT SUPPRESS NO. 2              | - | - | S |   | M |   |   |   |   |   |   | 9      |
-| CR & FF (SPECIAL)                 | - | - |   |   | S | S | S | M | M | S |   | 9      |
-| LF & VT (SPECIAL)                 | - | - |   |   | S | S | S | M | S | M |   | 9      |
-| TILDE (OVERSCORE)                 | - | - | S |   | M | M | M | M | M | M | S | 9      |
-| HYPHEN (TIME)                     | - | - | S |   | S | M | S | M | M | S | M | 9      |
-| PRINT & SPACE SUPPRESS DELETE     | - | - |   | M | M | M | M | M | M | M | M | 9      |
-| BLACK                             |   | S | M | M | S | M | M | S | M | S | S | 11     |
-| RED                               |   | S | M | S | S | M | M | S | S | M | M | 11     |
-| HORIZ TAB SET                     |   | S | M | M | S | M | M | S | S | S | M | 11     |
-| HORIZ TAB CLEAR                   |   | S | M | M | S | M | M | S | S | M | S | 11     |
-| VERT TAB SET                      |   | S | M | S | S | M | M | S | M | S | M | 11     |
-| VERT TAB CLEAR                    |   | S | M | S | S | M | M | S | M | M | S | 11     |
-| REVERSE LINE FEED                 |   | S | M | M | S | M | M | S | M | M | M | 11     |
-| HALF REVERSE LINE FEED            |   | S | M | M | S | M | M | M | S | S | S | 11     |
-| HALF LINE FEED                    |   | S | M | S | S | M | M | M | S | S | M | 11     |
-| HALF DUPLEX                       |   | S | M | M | S | M | M | M | S | M | M | 11     |
-| FULL DUPLEX                       |   | S | M | S | S | M | M | M | S | M | S | 11     |
-| PRINT SUPPRESS (ESCAPE ^)         |   | S | M | M | M | S | M | M | M | M | S | 11     |
-| PRINT SUPPRESS DISABLE (ESCAPE \) |   | S | M | S | M | S | M | M | M | S | S | 11     |
-| AUTO CR & LF (SEE Note)           | S | * | * | * | * | * | * | * | * | * | * | 11     |
+| Name                              | 11| 10| 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | Levels | Derivation   |
+| --------------------------------- | - | - | - | - | - | - | - | - | - | - | - | ------ | ------------ |
+| New Line (LF and VT)              | - | - | S |   | S | S | S | M | S | M |   | 9      | I+9S (LF+VT) |
+| LF and VT (Special)               | - | - |   |   | S | S | S | M | S | M |   | 9      | I+9C (LF+VT) |
+| CR and FF                         | - | - | S |   | S | S | S | M | M | S |   | 9      | I+9S (FF+CR) |
+| CR and FF (Special)               | - | - |   |   | S | S | S | M | M | S |   | 9      | I+9C (FF+CR) |
+| ESC Hold                          | - | - | M |   | S | M | S |   |   |   |   | 9      | ?            |
+| ESC Terminate                     | - | - | M |   |   |   |   |   |   |   |   | 9      | ?            |
+| Print and Space Suppress Function | - | - | S |   | S | S |   |   |   |   |   | 9      | ?            |
+| Print and Suppress Shift-Out      | - | - |   |   | M | M |   |   |   |   |   | 9      | ?            |
+| Print Suppress No. 1              | - | - | S |   | S | M |   |   |   |   |   | 9      | ?            |
+| Print Suppress No. 2              | - | - | S |   | M |   |   |   |   |   |   | 9      | ?            |
+| Tilde (Overscore)                 | - | - | S |   | M | M | M | M | M | M | S | 9      | A+9S+PC (~)  |
+| Hyphen (Time)                     | - | - | S |   | S | M | S | M | M | S | M | 9      | A+9S+PC (-)  |
+| Print and Space Suppress Delete   | - | - |   | M | M | M | M | M | M | M | M | 9      | A            |
+| Horizontal Tab Set                |   | S | M | M | S | M | M | S | S | S | M | 11     | E (ESC 1)    |
+| Horizontal Tab Clear              |   | S | M | M | S | M | M | S | S | M | S | 11     | E (ESC 2)    |
+| Red                               |   | S | M | S | S | M | M | S | S | M | M | 11     | E (ESC 3)    |
+| Black                             |   | S | M | M | S | M | M | S | M | S | S | 11     | E (ESC 4)    |
+| Vertical Tab Set                  |   | S | M | S | S | M | M | S | M | S | M | 11     | E (ESC 5)    |
+| Vertical Tab Clear                |   | S | M | S | S | M | M | S | M | M | S | 11     | E (ESC 6)    |
+| Reverse Line Feed                 |   | S | M | M | S | M | M | S | M | M | M | 11     | E (ESC 7)    |
+| Half Reverse Line Feed            |   | S | M | M | S | M | M | M | S | S | S | 11     | E (ESC 8)    |
+| Half Line Feed                    |   | S | M | S | S | M | M | M | S | S | M | 11     | E (ESC 9)    |
+| Full Duplex                       |   | S | M | S | S | M | M | M | S | M | S | 11     | E (ESC :)    |
+| Half Duplex                       |   | S | M | M | S | M | M | M | S | M | M | 11     | E (ESC ;)    |
+| Print Suppress                    |   | S | M | M | M | S | M | M | M | M | S | 11     | E (ESC ^)    |
+| Print Suppress Disable            |   | S | M | S | M | S | M | M | M | S | S | 11     | E (ESC \)    |
+| Auto CR and LF                    | S | * | * | * | * | * | * | * | * | * | * | 11     | ?            |
 
 8-row typebox arrangement, as viewed from the print hammer: \[Type figure 28]
 
