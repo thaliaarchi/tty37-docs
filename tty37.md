@@ -193,6 +193,19 @@ Note: This shows the Greek symbols.
 
 ## Typebox
 
+Codebars:
+- Codebar 1: shift horizontally by 8 (when spacing) \[Type figure 32]
+- Codebar 2: shift horizontally by 4 \[Type figure 32]
+- Codebar 3: shift horizontally by 1 \[Type figure 32]
+- Codebar 4: shift horizontally by 2 \[Type figure 32]
+- Codebar 5: shift vertically by 1 \[Type figure 35]
+- Codebar 6: shift vertically by 4 \[Type figure 35]
+- Codebar 7: shift vertically by 2 \[Type figure 35]
+- Codebar 8: parity check
+- Codebar 9: TODO
+- Codebar 10: TODO
+- Codebar 11: TODO
+
 The typebox is attached to a rail which moves horizontally and vertically to
 position it. \[Type 4.31–4.33, 4.35]
 
@@ -207,26 +220,18 @@ Columns:
 - **ASCII**: ASCII character code in big-endian binary \[Type figure 28]
 - **P**: Parity bit (8th bit), to obtain even parity. \[Type figure 16] It is 1
   when the ASCII code has an odd number of 1 bits.
-- **Coord**: Coordinate in 8-row typebox \[Type figure 28]
+- **Coord**: Coordinate in 8-row typebox. \[Type figure 28] The row is
+  calculated with `b6*4 + b7*2 + b5` and the column with
+  `!b1*8 + b2*4 + b4*2 + b3`, using the boolean values for codebars 1–8.
+  \[Type figure 32, figure 35]
   - Row: 0–7, top to bottom in below table
   - Column: 0–15, right to left in below table
-- **Marking**: Function bar code, indicating which code levels are marking (bits
-  which are 1). \[Type figure 28] Code levels 1–7 are the ASCII bits
-  (least-significant bit first) and code level 8 is the parity bit. Horizontal
-  positioning uses code levels 1–4 and is described in \[Type section G];
-  vertical positioning uses code levels 5–7 and is described in
-  \[Type section I]. The row in the typebox is calculated with
-  `b6*4 + b7*2 + b5` and the column with `!b1*8 + b2*4 + b4*2 + b3`, using the
-  values for each bit.
-  - Code level 1: shift horizontally by 8
-  - Code level 2: shift horizontally by 4
-  - Code level 3: shift horizontally by 1
-  - Code level 4: shift horizontally by 2
-  - Code level 5: shift vertically by 1
-  - Code level 6: shift vertically by 4
-  - Code level 7: shift vertically by 2
-  - Code level 8: parity check
-- **Spacing**: Function bar code, indicating which code levels are spacing (bits
+- **Marking**: Function bar code, indicating which codebars are marking (bits
+  which are 1). \[Type figure 28] Codebars 1–7 are the ASCII bits
+  (least-significant bit first) and codebar 8 is the parity bit. Horizontal
+  positioning uses codebars 1–4 and is described in \[Type section G]; vertical
+  positioning uses codebars 5–7 and is described in \[Type section I].
+- **Spacing**: Function bar code, indicating which codebars are spacing (bits
    which are 0). It is used for configuring a function bar for a code; for each
    level indicated, remove the marking tine, and for each level not indicated,
    remove the spacing tine, leaving one tine per level in the function bar
@@ -239,9 +244,9 @@ Columns:
   - M: Marking tine
   - \*: Both tines removed (explicit note)
   - blank: Both tines removed (unclear?)
-  - -: Function bar does not have this code level (see column Levels)
-- **Levels**: The number of code levels in the function bar. \[Type p66–68] Any
-  code levels above this count are marked with -; it is unclear whether such
+  - -: Function bar does not have this codebar (see column Levels)
+- **Levels**: The number of codebars in the function bar. \[Type p66–68] Any
+  codebars above this count are marked with -; it is unclear whether such
   function bars are shorter.
 - **Derivation**: How the function bar configuration is derived, from my
   observation. It is one of these styles:
@@ -532,9 +537,12 @@ modification kits described in Specification 50386S for 9-1/2" and Specification
 
 ## Definitions
 
-- Space and mark are the signals corresponding to 0 and 1 bits, respectively.
+- Space and mark: The signals corresponding to 0 and 1 bits, respectively.
   Producing such a signal is spacing or marking.
   \[Type figure 15]\[Catalog p26]
+- Codebar and code level: Function bars have 8–11 codebars, each with a tine for
+  spacing or marking. Code levels seem to be the levers for implementing their
+  functions, though the terms are used somewhat interchangeably.
 
 ## Extant machines
 
