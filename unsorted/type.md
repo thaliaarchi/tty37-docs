@@ -2153,11 +2153,4 @@ protection circuitry suited to the designed load. These are mechanical contacts
 and bounce can occur; therefore, associated circuitry should be designed
 accordingly.
 
-*Page 65:*
-
-\[Figure]
-
-- OVERLAY
-- OVERLAY WITH ADDED GRAPHICS
-
-*Pages 66–68:*
+*Page 65–68:*

@@ -8,25 +8,25 @@ all: download figures
 # $1: Input PDF stem
 # $2: Extracted image number: ????.p[bg]m
 # $3: ImageMagick transformations
-# $4: Output PNG stem
+# $4: Crop
+# $5: Border
+# $6: Output PNG stem
 define extract_figure
 PDFS += $1
-FIGURES += $4.png
+FIGURES += $6.png
 
-$4.png: | pages/$1-$2
-	magick pages/$1-$2 $3 -strip $$@
+$6.png: | pages/$1-$2
+	magick pages/$1-$2 $3 -crop $4 -trim -bordercolor white -border $5 -strip $$@
 
 pages/$1-$2: | pages/$1.stamp
 endef
 
-# Crop page 7 to 2030x582+352+338 with 40px padding
-$(eval $(call extract_figure,574-301-100-iss1-7106,0006.pbm,-rotate 90 -crop 2110x662+312+298,keyboard))
-# Crop page 7 to 2136x1068+312+1604 with 100px padding
-$(eval $(call extract_figure,574-301-100-iss1-7106,0006.pbm,-rotate 90 -crop 2336x1268+212+1504,control_panel))
+$(eval $(call extract_figure,574-301-100-iss1-7106,0006.pbm,-rotate 90,2046x594+344+332,40,keyboard))
+$(eval $(call extract_figure,574-301-100-iss1-7106,0006.pbm,-rotate 90,2166x1092+296+1584,100,control_panel))
+$(eval $(call extract_figure,574-320-101-iss2-7302,0088.pbm,-rotate 90,1714x904+533+268,80,visual_aid_overlay))
 
 download: $(PDFS:=.pdf)
 figures: $(FIGURES)
-	rm -rf pages
 
 # brew install ocrmypdf
 %.ocr.pdf: %.pdf

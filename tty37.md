@@ -27,6 +27,20 @@ Questions:
 - What are the configurations of number of rows for typeboxes?
 - What are the symbols printed for control characters?
 
+![Keyboard](manuals/keyboard.png)
+
+### Alternate character sets
+
+A customizable keyboard overlay can be magnetically placed over the front cover
+of the typing unit, as a visual aid showing alternate keys. Characters can be
+printed onto it by the customer. \[Type 6.05, 6.06, figure 63]
+
+![Visual aid overlay](manuals/visual_aid_overlay.png)
+
+It is unclear whether this configuration was a typical option. The characters
+shown here differ from the Shift-Out characters listed in Unix V5-V7
+`/usr/pub/greek` and V6 `/usr/source/s7/ne3.c`.
+
 ## Parity
 
 Generates all 128 ASCII characters with even parity (standard feature).
