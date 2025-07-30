@@ -118,6 +118,16 @@ affected continually as long as all following graphics are from this row.
 The control function description for the “escape” sequence is labeled on the
 control panel above the top row of keytops on the keyboard and is as follows:
 
+## Shift-in and shift-out
+
+Typing characters in the alternate character set requires extra shift-in and
+shift-out characters. Teletype did develop a single keystroke control for
+alternate characters, which showed a gain of 10–15% in the speed of typing such
+characters; however, this modification was rejected, because of its relatively
+expensive installation and complicated maintenance. \[Chemical]
+
+TODO: Extract photos from \[Chemical].
+
 ## Function
 
 Suppression codebar can be operated by stunt box to inhibit operation of certain
@@ -566,11 +576,18 @@ modification kits described in Specification 50386S for 9-1/2" and Specification
   A [2013 video](https://www.youtube.com/watch?v=MikoF6KZjm0) shows it connected
   to a System V Release 3.2.2 machine, which relayed chat messages to it and
   another 37 at the LCM, dialing with a Dataphone.
-- The Living Computers Museum had a Teletype Model 37 ASR in their [collection](https://web.archive.org/web/20161024131926/http://www.livingcomputermuseum.org/The-Collection/Exhibit-Hall.aspx).
+- The Living Computers Museum in Seattle had a Teletype Model 37 ASR in their
+  [collection](https://web.archive.org/web/20161024131926/http://www.livingcomputermuseum.org/The-Collection/Exhibit-Hall.aspx).
   A [2018 video](https://www.youtube.com/watch?v=WqgFK9h75eg) shows it connected
   to a System V Release 3.2.2 machine. It is not listed in the
   [August 2024 auction](https://onlineonly.christies.com/s/firsts-history-computing-paul-g-allen-collection/lots/3726).
-- The National Museum of American History, part of the Smithsonian, has
+  Many of the LCM machines ended up at the [Interim Computer Museum](https://icm.museum/)
+  in Seattle [[1](https://mastodon.sdf.org/@icm/114870833408291217), [2](https://news.ycombinator.com/item?id=41275780)],
+  but no Model 37 is listed in their [exhibits as of 2025-07-27](https://icm.museum/blog/?p=268).
+- The [North American Data Communications Museum](https://nadcomm.com/) in San
+  Diego has a Teletype Model 37 KSR (sans desk) and a typing unit for a Model
+  37, as of [2003](https://mailman.qth.net/pipermail/greenkeys/2003-February/001983.html).
+- The National Museum of American History, part of the Smithsonian in D.C., has
   [a Teletype Model 37](https://www.si.edu/object/teletype-corporation-model-37-teletypewriter-printer:nmah_714260),
   but it is not on display.
 - [RTTY Electronics](https://www.johnwhitney.com/misc/paul-rtty.htm) in El
@@ -627,6 +644,13 @@ modification kits described in Specification 50386S for 9-1/2" and Specification
   Typing Unit to Take 9-1/2 Inch Width Paper, Respectively”](https://www.navy-radio.com/manuals/tty/jh/ttyman6/specs/50386S-Iss1.pdf).
   Specification 50386S, Issue 1, March 1965.
   - Referenced by \[Spec50494S], so must also apply to Model 37.
+
+- \[Chemical]: Alfred Feldman. [“A Chemical Teletype”](https://pubs.acs.org/doi/abs/10.1021/c160049a003).
+  Journal of Chemical Documentation, 15 January 1973. [[Sci-Hub](https://sci-hub.st/10.1021/c160049a003)]
+  - Adds chemical symbols, including extra tall ones, to the typebox of a Model
+    37 and uses a visual overlay. Has photos of the customized typebox and
+    overlay and diagram of the keyboard layout. Referenced by the
+    [Southwest Museum of Engineering, Communications, and Computation](https://www.smecc.org/teletype_-_wire_service_and_rtty.htm).
 
 - \[Dolotta]: T. A. Dolotta. [“Functional Specifications for Typewriter-Like
   Time-Sharing Terminals”](https://dl.acm.org/doi/10.1145/356561.356563).
@@ -786,3 +810,20 @@ Wiring Diagrams and Circuit Descriptions:
 - [Teletype documents](https://www.soemtron.org/teletypemanuals.html) on
   soemtron.org: hosts documents including for Teletype Model 33, 35, and 43 (not
   37), as well as information on [PDP-7 serial numbers](https://www.soemtron.org/pdp7.html)
+- [Amateur Radio Teletype (RTTY)](https://www.rtty.com/) on rtty.com.
+- Erica Fischer. [“The Evolution of Character Codes, 1874-1968”](https://github.com/e-n-f/ascii#readme).
+  IEEE Annals of the History of Computing, 2000.
+- Tom Jennings. [“An annotated history of some character codes”](https://web.archive.org/web/20130615102246/http://www.wps.com/projects/codes/index.html).
+  1999\. [[earliest snapshot](https://web.archive.org/web/20000815053807/http://www.wps.com/texts/codes/index.html),
+  [last snapshot before green](https://web.archive.org/web/20100519145500/http://www.wps.com/projects/codes/index.html)]
+- Tom Jennings. [“Bits, Bauds, & Modulation rates”](https://web.archive.org/web/20140224134132/http://www.wps.com/projects/bits-bauds-modulation-rates.html).
+  1999\.
+- The [North American Data Communications Museum (NADCOMM)](https://nadcomm.com/)
+  links to several telecom- and teletype-related resources, which have been
+  reviewed. The section “Teletypewriter Supplies” lists four supply and repair
+  contacts.
+- The [Tacoma Telephone Pioneer Museum](https://web.archive.org/web/20231022125518/http://www.scn.org/tech/telmuseum/)
+  notes that it has teletype machines, but does not specifically list them. Its
+  website has been offline since 2024. It appears to be related to the
+  Connections Museum, as its site [originally](http://web.archive.org/web/19970626121039/http://www.scn.org/tech/telmuseum/)
+  was for the Vintage Telephone Equipment Museum at the same Seattle location.
