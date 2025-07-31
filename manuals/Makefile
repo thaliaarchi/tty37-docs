@@ -12,20 +12,31 @@ all: download figures
 # $6: Output PNG stem
 define extract_figure
 PDFS += $1
-FIGURES += $6.png
+FIGURES += $1/$6.png
 
-$6.png: $1.pdf
+$1/$6.png: $1.pdf
 	@if [ ! -f pages/$1-$2 ]; then \
 		mkdir -p pages && \
 		echo pdfimages $1.pdf pages/$1 && \
 		pdfimages $1.pdf pages/$1; \
 	fi
+	@mkdir -p $1
 	magick pages/$1-$2 $3 -crop $4 -trim -bordercolor white -border $5 -strip $$@
 endef
 
-$(eval $(call extract_figure,574-301-100-iss1-7106,0006.pbm,-rotate 90,2046x594+344+332,40,keyboard))
+$(eval $(call extract_figure,574-301-100-iss1-7106,0006.pbm,-rotate 90,2046x594+344+332,40,keyboard_layout))
 $(eval $(call extract_figure,574-301-100-iss1-7106,0006.pbm,-rotate 90,2166x1092+296+1584,100,control_panel))
+
 $(eval $(call extract_figure,574-320-101-iss2-7302,0088.pbm,-rotate 90,1714x904+533+268,80,visual_aid_overlay))
+
+# Crop to 671x42+140+147 padded by 20
+$(eval $(call extract_figure,chemical_teletype_1973,0001.pgm,-normalize,711x82+120+127,0,basic_symbols))
+# Crop to 437x404+279+411 padded by 35,75,90,75
+$(eval $(call extract_figure,chemical_teletype_1973,0001.pgm,-normalize,587x529+204+376,0,typebox_locations))
+$(eval $(call extract_figure,chemical_teletype_1973,0001.pgm,,1184x967+232+1119,0,typebox))
+$(eval $(call extract_figure,chemical_teletype_1973,0002.pgm,,656x830+25+154,0,typebox_pressed))
+$(eval $(call extract_figure,chemical_teletype_1973,0002.pgm,,1380x965+24+1119,0,keyboard_with_overlay))
+$(eval $(call extract_figure,chemical_teletype_1973,0003.pbm,-negate,1686x772+494+236,50,keyboard_layout))
 
 .PHONY: download figures
 download: $(PDFS:=.pdf)

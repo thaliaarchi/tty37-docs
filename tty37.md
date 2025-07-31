@@ -27,7 +27,7 @@ Questions:
 - What are the configurations of number of rows for typeboxes?
 - What are the symbols printed for control characters?
 
-![Keyboard](manuals/keyboard.png)
+![Keyboard](manuals/574-301-100-iss1-7106/keyboard_layout.png)
 
 ### Alternate character sets
 
@@ -35,7 +35,7 @@ A customizable keyboard overlay can be magnetically placed over the front cover
 of the typing unit, as a visual aid showing alternate keys. Characters can be
 printed onto it by the customer. \[Type 6.05, 6.06, figure 63]
 
-![Visual aid overlay](manuals/visual_aid_overlay.png)
+![Visual aid overlay](manuals/574-320-101-iss2-7302/visual_aid_overlay.png)
 
 It is unclear whether this configuration was a typical option. The characters
 shown here differ from the Shift-Out characters listed in Unix V5-V7
@@ -126,7 +126,32 @@ alternate characters, which showed a gain of 10–15% in the speed of typing suc
 characters; however, this modification was rejected, because of its relatively
 expensive installation and complicated maintenance. \[Chemical]
 
-TODO: Extract photos from \[Chemical].
+![Figure 1](manuals/chemical_teletype_1973/basic_symbols.png)
+
+Basic chemical symbols. \[Chemical figure 1]
+
+![Figure 2](manuals/chemical_teletype_1973/typebox_locations.png)
+
+Locations of chemical symbols on type pallet. The frame represents the normal
+size of the type pallet. To accommodate the symbols outside the frame, the
+pallets had to be extended. \[Chemical figure 2]
+
+![Figure 3](manuals/chemical_teletype_1973/typebox.png)
+
+The 8-row type basket with chemical symbols. \[Chemical figure 3]
+
+![Figure 4](manuals/chemical_teletype_1973/typebox_pressed.png)
+
+Detail of type basket, showing extended symbols overlapping a sacrificed space.
+\[Chemical figure 4]
+
+![Figure 6](manuals/chemical_teletype_1973/keyboard_with_overlay.png)
+
+View of Teletype keyboard. \[Chemical figure 6]
+
+![Figure 7](manuals/chemical_teletype_1973/keyboard_layout.png)
+
+Teletype keyboard layout. \[Chemical figure 7]
 
 ## Function
 
@@ -209,11 +234,6 @@ and 11th tines.
 Figure 60 - Function Bar Code Chart (Even Parity)
 
 \[Table]
-
-Figure 63 - Visual Aid Overlay
-
-\[Graphic]
-Note: This shows the Greek symbols.
 
 ## Typebox
 
@@ -483,6 +503,12 @@ Other function bar configurations: \[Type p66–68]
 | 5   | 011xxxx | >    | :    | 6    | 2    | <    | 8    | 4    | 0    | ?    | ;    | 7    | 3    | =    | 9    | 5    | 1    |
 | 6   | 110xxxx | n    | j    | f    | b    | l    | h    | d    | `    | o    | k    | g    | c    | m    | i    | e    | a    |
 | 7   | 111xxxx | ~    | z    | v    | r    | \|   | x    | t    | p    | DEL  | {    | w    | s    | }    | y    | u    | q    |
+
+### Function bar slots
+
+TODO: Document function bar slot numbers. See also \[Type figure 48].
+
+The function box contains 42 slots for function bars. \[Type figure 6]
 
 ## Character repeat feature
 
