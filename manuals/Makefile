@@ -35,6 +35,12 @@ $(eval $(call extract_figure,chemical_teletype_1973,0001.pgm,-normalize,711x82+1
 $(eval $(call extract_figure,chemical_teletype_1973,0001.pgm,-normalize,587x529+204+376,0,typebox_locations))
 $(eval $(call extract_figure,chemical_teletype_1973,0001.pgm,,1184x967+232+1119,0,typebox))
 $(eval $(call extract_figure,chemical_teletype_1973,0002.pgm,,656x830+25+154,0,typebox_pressed))
+# Crop to 50x45+862+495 padded by 5
+$(eval $(call extract_figure,chemical_teletype_1973,0002.pgm,-normalize,60x55+857+490,0,structure_1))
+# Crop to 45x50+862+665 padded by 6
+$(eval $(call extract_figure,chemical_teletype_1973,0002.pgm,-normalize,55x60+857+660,0,structure_2))
+# Crop to 162x57+803+861 padded by 6
+$(eval $(call extract_figure,chemical_teletype_1973,0002.pgm,-normalize,172x67+798+856,0,structure_3))
 $(eval $(call extract_figure,chemical_teletype_1973,0002.pgm,,1380x965+24+1119,0,keyboard_with_overlay))
 $(eval $(call extract_figure,chemical_teletype_1973,0003.pbm,-negate,1686x772+494+236,50,keyboard_layout))
 
@@ -51,6 +57,11 @@ figures: $(FIGURES)
 	wget https://www.navy-radio.com/manuals/tty/m37/$@
 catalog_1969.pdf:
 	wget -O $@ https://archive.org/download/TNM_Model_37_terminal_product_catalog_-_Teletype__20170923_0036/TNM_Model_37_terminal_product_catalog_-_Teletype__20170923_0036.pdf
+chemical_teletype_1973.pdf:
+	@echo 'Download chemical_teletype_1973.pdf from' >&2
+	@echo 'https://pubs.acs.org/doi/abs/10.1021/c160049a003' >&2
+	@echo '       or https://sci-hub.st/10.1021/c160049a003' >&2
+	@exit 1
 
 .PHONY: clean
 clean:

@@ -2059,12 +2059,14 @@ Fold-out pages 23 and 24, and 25.
 <table>
   <thead>
     <tr style="white-space: nowrap;">
-      <th style="text-align: center;" colspan=4>Bits</th><th>b7 b6 b5</th>
+      <th style="text-align: center;" colspan=4>Bits</th>
+      <th>b<sub>7</sub> b<sub>6</sub> b<sub>5</sub></th>
       <th>0 0 0</th><th>0 0 1</th><th>0 1 0</th><th>0 1 1</th>
       <th>1 0 0</th><th>1 0 1</th><th>1 1 0</th><th>1 1 1</th>
     </tr>
     <tr>
-      <th rowspan=2>b4</th><th rowspan=2>b3</th><th rowspan=2>b2</th><th rowspan=2>b1</th>
+      <th rowspan=2>b<sub>4</sub></th><th rowspan=2>b<sub>3</sub></th>
+      <th rowspan=2>b<sub>2</sub></th><th rowspan=2>b<sub>1</sub></th>
       <th>Column</th>
       <th rowspan=2>0</th><th rowspan=2>1</th><th rowspan=2>2</th><th rowspan=2>3</th>
       <th rowspan=2>4</th><th rowspan=2>5</th><th rowspan=2>6</th><th rowspan=2>7</th>

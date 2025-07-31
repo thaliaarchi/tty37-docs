@@ -37,7 +37,9 @@ Figure 3. The 8-row type basket with chemical symbols
 Figure 4. Detail of type basket, showing extended symbols overlapping a
 sacrificed space
 
-*omitted*
+![Figure 5 structure 1](chemical_teletype_1973/structure_1.png)
+![Figure 5 structure 2](chemical_teletype_1973/structure_2.png)
+![Figure 5 structure 3](chemical_teletype_1973/structure_3.png)
 
 Figure 5. Keystroke comparisons—Teletype *vs.* Mullen machine
 
