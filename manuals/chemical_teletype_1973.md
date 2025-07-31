@@ -186,22 +186,20 @@ Figure 6. View of Teletype keyboard
 
 Figure 7. Teletype keyboard layout
 
-TODO: Transcribe table.
-
 <table>
   <thead>
     <tr style="white-space: nowrap;">
       <th style="text-align: center;" colspan=4>BITS 1–7</th>
       <th>b<sub>7</sub> b<sub>6</sub> b<sub>5</sub></th>
-      <th>0 0 0</th><th>0 0 1</th><th>0 1 0</th><th>0 1 1</th>
-      <th>1 0 0</th><th>1 0 1</th><th>1 1 0</th><th>1 1 1</th>
+      <th>0 0 0</th><th>0 0 1</th><th>0 1 0</th><th colspan=2>0 1 1</th>
+      <th colspan=2>1 0 0</th><th colspan=2>1 0 1</th><th>1 1 0</th><th>1 1 1</th>
     </tr>
     <tr>
       <th rowspan=2>b<sub>4</sub></th><th rowspan=2>b<sub>3</sub></th>
       <th rowspan=2>b<sub>2</sub></th><th rowspan=2>b<sub>1</sub></th>
       <th>COL</th>
-      <th rowspan=2>0</th><th rowspan=2>1</th><th rowspan=2>2</th><th rowspan=2>3</th>
-      <th rowspan=2>4</th><th rowspan=2>5</th><th rowspan=2>6</th><th rowspan=2>7</th>
+      <th rowspan=2>0</th><th rowspan=2>1</th><th rowspan=2>2</th><th rowspan=2 colspan=2>3</th>
+      <th rowspan=2 colspan=2>4</th><th rowspan=2 colspan=2>5</th><th rowspan=2>6</th><th rowspan=2>7</th>
     </tr>
     <tr><th>ROW</th></tr>
   </thead>
@@ -209,66 +207,130 @@ TODO: Transcribe table.
     <tr>
       <th>0</th><th>0</th><th>0</th><th>0</th><th>0</th>
       <td>NUL</td><td>DLE</td>
+      <td>SP</td><td colspan=2>0</td>
+      <td>α <sup>[K]</sup></td><td>ξ <sup>[K]</sup></td>
+      <td>P</td><td></td>
+      <td>%</td><td>p</td>
     </tr>
     <tr>
       <th>0</th><th>0</th><th>0</th><th>1</th><th>1</th>
       <td>SOH</td><td>DC1</td>
+      <td>1 <sup>[^]</sup></td><td colspan=2>1</td>
+      <td>A</td><td>\\ <sup>[<i>?</i>]</sup></td>
+      <td>Q</td><td></td>
+      <td>a</td><td>q</td>
     </tr>
     <tr>
       <th>0</th><th>0</th><th>1</th><th>0</th><th>2</th>
       <td>STX</td><td>DC2</td>
+      <td>2 <sup>[^]</sup></td><td colspan=2>2</td>
+      <td>B</td><td>└ <sup>[S]</sup></td>
+      <td>R</td><td>┌ <sup>[S]</sup></td>
+      <td>b</td><td>r</td>
     </tr>
     <tr>
       <th>0</th><th>0</th><th>1</th><th>1</th><th>3</th>
       <td>ETX</td><td>DC3</td>
+      <td>3 <sup>[^]</sup></td><td colspan=2>3</td>
+      <td>C</td><td>|| <sup>[<i>?</i>]</sup></td>
+      <td>S</td><td></td>
+      <td>c</td><td>s</td>
     </tr>
     <tr>
       <th>0</th><th>1</th><th>0</th><th>0</th><th>4</th>
       <td>EOT</td><td>DC4</td>
+      <td>4 <sup>[^]</sup></td><td colspan=2>4</td>
+      <td>D</td><td>\ <sup>[<i>?</i>]</sup></td>
+      <td>T</td><td></td>
+      <td>d</td><td>t</td>
     </tr>
     <tr>
       <th>0</th><th>1</th><th>0</th><th>1</th><th>5</th>
       <td>ENQ</td><td>NAK</td>
+      <td>5 <sup>[^]</sup></td><td colspan=2>5</td>
+      <td>E</td><td>// <sup>[<i>?</i>]</sup></td>
+      <td>U</td><td></td>
+      <td>e</td><td>u</td>
     </tr>
     <tr>
       <th>0</th><th>1</th><th>1</th><th>0</th><th>6</th>
       <td>ACK</td><td>SYN</td>
+      <td>6 <sup>[^]</sup></td><td colspan=2>6</td>
+      <td>F</td><td>· <sup>[<i>?</i>]</sup></td>
+      <td>V</td><td>δ <sup>[K]</sup></td>
+      <td>f</td><td>v</td>
     </tr>
     <tr>
       <th>0</th><th>1</th><th>1</th><th>1</th><th>7</th>
       <td>BEL</td><td>ETB</td>
+      <td>7 <sup>[^]</sup></td><td>7</td><td>½ʀʟꜰ</td>
+      <td>G</td><td>/ <sup>[<i>?</i>]</sup></td>
+      <td>W</td><td></td>
+      <td>g</td><td>w</td>
     </tr>
     <tr>
       <th>1</th><th>0</th><th>0</th><th>0</th><th>8</th>
       <td>BS</td><td>CAN</td>
+      <td>8 <sup>[^]</sup></td><td>8</td><td>½ʟꜰ</td>
+      <td>H</td><td>. <sup>[U]</sup></td>
+      <td>X</td><td></td>
+      <td>h</td><td>x</td>
     </tr>
     <tr>
       <th>1</th><th>0</th><th>0</th><th>1</th><th>9</th>
       <td>HT</td><td>EM</td>
+      <td>9 <sup>[^]</sup></td><td>9</td><td>ʀʟꜰ</td>
+      <td>I</td><td>= <sup>[<i>?</i>]</sup></td>
+      <td>Y</td><td></td>
+      <td>i</td><td>y</td>
     </tr>
     <tr>
       <th>1</th><th>0</th><th>1</th><th>0</th><th>10</th>
       <td>LF</td><td>SUB</td>
+      <td>*</td><td colspan=2>:</td>
+      <td>J</td><td>· <sup>[<i>?</i>]</sup></td>
+      <td>Z</td><td>┘ <sup>[S]</sup></td>
+      <td>j</td><td>z</td>
     </tr>
     <tr>
       <th>1</th><th>0</th><th>1</th><th>1</th><th>11</th>
       <td>VT</td><td>ESC</td>
+      <td>Δ <sup>[K]</sup></td><td colspan=2>;</td>
+      <td>K</td><td>İ <sup>[<i>?</i>]</sup></td>
+      <td>° <span style="font-size: 50%;">(degrees)</span></td><td></td>
+      <td>k</td><td>≡ <sup>[C]</sup></td>
     </tr>
     <tr>
       <th>1</th><th>1</th><th>0</th><th>0</th><th>12</th>
       <td>FF</td><td>FS</td>
+      <td></td><td colspan=2>= <sup>[C]</sup></td>
+      <td>L</td><td>| <sup>[C]</sup></td>
+      <td>/ <sup>[S]</sup></td><td></td>
+      <td>l</td><td>' <span style="font-size: 50%;">(apostrophe)</span></td>
     </tr>
     <tr>
       <th>1</th><th>1</th><th>0</th><th>1</th><th>13</th>
       <td>CR</td><td>GS</td>
+      <td>-</td><td colspan=2>0 <sup>[^]</sup></td>
+      <td>M</td><td>İI <sup>[C]</sup></td>
+      <td>♢ <sup>[S]</sup></td><td></td>
+      <td>m</td><td>(</td>
     </tr>
     <tr>
       <th>1</th><th>1</th><th>1</th><th>0</th><th>14</th>
       <td>SO</td><td>RS</td>
+      <td></td><td colspan=2>— <sup>[<i>?</i>]</sup></td>
+      <td>N</td><td>┐ <sup>[S]</sup></td>
+      <td>+</td><td>λ <sup>[K]</sup></td>
+      <td>n</td><td>)</td>
     </tr>
     <tr>
       <th>1</th><th>1</th><th>1</th><th>1</th><th>15</th>
       <td>SI</td><td>US</td>
+      <td>β <sup>[K]</sup></td><td colspan=2>?</td>
+      <td>O</td><td>— <sup>[U]</sup></td>
+      <td></td><td></td>
+      <td>o</td><td>DEL</td>
     </tr>
   </tbody>
 </table>
@@ -278,6 +340,9 @@ TODO: Transcribe table.
 - [K] GREEK LETTER
 - [S] GRAPHIC SYMBOL
 - [^] SUBSCRIPT NUMERAL
+
+*Transcription note*: The [C] and [S] annotations are often unclear. Such cases
+are marked with [*?*].
 
 Figure 8. Teletype code chart
 
