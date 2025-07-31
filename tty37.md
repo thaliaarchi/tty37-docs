@@ -596,6 +596,14 @@ modification kits described in Specification 50386S for 9-1/2" and Specification
 
 ## Extant machines
 
+- The [Interim Computer Museum](https://icm.museum/blog/?p=268) in Seattle has
+  several teleprinters: Teletype models 28, 33, 35, and 37; DECwriter I, II, and
+  III; and Siemens T100 (from email correspondence). The Model 37 and a BLIT
+  video terminal are connected to the 3B2/1000-70. The Model 33s are used on the
+  PDP-7, which runs UNICS V0 with an emulated RM09 connected to the I/O bus, and
+  the Altair 8800. The Model 28 is connected to a current loop and runs a news
+  feed at 45.5 baud. Many of the LCM machines ended up at the ICM [[1](https://mastodon.sdf.org/@icm/114870833408291217),
+  [2](https://news.ycombinator.com/item?id=41275780)].
 - The [Connections Museum Seattle](https://www.telcomhistory.org/ConnectionsSeattle.html)
   [[Wikipedia](https://en.wikipedia.org/wiki/Connections_Museum)] has a Teletype
   Model 37 ASR in their [collection](https://wiki.connections.museum/w/CMS:Teletype_Collection).
@@ -607,9 +615,6 @@ modification kits described in Specification 50386S for 9-1/2" and Specification
   A [2018 video](https://www.youtube.com/watch?v=WqgFK9h75eg) shows it connected
   to a System V Release 3.2.2 machine. It is not listed in the
   [August 2024 auction](https://onlineonly.christies.com/s/firsts-history-computing-paul-g-allen-collection/lots/3726).
-  Many of the LCM machines ended up at the [Interim Computer Museum](https://icm.museum/)
-  in Seattle [[1](https://mastodon.sdf.org/@icm/114870833408291217), [2](https://news.ycombinator.com/item?id=41275780)],
-  but no Model 37 is listed in their [exhibits as of 2025-07-27](https://icm.museum/blog/?p=268).
 - The [North American Data Communications Museum](https://nadcomm.com/) in San
   Diego has a Teletype Model 37 KSR (sans desk) and a typing unit for a Model
   37, as of [2003](https://mailman.qth.net/pipermail/greenkeys/2003-February/001983.html).
