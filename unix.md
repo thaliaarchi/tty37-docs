@@ -88,6 +88,43 @@ Procedure for the Teletype Model 37:
 
 > If the -n flag is present then the left margin is not indented as is normal.
 
+## Teletype Model 33 and 37 use in Unix
+
+Brian Kernighan talked about the use of the Teletype Model 37 [at VCF East 2025](https://www.youtube.com/watch?v=WEb_YL1K1Qg&t=2940s):
+
+> **Question**:
+>
+> So as someone who was unfortunately a little young to use a teletype in anger,
+> I have a question about how it was. First of all, the famous picture of Ken
+> and Dennis, they're Teletype Model 33s, which are ASCII 63, so they're
+> capital-only, they're missing some characters, and early Unix doesn't have
+> those characters. And my question is, by the time C came along, were you all
+> done with those teletypes, or, if not, why is it the case that C uses
+> characters that aren't on those teletypes. Do you have some intuition as to
+> how we came to that place?
+>
+> **Brian Kernighan**:
+>
+> Yeah, I think the answer is, the Model 33 came along first, because they were
+> made by AT&T, and so they were available, but as you pointed out quite
+> correctly, they were essentially upper case devices only with at most 64
+> characters. But, very soon after that, and I don't remember the exact date,
+> came along the Model 37 Teletype, which had upper and lower case, and so most
+> of the software after that first two or three versions of Unix was using—still
+> paper—, but the Model 37 Teletype, which was almost as much of an
+> upper-body-developing device—you really had to push on it—, but it had a full
+> character set, and so that was the important thing.
+>
+> This is a story which I don't know why I've never told it before, certainly
+> not here before. It also had some weird properties, because it was
+> tractor-feed paper, so it was fan-folded, but with holes along the side so it
+> could be pulled through and maintain alignment very easily. But one of the
+> things you could do was, you could run it backwards, that is, you could take
+> the paper out, as well as in. And I still remember Robert Morris Sr. sending
+> an email to Joe Ossanna which contained a hundred reverse line feeds—so it
+> sucked the paper out of the 37 and dropped it on the floor. And you don't want
+> to have to thread the paper on those things.
+
 ## References
 
 - V7 /usr/man/man0/intro
