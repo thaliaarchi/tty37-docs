@@ -5,7 +5,7 @@ for “discussion of older radio teletype (RTTY) gear”, relating to the Telety
 Model 37.
 
 Searched `/37[ -_]?(asr|ksr|ro)|model ?37|\bM37|(^|[^:.])\b37\b($|[^:])/i` for
-all messages through 2008.
+all messages through 2009.
 
 On Teletype models:
 
@@ -14,6 +14,24 @@ On Teletype models:
   List of info on every model from 10 to 43
 - [2008-05-25](https://mailman.qth.net/pipermail/greenkeys/2008-May/011358.html):
   The character sets of various models and also use of Fieldata code
+- [2009-12-26](https://mailman.qth.net/pipermail/greenkeys/2009-December/015741.html):
+  Evolution of Models 26, 28, 29, 32, 33, 34, 35, 37, and 38, including:
+  > The design of the Model 28 started in about 1953 and many are still in use.
+  > The same design was used with few modifications for the Model 29, 34, 35 and
+  > also was the basis for the Model 37... the last real Teletype machine before
+  > the entrance of ink jet, dot matrix and chain printers.
+  >
+  > The model 38 was based on the Model 33 with features similar to the 37. The
+  > 37 would have been more successful if it had been released sooner with a
+  > better keyboard and a more reliable reperforator, or with a magnetic tape
+  > terminal.
+
+On documentation:
+- [2009-06-30](https://mailman.qth.net/pipermail/greenkeys/2009-June/014932.html):
+  The [Antique Wireless Association Museum Library](https://www.antiquewireless.org/homepage/museum/)
+  has a copy of the Teletype Corp. Museum list, which describes and photographed
+  various Teletype models in twelve volumes of 30–50 pages each. The poster,
+  Duncan Brown, intended to scan and index it.
 
 On teleprinter typefaces:
 
@@ -126,6 +144,26 @@ On horizontal tabs:
   > the 8-character column positions. If you wanted them somewhere else you were
   > pretty much on your own.
 
+On ribbons:
+
+- [2009-02-14](https://mailman.qth.net/pipermail/greenkeys/2009-February/013557.html):
+  > > > I was wondering if there is any way to re-ink TTY ribbons?
+  > >
+  > > Why bother? They're easily available. Just order NuKote B76 ribbons.
+  > >
+  > > http://www.amazon.com/gp/product/B000EFJY8U
+  > >
+  > > $3.82 each from Amazon. Teletype models 12, 15, and I think the 28/33/35
+  > > series all run on old-style Underwood typewriter ribbons.
+  >
+  > Models 12,14,15,19,20,26,28,32,32,33,35 all use the Underwood style BLACK
+  > RECORD ribbon. \
+  > The Model 37 and 38 use the same ribbon but in BLACK/RED RECORD. \
+  > The Model 40 and 45 both use a special large ribbon on a large spool.
+  >
+  > The Kleinschmidt machines use the ribbons produced for the SCM typewriters.
+  > The spools are different than the Underwood type.
+
 On paint colors:
 
 - [2008-11-25](https://mailman.qth.net/pipermail/greenkeys/2008-November/012595.html),
@@ -136,6 +174,13 @@ On paint colors:
 - [2008-09](https://mailman.qth.net/pipermail/greenkeys/2008-September/) "paint"
   subjects: Paint color matching and some color codes.
 
+On printing in reverse:
+
+- [2009-06-30](https://mailman.qth.net/pipermail/greenkeys/2009-June/014932.html),
+  [2009-07-01](https://mailman.qth.net/pipermail/greenkeys/2009-July/014934.html):
+  A version of the Model 15 had a carriage moving right-to-left which printed
+  Hebrew and a version of either the 37 or 38 (uncertain) printed backwards.
+
 On Model 37 second-hand purchases:
 
 - [2008-01-19](https://mailman.qth.net/pipermail/greenkeys/2008-January/010743.html):
@@ -145,6 +190,11 @@ On Model 37 second-hand purchases:
   > found a company willing to make both the 32, 33, and 38 print hammers and
   > the 28, 35, and 37 reperf hammers. but the up front $600. tooling cost was
   > too high for us.
+
+On locations of Model 37s:
+- [2010-04-15](https://mailman.qth.net/pipermail/greenkeys/2010-April/016517.html):
+  The Model 37 ASR at the Museum of Communications, Seattle was probably donated
+  by Don Robert House.
 
 On Model 37s sold to the Soviet Union:
 
