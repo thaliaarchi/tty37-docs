@@ -7,6 +7,8 @@ Model 37.
 Searched `/37[ -_]?(asr|ksr|ro)|model ?37|\bM37|(^|[^:.])\b37\b($|[^:])/i` for
 all messages through 2010.
 
+TODO: Search for “films”, “movies”, [“Andromeda Strain”](https://mailman.qth.net/pipermail/greenkeys/2010-January/015793.html)
+
 On Teletype models:
 
 - [2003-08-20](https://mailman.qth.net/pipermail/greenkeys/2003-August/002825.html),
@@ -325,3 +327,197 @@ On the advanced Model 37:
   > The 37 was mechanically speaking, the "end of our era", the last to use
   > "type box & peckerhead" technology, to revive the terms used by one of my
   > former Navy trained, Bell System employed teletype repairman!
+
+On all-caps in the Navy:
+
+- [2013-06-06](https://mailman.qth.net/pipermail/greenkeys/2013-June/026540.html):
+  > The U.S. Navy is changing the format of messages to include lower case
+  > characters.
+  >
+  > http://www.navytimes.com/article/20130606/NEWS04/306060010/ALL-CAPS-MESSAGES-no-more
+  >
+  > "The Navy and other services have a long history with all-caps messages.
+  > Early teletype machines, which the military started using in the 1850s, were
+  > made up of only three rows of keys and did not allow for lowercase letters."
+
+On Teletypes in films:
+
+- [2010-01-02](https://mailman.qth.net/pipermail/greenkeys/2010-January/015785.html):
+  > I have posted some pics from one of my favorite sci-fi movies, Andromeda
+  > Strain (1971). There are pics of the 33ASR that they painted black -- I just
+  > may do that someday with a cracked crappy 33 cover. There are also some pics
+  > of M35s, including the paper scrap in the bell. Just a fun little bit of
+  > teletype trivia from the movies. Next I'll need to get some pics from
+  > Brazil. http://www.baudot.net/gil/andromeda-strain-1971/
+- [2013-02-17](https://mailman.qth.net/pipermail/greenkeys/2013-February/025116.html):
+  > Here is a list (and a link for photos), of TV shows (and a movie), that have
+  > featured teletype machines. If anyone has any additions to the list, let me
+  > know; surely a lot more exist, especially in films.
+  >
+  > TV:
+  > - Kolchak - The Night Stalker
+  > - Lou Grant
+  > - Man From Uncle
+  > - Mary Tyler Moore
+  > - WKRP in Cincinnati
+  > - Yes Prime Minister (British sitcom)
+  >
+  > Film:
+  > - Andromeda Strain
+  >
+  > Photos from all of the above, can be seen at the link below.
+  > http://www.flickr.com/photos/14994379@N08/
+  >
+  > If the link does not work, just copy and paste it into your browsers search
+  > box, or go to Flickr.com, and type “kolchak teletype” in the search box.
+- [2013-02-23](https://mailman.qth.net/pipermail/greenkeys/2013-February/025192.html):
+  > Thanks to Greenkeyers, and some more research on my own, we have greatly
+  > expanded the teletype film and TV list. An updated list is below. New
+  > submissions always welcome.
+  >
+  > TV:
+  > - Kolchak - The Night Stalker
+  > - Lou Grant
+  > - Man From Uncle
+  > - Mary Tyler Moore
+  > - Mission Impossible (TV)
+  > - Murphy Brown
+  > - Remember WENN
+  > - The Prisoner - ‘Dance of the Dead’
+  > - Twilight Zone - ‘Where is Everybody’
+  > - Voyage to the Bottom of the Sea (TV)
+  > - WKRP in Cincinnati
+  > - Yes Prime Minister (British sitcom)
+  >
+  > FILM:
+  > - -30- 1959
+  > - All the President's Men 1976
+  > - Andromeda Strain 1971
+  > - Argo 2012
+  > - Being there 1979
+  > - Brazil 1985
+  > - Colossus: The Forbin Project 1970
+  > - Dick Tracy 1990
+  > - Fail-Safe 1964
+  > - Good Morning Vietnam 1987
+  > - Hudsucker Proxy 1994
+  > - Ice Station Zebra 1968
+  > - The Good Shepherd 2006
+  > - The Hoax 2006
+  > - The Rum Diary 1990
+  > - The Spy Who Loved Me 1977
+  > - The Taking of Pelham 123 1974
+  >
+  > MISCELLANEOUS:
+  > - The Boomtown Rats - "I Don't Like Mondays" (1979).  Lyrics contain - “The
+  >   Telex machine is kept so clean”.
+  > - The Six Million Dollar Man - Their was an episode entitled “The Ghostly
+  >   Teletype”, unknown if it actually featured a teletype.
+  > - Thunderbirds - “The Mighty Atom”.  British science fiction television
+  >   (1965-66), using a form of marionette puppetry (supermarionation).
+  > - Twilight Zone - “Printer’s Devil”  Episode with Burgess Meredith operating
+  >   a linotype machine.
+  > - Wall Street Week - "TWX in 12 Bars" teletype sampled music theme
+  > - Walter Cronkite's CBS News - row of 28RO machines in background
+  >
+  > A few new photos have been added to my Flickr page below.
+  > http://www.flickr.com/photos/14994379@N08/
+  >
+  > If the link does not work, just copy and paste it into your browsers search
+  > box, or go to Flickr.com, and type “kolchak teletype” in the search box.
+- [2013-02-17](https://mailman.qth.net/pipermail/greenkeys/2013-February/025117.html):
+  > Don't forget all the evening TV news shows that used to have at least ONE
+  > model 15 in the background clattering away.
+  >
+  > Even after they got rid of them on the set, the noise of a machine was kept
+  > for back ground effects with "And now....a breaking story."
+- [2013-02-17](https://mailman.qth.net/pipermail/greenkeys/2013-February/025118.html):
+  > I don't have any screen shots but there was a 28KSR in the background of the
+  > newsroom in the late 90s AMC series "Remember WENN," set in a pre-war radio
+  > station. Totally the wrong Teletype for the time period of the show, but so
+  > was the WE 555 cord switchboard in the lobby of the same program!
+- [2013-02-17](https://mailman.qth.net/pipermail/greenkeys/2013-February/025119.html):
+  > One movie that comes to mind: "The Taking of Pelham 123"
+- [2013-02-17](https://mailman.qth.net/pipermail/greenkeys/2013-February/025120.html):
+  > I havent seen it yet, but there should be some 32 and 33's in the movie
+  > "Argo". Its about the Iran hostage crisis when Jimmy Carter was president. I
+  > believe its nominated for Academy Award.
+  >
+  > I gave some advice and sold a few parts (inlcuding a lid w/window) to
+  > History For Hire in Hollywood. I am looking forward to the movie and maybe
+  > seeing the 33's and even my lid.
+  >
+  > Not as good as Don being in "Flags of Our Fathers", but my only connection
+  > with a movie.
+  >
+  > They cut Dons scene from "Flags", but I enjoyed his narrative of the
+  > experience of working with "Mr. Eastwood".
+- [2013-02-17](https://mailman.qth.net/pipermail/greenkeys/2013-February/025121.html):
+  > And for the Teletype music aficionado, there is always the boogie-beat
+  > tympany provided by the sound-sampled 32/33 in "TWX in 12 Bars
+  > <http://www.youtube.com/watch?v=LHc4Ge_HZLc>" from "Wall Street Week".
+  > ("Wait for it", the best part is at the end...)
+- [2013-02-17](https://mailman.qth.net/pipermail/greenkeys/2013-February/025122.html):
+  > For a number of years Walter Cronkite's CBS News had a row of 28RO's in the
+  > near background.
+  >
+  > The 1990 movie Dick Tracy also had 28RO's, a bad anachronism for a 1930's
+  > police station.
+- [2013-02-17](https://mailman.qth.net/pipermail/greenkeys/2013-February/025123.html):
+  > Have you already forgotten about Robin Williams in "Good Morning Viet Nam"?
+  > TTY machines were prominently featured.
+- [2013-02-17](https://mailman.qth.net/pipermail/greenkeys/2013-February/025128.html):
+  > How about TV Series, I am watching, re-watching after 40+ years Voyage to
+  > the Bottom of the Sea, not the movie but the TV series, in the first season
+  > the show a 28KSR either on land or on the sub.
+- [2013-02-18](https://mailman.qth.net/pipermail/greenkeys/2013-February/025139.html),
+  [2013-02-18](https://mailman.qth.net/pipermail/greenkeys/2013-February/025143.html):
+  > Here are some pics from one of my favorite sci-fi movies, Andromeda Strain
+  > (1971). There are pics of the 33ASR that they painted black. There are also
+  > some pics of M35s, including the paper scrap in the bell that prevented them
+  > from hearing an incoming transmission (yeah, like you wouldn't hear the
+  > machine pounding away). […]
+  > http://www.baudot.net/gil/andromeda-strain-1971/
+  >
+  > Terry Gilliam's Brazil has lots of fun tty stuff (British, I believe), all
+  > exposed and crunching.
+- [2013-02-18](https://mailman.qth.net/pipermail/greenkeys/2013-February/025140.html):
+  > And of course, Colossus, the Forbin project.
+- [2013-02-18](https://mailman.qth.net/pipermail/greenkeys/2013-February/025152.html):
+  > The Good Shepard starring Matt Damon. This movie had several TTY's (I can't
+  > recall if they were 26's or 15s/19s) I believe Jack Hart provided machines
+  > for this. I forget which models were displayed. My 28ASR went to that movie
+  > (while it was owned by Jack), but as hard as I looked out for it, I did not
+  > see it :)
+- [2013-02-20](https://mailman.qth.net/pipermail/greenkeys/2013-February/025174.html):
+  > They [The Good Shepard] did not use the roomful of 28's; the Model 19 got
+  > all if the on-screen time. There was supposed to be an "early" 1940's Comm
+  > center scene with 15's and 19's then a "later" 1950's scene with 28's and
+  > Collins radios. The later version didn't make the movie.
+- [2013-02-20](https://mailman.qth.net/pipermail/greenkeys/2013-February/025175.html):
+  > I watched "Argo" last night and there were a few scenes with 33's in them.
+  > Pretty good movie as well.
+- [2013-06-15](https://mailman.qth.net/pipermail/greenkeys/2013-June/026668.html),
+  [2013-06-15](https://mailman.qth.net/pipermail/greenkeys/2013-June/026669.html):
+  > A while back someone was collecting a "Teletype in movies" list. […]
+  >
+  > I found one recently with a 19, so I thought I would add it.
+  >
+  > The movie is "UNION STATION" staring Wm. Holden. Nancy Olson and Barry
+  > Fitzgerald from 1950.
+  >
+  > For the railroad buffs, good shots of the Chicago Union Station, the Chicago
+  > Tunnel Company, and the stock yards.
+- [2013-06-15](https://mailman.qth.net/pipermail/greenkeys/2013-June/026670.html):
+  > Where can I see the list of movies? Recent sightings include a model 28 in
+  > the cult classic "Hairspray", and a model 15 in the early 1950s film noire
+  > "Ace In The Hole"or "The Big Carnival".
+- [2013-06-15](https://mailman.qth.net/pipermail/greenkeys/2013-June/026672.html):
+  > There is a teleprinter in "Ace in the Hole" being operated by Kirk Douglas
+  > playing a reporter. However, it is a WU Model 100 series machine...there are
+  > several shots of Kirk sitting at the keyboard, and finally, when his story
+  > goes up is smoke, a shot of the machine rocked-back on a hand-truck being
+  > carted away by a workman.
+- [2013-06-16](https://mailman.qth.net/pipermail/greenkeys/2013-June/026683.html):
+  > Yes, the TTY in "Ace In The Hole" is a model 100. Lots of shots of it. Also
+  > a good movie.
