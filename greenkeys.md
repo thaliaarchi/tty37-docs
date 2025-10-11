@@ -5,7 +5,7 @@ for “discussion of older radio teletype (RTTY) gear”, relating to the Telety
 Model 37.
 
 Searched `/37[ -_]?(asr|ksr|ro)|model ?37|\bM37|(^|[^:.])\b37\b($|[^:])/i` for
-all messages through 2009.
+all messages through 2010.
 
 On Teletype models:
 
@@ -86,6 +86,50 @@ On teleprinter typefaces:
 - [2004-07-29](https://mailman.qth.net/pipermail/greenkeys/2004-July/004356.html):
   Rendering overstrike ASCII art at <https://www.threedee.com/jcm/aaa/index.html>.
 
+On Model 37 type pallets:
+
+- [2010-04-23](https://mailman.qth.net/pipermail/greenkeys/2010-April/016614.html):
+  > There are two M37 type boxes up for bids on eBay. One is special in that
+  > half the type pallets are missing. The other is full with all of the
+  > standard pallets. I am hoping to win it as I am missing the type box for one
+  > of my two Model 37 machines.
+  >
+  > Teletype would provide whatever pallets the customer needed. The Model 37
+  > had more pallets available than any other machine I am aware of.
+  >
+  > The keyboards were not friendly and we technicians had a heck of a time when
+  > the customer needed a special key top. Most of the machines I worked on were
+  > at Western Electric's office in Rolling Meadows, IL. Thank goodness they
+  > used the standard type box and keyboard.
+  >
+  > The 37 was a neat machine in that it had just about all options customers
+  > had asked for... Here are some of the more interesting features and
+  > options..
+  >
+  > - RED/BLACK Ribbon.
+  > - Reverse Line Feed.
+  > - On line TAB set and TAB CLEAR for both horizontal and vertical tabs.
+  > - Upper and lower case characters.
+  >
+  > The design of the typing unit was nice. Too bad the keyboard was not as well
+  > designed. A character was printed through the use of both a front plate and
+  > a side plate. This enabled the machine to type one character and move to the
+  > next character without going back to home. Weird to watch.
+  >
+  > The selector clutch on both the typing unit and the reperforator had two
+  > stops on it each character code was formed in one half of a revolution. So
+  > when operating at 150 wpm the shaft was actually turning at a lower speed
+  > than that of the Model 35 running at 100 wpm.
+  >
+  > The last Teletype Test Boards built by Teletype and Western Electric had a
+  > marvelous and complex Electrical Service Unit. A set of buttons across the
+  > front of the cover on the typing unit selected the following....
+  >
+  > 5 Level 60, 5 Level 75, 5 Level 100, 8 Level 100, 8 Level 150. The ESU
+  > changed all the codes to 8 Level 150 to feed the selector. Sadly I missed a
+  > chance to obtain one of the test board positions in Pac Bell. I also missed
+  > a chance to get an older test board position in Chicago Franklin.
+
 On character movement and speeds:
 
 - [2003-02-12](https://mailman.qth.net/pipermail/greenkeys/2003-February/002003.html):
@@ -121,6 +165,40 @@ On the Model 37 stunt box:
   > Of course the model 35 and 37 also had normal stuntbox capability. In the
   > case of the M37 the stuntbox also had extention cables to control such
   > features as red/black ribbon shift, and on-line tab set and tab clear.
+
+On mechanical over electrical operation:
+
+- [2010-03-15](https://mailman.qth.net/pipermail/greenkeys/2010-March/016249.html),
+  [2010-03-16](https://mailman.qth.net/pipermail/greenkeys/2010-March/016260.html),
+  [2010-03-16](https://mailman.qth.net/pipermail/greenkeys/2010-March/016262.html):
+  In response to a 1917 Bachelor's thesis on Morkrum machines:
+  > > The Morkrum machines had far more electrical parts than the later Teletype
+  > > machines. There were about 16 relays and six magnets in the Morkrum
+  > > machine. Later machines were simpler electrically and had more mechanical
+  > > logic. The Model 12 also had relay decoding of incoming characters, with
+  > > one magnet for each bit. The Model 15, with all decoding done mechanically
+  > > and only one selector magnet, had the fewest electrical parts.
+  >
+  > And the Model 14 before it. Legend is that the Model 14/15 single-magnet
+  > selector was sketched by Howard Krum on a napkin at a hot dog joint on Coney
+  > Island.
+  >
+  > He wrote about 1925 "These first tests also pointed out the advantages and
+  > superiority of mechanical over electrical operation, with a result that all
+  > functions outside of the bare selection are now performed mechanically by
+  > the Teletype in its present form."
+  >
+  > Unfortunately this mind-set persisted well into the 1960s, when the
+  > designers of the Model 37 spent far too much time developing an 8-level
+  > mechanical selector that would operate well at 150 baud. Had they settled
+  > for a parallel-input printer with an electronic selector, and put more
+  > effort into a better keyboard, the machine might have been a success.
+  > However the daisywheels and the dot matrix machines were nipping at its
+  > heels.
+  >
+  > A. H. Reiber of Teletype patented a daisy wheel printer in 1939, at which
+  > time it was not very practical to make; and I suppose by the 1960s it had
+  > been forgotten. (Patent 2,146,380)
 
 On horizontal tabs:
 
@@ -192,22 +270,54 @@ On Model 37 second-hand purchases:
   > too high for us.
 
 On locations of Model 37s:
-- [2010-04-15](https://mailman.qth.net/pipermail/greenkeys/2010-April/016517.html):
+- [2010-04-15](https://mailman.qth.net/pipermail/greenkeys/2010-April/016517.html),
+  [2010-12-05](https://mailman.qth.net/pipermail/greenkeys/2010-December/017901.html):
   The Model 37 ASR at the Museum of Communications, Seattle was probably donated
   by Don Robert House.
+- [2010-08-06](https://mailman.qth.net/pipermail/greenkeys/2010-August/017302.html):
+  Photos of a Model 37 KSR at <https://www.piercefuller.com/library/10099.html>.
 
 On Model 37s sold to the Soviet Union:
 
 - [2007-11-06](https://mailman.qth.net/pipermail/greenkeys/2007-November/010139.html):
   > Teletype did sell many model 37s to the Soviet Union. My TTY Corp
   > instructor was sent over there to train their people on them.
+- [2010-08-06](https://mailman.qth.net/pipermail/greenkeys/2010-August/017301.html):
+  > many Model 37 teletypes were bought by Russia - the Model 37 is an ASCII
+  > machine that will print lower-case, and the Russians fitted them with
+  > Cyrillic type blocks.
 
-On Model 37 unreliability and relation to stock tickers:
+On similarity to other machines:
+
+- [2010-10-03](https://mailman.qth.net/pipermail/greenkeys/2010-October/017630.html):
+  Kleinschmidt Model 321:
+  > Kleinschmidt/SCM produced a machine called a 321 ADS. It had an engraved
+  > drum very much like the UGC74A. It also had a TD and reperf on the table.
+  > The configuration was similar to a Teletype Model 37ASR, physically.
+- [2010-10-03](https://mailman.qth.net/pipermail/greenkeys/2010-October/017634.html):
+  [Photo](https://www.dvq.com/ads/scm_311_sa_10_65.jpg) of the Kleinschmidt
+  Model 311
+- [2010-10-04](https://mailman.qth.net/pipermail/greenkeys/2010-October/017638.html):
+  > In the book 'RTTY from A to Z" by Durward J. Tucker (1970) there are
+  > pictures and descriptions of both the 311 and 321 - pages 153 and 154.
+
+On Model 37 relation to stock tickers:
 
 - [2003-04-11](https://mailman.qth.net/pipermail/greenkeys/2003-April/002385.html):
-  > the "Teletype 900" [stock] tickers […] were designed using Model 37
-  > technology and that sure explains why they were short-lived. Any Model 37 I
-  > ever met had a genetic desire to self-destruct.
+  > the "Teletype 900" tickers […] were designed using Model 37 technology and
+  > that sure explains why they were short-lived. Any Model 37 I ever met had a
+  > genetic desire to self-destruct.
+- [2010-01-02](https://mailman.qth.net/pipermail/greenkeys/2010-January/015793.html):
+  > The Dow-Jones printer was known as the "Broad Tape." It printed on a paper
+  > roll that was 5 inches wide - hence the name. For more information on the
+  > Dow-Jones printer, go to the following URL:
+  > http://www.lostwackys.com/tickers/dow-jones/ \
+  > […] the newer ticker (which used an aggregate motion linkage like the
+  > Model 37) couldn't keep up with the trading on busy days and it was gone in
+  > a few years.
+- [2010-06-12](https://mailman.qth.net/pipermail/greenkeys/2010-June/016909.html):
+  > when the new stock ticker based on Model 37 printer came out I think it used
+  > a different width of ticker tape than its predecessor.
 
 On the advanced Model 37:
 
