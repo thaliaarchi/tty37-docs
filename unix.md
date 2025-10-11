@@ -125,6 +125,8 @@ Brian Kernighan talked about the use of the Teletype Model 37 [at VCF East 2025]
 > sucked the paper out of the 37 and dropped it on the floor. And you don't want
 > to have to thread the paper on those things.
 
+Evidently, they usually used tractor/sprocket-feed paper for Unix.
+
 ## References
 
 - V7 /usr/man/man0/intro
