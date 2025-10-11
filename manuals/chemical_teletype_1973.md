@@ -216,7 +216,7 @@ Figure 7. Teletype keyboard layout
       <th>0</th><th>0</th><th>0</th><th>1</th><th>1</th>
       <td>SOH</td><td>DC1</td>
       <td>1 <sup>[^]</sup></td><td colspan=2>1</td>
-      <td>A</td><td>\\ <sup>[<i>?</i>]</sup></td>
+      <td>A</td><td>\\ <sup>[C]</sup></td>
       <td>Q</td><td></td>
       <td>a</td><td>q</td>
     </tr>
@@ -232,7 +232,7 @@ Figure 7. Teletype keyboard layout
       <th>0</th><th>0</th><th>1</th><th>1</th><th>3</th>
       <td>ETX</td><td>DC3</td>
       <td>3 <sup>[^]</sup></td><td colspan=2>3</td>
-      <td>C</td><td>|| <sup>[<i>?</i>]</sup></td>
+      <td>C</td><td>|| <sup>[C]</sup></td>
       <td>S</td><td></td>
       <td>c</td><td>s</td>
     </tr>
@@ -240,7 +240,7 @@ Figure 7. Teletype keyboard layout
       <th>0</th><th>1</th><th>0</th><th>0</th><th>4</th>
       <td>EOT</td><td>DC4</td>
       <td>4 <sup>[^]</sup></td><td colspan=2>4</td>
-      <td>D</td><td>\ <sup>[<i>?</i>]</sup></td>
+      <td>D</td><td>\ <sup>[C]</sup></td>
       <td>T</td><td></td>
       <td>d</td><td>t</td>
     </tr>
@@ -248,7 +248,7 @@ Figure 7. Teletype keyboard layout
       <th>0</th><th>1</th><th>0</th><th>1</th><th>5</th>
       <td>ENQ</td><td>NAK</td>
       <td>5 <sup>[^]</sup></td><td colspan=2>5</td>
-      <td>E</td><td>// <sup>[<i>?</i>]</sup></td>
+      <td>E</td><td>// <sup>[C]</sup></td>
       <td>U</td><td></td>
       <td>e</td><td>u</td>
     </tr>
@@ -256,7 +256,7 @@ Figure 7. Teletype keyboard layout
       <th>0</th><th>1</th><th>1</th><th>0</th><th>6</th>
       <td>ACK</td><td>SYN</td>
       <td>6 <sup>[^]</sup></td><td colspan=2>6</td>
-      <td>F</td><td>· <sup>[<i>?</i>]</sup></td>
+      <td>F</td><td>· <sup>[S]</sup></td>
       <td>V</td><td>δ <sup>[K]</sup></td>
       <td>f</td><td>v</td>
     </tr>
@@ -264,7 +264,7 @@ Figure 7. Teletype keyboard layout
       <th>0</th><th>1</th><th>1</th><th>1</th><th>7</th>
       <td>BEL</td><td>ETB</td>
       <td>7 <sup>[^]</sup></td><td>7</td><td>½ʀʟꜰ</td>
-      <td>G</td><td>/ <sup>[<i>?</i>]</sup></td>
+      <td>G</td><td>/ <sup>[C]</sup></td>
       <td>W</td><td></td>
       <td>g</td><td>w</td>
     </tr>
@@ -280,7 +280,7 @@ Figure 7. Teletype keyboard layout
       <th>1</th><th>0</th><th>0</th><th>1</th><th>9</th>
       <td>HT</td><td>EM</td>
       <td>9 <sup>[^]</sup></td><td>9</td><td>ʀʟꜰ</td>
-      <td>I</td><td>= <sup>[<i>?</i>]</sup></td>
+      <td>I</td><td>= <sup>[U]</sup></td>
       <td>Y</td><td></td>
       <td>i</td><td>y</td>
     </tr>
@@ -288,7 +288,7 @@ Figure 7. Teletype keyboard layout
       <th>1</th><th>0</th><th>1</th><th>0</th><th>10</th>
       <td>LF</td><td>SUB</td>
       <td>*</td><td colspan=2>:</td>
-      <td>J</td><td>· <sup>[<i>?</i>]</sup></td>
+      <td>J</td><td>· <sup>[C]</sup></td>
       <td>Z</td><td>┘ <sup>[S]</sup></td>
       <td>j</td><td>z</td>
     </tr>
@@ -296,8 +296,8 @@ Figure 7. Teletype keyboard layout
       <th>1</th><th>0</th><th>1</th><th>1</th><th>11</th>
       <td>VT</td><td>ESC</td>
       <td>Δ <sup>[K]</sup></td><td colspan=2>;</td>
-      <td>K</td><td>İ <sup>[<i>?</i>]</sup></td>
-      <td>° <span style="font-size: 50%;">(degrees)</span></td><td></td>
+      <td>K</td><td>İ <sup>[C]</sup></td>
+      <td>° <span style="font-size: 50%;">(degree)</span></td><td></td>
       <td>k</td><td>≡ <sup>[C]</sup></td>
     </tr>
     <tr>
@@ -319,7 +319,7 @@ Figure 7. Teletype keyboard layout
     <tr>
       <th>1</th><th>1</th><th>1</th><th>0</th><th>14</th>
       <td>SO</td><td>RS</td>
-      <td></td><td colspan=2>— <sup>[<i>?</i>]</sup></td>
+      <td></td><td colspan=2>— <sup>[C]</sup></td>
       <td>N</td><td>┐ <sup>[S]</sup></td>
       <td>+</td><td>λ <sup>[K]</sup></td>
       <td>n</td><td>)</td>
@@ -340,9 +340,6 @@ Figure 7. Teletype keyboard layout
 - [K] GREEK LETTER
 - [S] GRAPHIC SYMBOL
 - [^] SUBSCRIPT NUMERAL
-
-*Transcription note*: The [C] and [S] annotations are often unclear. Such cases
-are marked with [*?*].
 
 Figure 8. Teletype code chart
 

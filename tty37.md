@@ -677,16 +677,13 @@ modification kits described in Specification 50386S for 9-1/2" and Specification
   - Referenced by \[Spec50494S], so must also apply to Model 37.
 
 - \[Chemical]: Alfred Feldman. [“A Chemical Teletype”](https://pubs.acs.org/doi/abs/10.1021/c160049a003).
-  Journal of Chemical Documentation, 15 January 1973. [[Sci-Hub](https://sci-hub.st/10.1021/c160049a003)]
+  Journal of Chemical Documentation, Volume 13, Issue 2, 15 January 1973. [[Sci-Hub](https://sci-hub.st/10.1021/c160049a003)]
   - Adds chemical symbols, including extra tall ones, to the typebox of a Model
     37 and uses a visual overlay. Has photos of the customized typebox and
     overlay and diagram of the keyboard layout.
   - Referenced by the [Southwest Museum of Engineering, Communications, and Computation](https://www.smecc.org/teletype_-_wire_service_and_rtty.htm)
     [[GreenKeys 2014-09-03](https://mailman.qth.net/pipermail/greenkeys/2014-September/030690.html)]
     and earlier on GreenKeys [[2010-04-23](https://mailman.qth.net/pipermail/greenkeys/2010-April/016598.html)].
-  - The characters and annotations in figure 8 are rather unclear. I could
-    [request](https://www.acs.org/contact.html) that ACS scan it again or find a
-    [physical copy](https://utah-primoprod.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=UUU_ALMA21541618730002001&vid=UTAH).
 
 - \[Dolotta]: T. A. Dolotta. [“Functional Specifications for Typewriter-Like
   Time-Sharing Terminals”](https://dl.acm.org/doi/10.1145/356561.356563).
