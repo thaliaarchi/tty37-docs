@@ -253,6 +253,12 @@ Codebars:
 The typebox is attached to a rail which moves horizontally and vertically to
 position it. \[Type 4.31–4.33, 4.35]
 
+CuriousMarc [demonstrates](https://www.youtube.com/watch?v=jxkygWI-Wfs&t=1024)
+his restored [Model 19](https://www.curiousmarc.com/mechanical/teletype-model-19#h.p_X0hSksZrrv5o)
+and 15 and explains the operation from input signal, to selector magnet, then
+selector vanes per bit, shifting code bars which select a single function bar
+per character.
+
 ASCII characters with their locations in an 8-row typebox (column Coord) and
 three systems for describing function bar configurations (column Marking, column
 Spacing, and columns 11 to Style): \[Type figure 28]
@@ -600,9 +606,10 @@ modification kits described in Specification 50386S for 9-1/2" and Specification
   several teleprinters: Teletype models 28, 33, 35, and 37; DECwriter I, II, and
   III; and Siemens T100 (from email correspondence). The Model 37 and a BLIT
   video terminal are connected to the 3B2/1000-70. The Model 33s are used on the
-  PDP-7, which runs UNICS V0 with an emulated RM09 connected to the I/O bus, and
-  the Altair 8800. The Model 28 is connected to a current loop and runs a news
-  feed at 45.5 baud. Many of the LCM machines ended up at the ICM [[1](https://mastodon.sdf.org/@icm/114870833408291217),
+  [PDP-7A from Boeing](https://icm.museum/blog/?p=352), which runs UNICS V0 with
+  an emulated RM09 connected to the I/O bus, and the Altair 8800. The Model 28
+  is connected to a current loop and runs a news feed at 45.5 baud. Many of the
+  LCM machines ended up at the ICM [[1](https://mastodon.sdf.org/@icm/114870833408291217),
   [2](https://news.ycombinator.com/item?id=41275780)].
 - The [Connections Museum Seattle](https://www.telcomhistory.org/ConnectionsSeattle.html)
   [[Wikipedia](https://en.wikipedia.org/wiki/Connections_Museum)] has a Teletype
@@ -618,12 +625,22 @@ modification kits described in Specification 50386S for 9-1/2" and Specification
 - The [North American Data Communications Museum](https://nadcomm.com/) in San
   Diego has a Teletype Model 37 KSR (sans desk) and a typing unit for a Model
   37, as of [2003](https://mailman.qth.net/pipermail/greenkeys/2003-February/001983.html).
+- The [Antique Wireless Museum](https://www.antiquewireless.org/homepage/museum/)
+  in Bloomfield, New York has a [Teletype exhibit](https://www.antiquewireless.org/homepage/vt-exhibit-22/)
+  with many models, including an East German teleprinter with Latin and Cyrillic
+  and a Model 28 Waterfall, as well as a [hands-on exhibit](https://www.antiquewireless.org/homepage/vt-exhibit-3/)
+  with an operational Model 19. These exhibits are shown in a 2019 video tour at
+  [12:31](https://www.youtube.com/watch?v=VkVz1BMLy0&t=751) and [1:15](https://www.youtube.com/watch?v=VkVz1BMLy0&t=75),
+  respectively. No Model 37 is shown.
 - The National Museum of American History, part of the Smithsonian in D.C., has
   [a Teletype Model 37](https://www.si.edu/object/teletype-corporation-model-37-teletypewriter-printer:nmah_714260),
   but it is not on display.
 - [RTTY Electronics](https://www.johnwhitney.com/misc/paul-rtty.htm) in El
   Sobrante, California sells Teletype machines and parts, probably including the
   Model 37.
+- [History for Hire](https://www.historyforhire.com/search/teletype) prop house
+  in Hollywood has several Teletype machines, mostly Model 33s, but apparently
+  no Model 37.
 
 ## References
 

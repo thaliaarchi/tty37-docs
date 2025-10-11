@@ -28,7 +28,7 @@ On Teletype models:
 
 On documentation:
 - [2009-06-30](https://mailman.qth.net/pipermail/greenkeys/2009-June/014932.html):
-  The [Antique Wireless Association Museum Library](https://www.antiquewireless.org/homepage/museum/)
+  The [Antique Wireless Museum Library](https://www.antiquewireless.org/homepage/museum/)
   has a copy of the Teletype Corp. Museum list, which describes and photographed
   various Teletype models in twelve volumes of 30–50 pages each. The poster,
   Duncan Brown, intended to scan and index it.
