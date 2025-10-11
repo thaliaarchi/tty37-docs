@@ -622,6 +622,8 @@ modification kits described in Specification 50386S for 9-1/2" and Specification
   A [2018 video](https://www.youtube.com/watch?v=WqgFK9h75eg) shows it connected
   to a System V Release 3.2.2 machine. It is not listed in the
   [August 2024 auction](https://onlineonly.christies.com/s/firsts-history-computing-paul-g-allen-collection/lots/3726).
+  A [2016 photo](https://www.flickr.com/photos/walkingsf/31336455571) by Erica
+  Fischer appears to be of their Model 37.
 - The [North American Data Communications Museum](https://nadcomm.com/) in San
   Diego has a Teletype Model 37 KSR (sans desk) and a typing unit for a Model
   37, as of [2003](https://mailman.qth.net/pipermail/greenkeys/2003-February/001983.html).
