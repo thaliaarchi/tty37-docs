@@ -1,5 +1,5 @@
-PDFS = 574-301-100-iss1-7106 574-302-102-iss1-7105 574-302-300-iss1-7204 \
-	574-320-101-iss2-7302 catalog_1969
+PDFS = 570-020-800-7404 574-301-100-iss1-7106 574-302-102-iss1-7105 \
+	574-302-300-iss1-7204 574-320-101-iss2-7302 catalog_1969
 
 .PHONY: all
 all: download figures
@@ -55,6 +55,8 @@ figures: $(FIGURES)
 
 %.pdf:
 	wget https://www.navy-radio.com/manuals/tty/m37/$@
+570-020-800-7404.pdf:
+	wget https://navy-radio.com/manuals/tty/570-020-800-7404.pdf
 catalog_1969.pdf:
 	wget -O $@ https://archive.org/download/TNM_Model_37_terminal_product_catalog_-_Teletype__20170923_0036/TNM_Model_37_terminal_product_catalog_-_Teletype__20170923_0036.pdf
 chemical_teletype_1973.pdf:

@@ -17,7 +17,7 @@ capable of printing symbols for all 128 characters. \[Gen301 2.07]
 The \[Gen304] model prints visible symbols for 127 ASCII characters,
 excluding space, and spaces on all characters. It provides an eight-row typebox
 with pallets in the upper two rows for 32 control characters. \[2.02, 2.05,
-4.08]
+4.08] It seems likely it used the control character symbols in the below table.
 
 A keyboard interlock prevents errors caused from two keys simultaneously
 pressed. \[Catalog p7]
@@ -28,6 +28,49 @@ Questions:
 - What are the symbols printed for control characters?
 
 ![Keyboard](manuals/574-301-100-iss1-7106/keyboard_layout.png)
+
+### Control character symbols
+
+2-letter symbols for control characters were available in Gothic type style (10
+characters per inch) with part numbers TP330927–TP330960. \[TypePallet p20] They
+weren't used by default and it is unclear which configurations used them.
+
+| Control symbol | Part number |
+| -------------- | ----------- |
+| NL | TP330935 |
+| SH | TP330927 |
+| SX | TP330939 |
+| EX | TP330931 |
+| ET | TP330936 |
+| EQ | TP330928 |
+| AK | TP330940 |
+| BL | TP330932 |
+| BS | TP330937 |
+| HT | TP330929 |
+| LF | TP330941 |
+| VT | TP330933 |
+| FF | TP330938 |
+| CR | TP330930 |
+| SO | TP330942 |
+| SI | TP330934 |
+| DL | TP330951 |
+| D1 | TP330943 |
+| D2 | TP330955 |
+| D3 | TP330947 |
+| D4 | TP330952 |
+| NK | TP330944 |
+| SY | TP330956 |
+| EB | TP330948 |
+| CN | TP330953 |
+| EM | TP330945 |
+| SB | TP330957 |
+| ES | TP330949 |
+| FS | TP330954 |
+| GS | TP330946 |
+| RS | TP330958 |
+| US | TP330950 |
+| SP | TP330960 |
+| DE | TP330959 |
 
 ### Alternate character sets
 
@@ -265,8 +308,8 @@ Spacing, and columns 11 to Style): \[Type figure 28]
 
 Columns:
 - **Name**: ASCII character name
-- **Abbr**: Short ASCII character name used in typebox table. \[Type figure 28]
-  This seems to be used for brevity only in the table and not elsewhere.
+- **Abbr**: Short ASCII character name used in typebox table \[Type figure 28]
+  and in type pallets \[TypePallet p20]
 - **ASCII**: ASCII character code in big-endian binary \[Type figure 28]
 - **P**: Parity bit (8th bit), to obtain even parity. \[Type figure 16] It is 1
   when the ASCII code has an odd number of 1 bits.
@@ -336,14 +379,14 @@ TODO: Note whether high bits are in each function bar from the figures.
 | ENQ   | EQ   | 0000101 | 0 | 0,1   | `1_3_____` | 2·4·5·6·7·8     | - | - | S | S | S | S | S | S | M | S | M | 9      | A+9S  |
 | ACK   | AK   | 0000110 | 0 | 0,13  | `_23_____` | 1·4·5·6·7·8     | - | - | S | S | S | S | S | S | M | M | S | 9      | A+9S  |
 | BEL   | BL   | 0000111 | 1 | 0,5   | `123____8` | 4·5·6·7         | - | - | S | M | S | S | S | S | M | M | M | 9      | A+9S  |
-| BS    |      | 0001000 | 1 | 0,10  | `___4___8` | 1·2·3·5·6·7     | - | - | S | M | S | S | S | M | S | S | S | 9      | A+9S  |
-| HT    |      | 0001001 | 0 | 0,2   | `1__4____` | 2·3·5·6·7·8     | - | - | S | S | S | S | S | M | S | S | M | 9      | A+9S  |
-| LF    |      | 0001010 | 0 | 0,14  | `_2_4____` | 1·3·5·6·7·8     | - | - | S | S | S | S | S | M | S | M | S | 9      | A+9S  |
-| VT    |      | 0001011 | 1 | 0,6   | `12_4___8` | 3·5·6·7         | - | - | S | M | S | S | S | M | S | M | M | 9      | A+9S  |
-| FF    |      | 0001100 | 0 | 0,11  | `__34____` | 1·2·5·6·7·8     | - | - | S | S | S | S | S | M | M | S | S | 9      | A+9S  |
-| CR    |      | 0001101 | 1 | 0,3   | `1_34___8` | 2·5·6·7         | - | - | S | M | S | S | S | M | M | S | M | 9      | A+9S  |
-| SO    |      | 0001110 | 1 | 0,15  | `_234___8` | 1·5·6·7         | - | - | S | M | S | S | S | M | M | M | S | 9      | A+9S  |
-| SI    |      | 0001111 | 0 | 0,7   | `1234____` | 5·6·7·8         | - | - | S | S | S | S | S | M | M | M | M | 9      | A+9S  |
+| BS    | BS   | 0001000 | 1 | 0,10  | `___4___8` | 1·2·3·5·6·7     | - | - | S | M | S | S | S | M | S | S | S | 9      | A+9S  |
+| HT    | HT   | 0001001 | 0 | 0,2   | `1__4____` | 2·3·5·6·7·8     | - | - | S | S | S | S | S | M | S | S | M | 9      | A+9S  |
+| LF    | LF   | 0001010 | 0 | 0,14  | `_2_4____` | 1·3·5·6·7·8     | - | - | S | S | S | S | S | M | S | M | S | 9      | A+9S  |
+| VT    | VT   | 0001011 | 1 | 0,6   | `12_4___8` | 3·5·6·7         | - | - | S | M | S | S | S | M | S | M | M | 9      | A+9S  |
+| FF    | FF   | 0001100 | 0 | 0,11  | `__34____` | 1·2·5·6·7·8     | - | - | S | S | S | S | S | M | M | S | S | 9      | A+9S  |
+| CR    | CR   | 0001101 | 1 | 0,3   | `1_34___8` | 2·5·6·7         | - | - | S | M | S | S | S | M | M | S | M | 9      | A+9S  |
+| SO    | SO   | 0001110 | 1 | 0,15  | `_234___8` | 1·5·6·7         | - | - | S | M | S | S | S | M | M | M | S | 9      | A+9S  |
+| SI    | SI   | 0001111 | 0 | 0,7   | `1234____` | 5·6·7·8         | - | - | S | S | S | S | S | M | M | M | M | 9      | A+9S  |
 | DLE   | DL   | 0010000 | 1 | 1,8   | `____5__8` | 1·2·3·4·6·7     | - | - | S | M | S | S | M | S | S | S | S | 9      | A+9S  |
 | DC1   | D1   | 0010001 | 0 | 1,0   | `1___5___` | 2·3·4·6·7·8     | - | - | S | S | S | S | M | S | S | S | M | 9      | A+9S  |
 | DC2   | D2   | 0010010 | 0 | 1,12  | `_2__5___` | 1·3·4·6·7·8     | - | - | S | S | S | S | M | S | S | M | S | 9      | A+9S  |
@@ -353,13 +396,13 @@ TODO: Note whether high bits are in each function bar from the figures.
 | SYN   | SY   | 0010110 | 1 | 1,13  | `_23_5__8` | 1·4·6·7         | - | - | - | M | S | S | M | S | M | M | S | 8      | A     |
 | ETB   | EB   | 0010111 | 0 | 1,5   | `123_5___` | 4·6·7·8         | - | - | - | S | S | S | M | S | M | M | M | 8      | A     |
 | CAN   | CN   | 0011000 | 0 | 1,10  | `___45___` | 1·2·3·6·7·8     | - | - | - | S | S | S | M | M | S | S | S | 8      | A     |
-| EM    |      | 0011001 | 1 | 1,2   | `1__45__8` | 2·3·6·7         | - | - | - | M | S | S | M | M | S | S | M | 8      | A     |
+| EM    | EM   | 0011001 | 1 | 1,2   | `1__45__8` | 2·3·6·7         | - | - | - | M | S | S | M | M | S | S | M | 8      | A     |
 | SUB   | SB   | 0011010 | 1 | 1,14  | `_2_45__8` | 1·3·6·7         | - | - | - | M | S | S | M | M | S | M | S | 8      | A     |
 | ESC   | ES   | 0011011 | 0 | 1,6   | `12_45___` | 3·6·7·8         | - | - | - | S | S | S | M | M | S | M | M | 8      | A     |
-| FS    |      | 0011100 | 1 | 1,11  | `__345__8` | 1·2·6·7         | - | - | - | M | S | S | M | M | M | S | S | 8      | A     |
-| GS    |      | 0011101 | 0 | 1,3   | `1_345___` | 2·6·7·8         | - | - | - | S | S | S | M | M | M | S | M | 8      | A     |
-| RS    |      | 0011110 | 0 | 1,15  | `_2345___` | 1·6·7·8         | - | - | - | S | S | S | M | M | M | M | S | 8      | A     |
-| US    |      | 0011111 | 1 | 1,7   | `12345__8` | 6·7             | - | - | - | M | S | S | M | M | M | M | M | 8      | A     |
+| FS    | FS   | 0011100 | 1 | 1,11  | `__345__8` | 1·2·6·7         | - | - | - | M | S | S | M | M | M | S | S | 8      | A     |
+| GS    | GS   | 0011101 | 0 | 1,3   | `1_345___` | 2·6·7·8         | - | - | - | S | S | S | M | M | M | S | M | 8      | A     |
+| RS    | RS   | 0011110 | 0 | 1,15  | `_2345___` | 1·6·7·8         | - | - | - | S | S | S | M | M | M | M | S | 8      | A     |
+| US    | US   | 0011111 | 1 | 1,7   | `12345__8` | 6·7             | - | - | - | M | S | S | M | M | M | M | M | 8      | A     |
 | Space | SP   | 0100000 | 1 | 4,8   | `_____6_8` | 1·2·3·4·5·7     | - | - | - | M | S | M | S | S | S | S | S | 8?     | A?    |
 | !     |      | 0100001 | 0 | 4,0   | `1____6__` | 2·3·4·5·7·8     | - | - | - | S | S | M | S | S | S | S | M | 8?     | A?    |
 | "     |      | 0100010 | 0 | 4,12  | `_2___6__` | 1·3·4·5·7·8     | - | - | - | S | S | M | S | S | S | M | S | 8?     | A?    |
@@ -542,8 +585,8 @@ arrangement (\[Catalog] states that ten keys are repeatable, matching this
 list).
 
 In the \[Gen304] KSR model, character repeat is a standard feature and
-enabled for every key. \[2.02, 2.12] That model spaces on all characters, even
-control characters\[4.08], so this appears to simplify the mechanism.
+enabled for every key. \[2.02, 2.12] As that model spaces on all characters,
+even control characters\[4.08], this appears to simplify the mechanism.
 
 The maximum character rate (for at least the \[Gen304] model) is 59.02 wpm.
 \[2.12]
@@ -672,6 +715,10 @@ modification kits described in Specification 50386S for 9-1/2" and Specification
 - \[Type]: Teletype Corporation. [“37 Typing Unit (37P003 and up): Description
   and Principles of Operation”](https://www.navy-radio.com/manuals/tty/m37/574-320-101-iss2-7302.pdf).
   Bell System Practices, Section 574-320-101, Issue 2, February 1973.
+
+- \[TypePallet]: Teletype Corporation. [“Type Pallets for Models 28, 35 and 37
+  Teletypewriter Sets”](https://navy-radio.com/manuals/tty/570-020-800-7404.pdf).
+  Bell System Practices, Section 570-020-800, Issue 3, April 1974.
 
 - \[Spec50494S]: Teletype Corporation. [“Instructions for Installing
   Modification Kit 319820 to Convert a Model 37 Friction Feed Typing Unit to a
