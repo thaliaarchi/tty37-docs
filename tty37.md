@@ -369,6 +369,10 @@ Function Bar Configurations.
 
 TODO: Note whether high bits are in each function bar from the figures.
 
+Question: What are the parts for these?
+
+SHIFT IN/SHIFT OUT are/use slot 32. \[Type figure 26]
+
 | Name  | Abbr | ASCII   | P | Coord | Marking    | Spacing         | 11| 10| 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | Levels | Deriv |
 | ----- | ---- | ------- | - | ----- | ---------- | --------------- | - | - | - | - | - | - | - | - | - | - | - | ------ | ----- |
 | NUL   | NL   | 0000000 | 0 | 0,8   | `________` | 1·2·3·4·5·6·7·8 | - | - | - | S | S | S | S | S | S | S | S | 8      | A     |
@@ -877,3 +881,11 @@ Wiring Diagrams and Circuit Descriptions:
   links to several telecom- and teletype-related resources, which have been
   reviewed. The section “Teletypewriter Supplies” lists four supply and repair
   contacts.
+
+### Model 28
+
+The Teletype Model 28 is mechanically similar to the Model 37.
+
+- <https://navy-radio.org/manuals/tty/sales/28lp.pdf>
+  - Page 3 has useful info on type pallets and paper dimensions
+  - Page 4 has useful info on function bars
