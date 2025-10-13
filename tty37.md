@@ -29,6 +29,29 @@ Questions:
 
 ![Keyboard](manuals/574-301-100-iss1-7106/keyboard_layout.png)
 
+### ASCII diacritics
+
+In order to permit the representation of languages other than English, two
+diacritical (or accent) marks have been included, and provision has been made
+for the use of four punctuation symbols alternatively as diacritical marks in
+conjunction with back¬ space. The pairing of these punctuation symbols with
+their corresponding diacritical marks was done to facilitate the design of a
+typeface that would be acceptable for both uses. \[ASCII77 A5.2]
+
+**Table A1 \
+Punctuation and Diacritical Marks**
+
+| Col/Row | Code Table Symbol | Punctuation Use               | Diacritical Use |
+| ------- | ----------------- | ----------------------------- | --------------- |
+| 2/2     | "                 | Quotation marks               | Diaeresis       |
+| 2/7     | '                 | Apostrophe                    | Acute accent    |
+| 2/12    | ,                 | Comma                         | Cedilla         |
+| 5/14    | ^                 | (None)                        | Circumflex      |
+| 6/0     | `                 | Opening single quotation mark | Grave accent    |
+| 7/14    | ~                 | (None)                        | Tilde           |
+
+\[ASCII77 table A1]
+
 ### Control character symbols
 
 2-letter symbols for control characters were available in Gothic type style (10
@@ -717,6 +740,9 @@ modification kits described in Specification 50386S for 9-1/2" and Specification
 - \[PartsIndex]: Teletype Corporation. [“37 Page Printer Set (KSR-RO): Parts”](https://www.navy-radio.com/manuals/tty/jh/ttyman0/TeletypeManuals/model37/1209B-Iss1.pdf).
   Bulletin 1209B, Issue 1, December 1967.
   - A short index of section-800 parts documents (all listed below).
+
+- \[ASCII77]: [“American National Standard Code for Information Interchange"](https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub1-2-1977.pdf).
+  National Institute for Standards. 1977. ANSI X3.4-1977
 
 ### Bell System Practices
 

@@ -1,5 +1,5 @@
 PDFS = 570-020-800-7404 574-301-100-iss1-7106 574-302-102-iss1-7105 \
-	574-302-300-iss1-7204 574-320-101-iss2-7302 catalog_1969
+	574-302-300-iss1-7204 574-320-101-iss2-7302 catalog_1969 ascii_1977
 
 .PHONY: all
 all: download figures
@@ -64,6 +64,8 @@ chemical_teletype_1973.pdf:
 	@echo 'https://pubs.acs.org/doi/abs/10.1021/c160049a003' >&2
 	@echo '       or https://sci-hub.st/10.1021/c160049a003' >&2
 	@exit 1
+ascii_1977.pdf:
+	wget -O $@ https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub1-2-1977.pdf
 
 .PHONY: clean
 clean:
