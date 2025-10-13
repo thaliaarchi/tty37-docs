@@ -4,10 +4,17 @@ Conversations on the [GreenKeys mailing list](https://mailman.qth.net/mailman/li
 for “discussion of older radio teletype (RTTY) gear”, relating to the Teletype
 Model 37.
 
+- Archive of [January 2002 to present](https://mailman.qth.net/pipermail/greenkeys/)
+- Archive of [March 1998 to December 2001](https://mailman.qth.net/archive/greenkeys/greenkeys.html)
+- [Randy Guttery's tool](http://comcents.com/tty/greenkeyssearch.html) to search
+  from January 2001 to 22 February 2009
+
 Searched `/37[ -_]?(asr|ksr|ro)|model ?37|\bM37|(^|[^:.])\b37\b($|[^:])/i` for
 all messages through 2010.
 
 TODO: Search for “films”, “movies”, [“Andromeda Strain”](https://mailman.qth.net/pipermail/greenkeys/2010-January/015793.html)
+
+TODO: Search earlier archive before 2002
 
 On Teletype models:
 
