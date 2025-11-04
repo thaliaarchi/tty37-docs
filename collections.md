@@ -49,9 +49,9 @@ Museums and collections with a Teletype Model 37 or other teleprinters.
   Connections Museum, as its site [originally](http://web.archive.org/web/19970626121039/http://www.scn.org/tech/telmuseum/)
   was for the Vintage Telephone Equipment Museum at the same Seattle location.
 
-- [RTTY Electronics](https://www.johnwhitney.com/misc/paul-rtty.htm) in El
-  Sobrante, California sells Teletype machines and parts, probably including the
-  Model 37.
+- Paul Cembura's [RTTY Electronics](https://www.johnwhitney.com/misc/paul-rtty.htm)
+  in El Sobrante, California sells Teletype machines and parts. Although they
+  stock various Teletype models, they do not have any 37s as of 2025-11-04.
 
 - [History for Hire](https://www.historyforhire.com/search/teletype) prop house
   in Hollywood has several Teletype machines, mostly Model 33s, but apparently
