@@ -726,7 +726,9 @@ modification kits described in Specification 50386S for 9-1/2" and Specification
   - Referenced by \[Spec50494S], so must also apply to Model 37.
 
 - \[Chemical]: Alfred Feldman. [“A Chemical Teletype”](https://pubs.acs.org/doi/abs/10.1021/c160049a003).
-  Journal of Chemical Documentation, Volume 13, Issue 2, 15 January 1973. [[Sci-Hub](https://sci-hub.st/10.1021/c160049a003)]
+  Journal of Chemical Documentation, Volume 13, Issue 2, pages 53–56,
+  1 May 1973. [[Sci-Hub](https://sci-hub.st/10.1021/c160049a003)]
+  [[high-resolution scan](https://archive.org/details/feldman_chemical_teletype_1973)]
   - Adds chemical symbols, including extra tall ones, to the typebox of a Model
     37 and uses a visual overlay. Has photos of the customized typebox and
     overlay and diagram of the keyboard layout.
