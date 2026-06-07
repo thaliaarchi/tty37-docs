@@ -9,5 +9,6 @@
   - 574-421-100TC
     38 Keyboard Unit Description and Principles of Operation,
     pages 27–29 (PDF pages 125–127)
+- [Catalog Supplement, Teletype Model 38 with APL Features, Issue 3, May 1973](https://www.navy-radio.com/manuals/tty/sales/38-cat-apl-7305.pdf)
 - Announcement in [Computerworld September 27, 1972](https://books.google.com/books?id=C7emlDFHVUkC&pg=PT21#v=onepage)
 - [Discussion on Mastodon](https://discuss.systems/@thalia/115959399839013940)
