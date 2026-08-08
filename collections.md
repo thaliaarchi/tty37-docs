@@ -29,7 +29,7 @@ Museums and collections with a Teletype Model 37 or other teleprinters.
   Fischer appears to be of their Model 37.
 
 - The [North American Data Communications Museum](https://nadcomm.com/) in San
-  Diego has a Teletype Model 37 KSR (sans desk) and a typing unit for a Model
+  Diego has a Teletype Model 37 KSR (sans stand) and a typing unit for a Model
   37, as of [2003](https://mailman.qth.net/pipermail/greenkeys/2003-February/001983.html).
 
 - The National Museum of American History, part of the Smithsonian in D.C., has
@@ -76,3 +76,10 @@ Museums and collections with a Teletype Model 37 or other teleprinters.
 - [History for Hire](https://www.historyforhire.com/search/teletype) prop house
   in Hollywood has several Teletype machines, mostly Model 33s, but apparently
   no Model 37.
+
+## Sold Model 37s
+
+- [WorthPoint](https://www.worthpoint.com/worthopedia/teletype-model-37-read-printer-2002988995)
+  shows that a Teletype Model 37 RO sold on 2 June 2019 for $100. It has serial
+  number 012950 and the typing unit is identified as 37P003 000 A0. The seller
+  received it without the stand and with the cables cut.
