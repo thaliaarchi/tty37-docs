@@ -36,6 +36,10 @@ Museums and collections with a Teletype Model 37 or other teleprinters.
   [a Teletype Model 37](https://www.si.edu/object/teletype-corporation-model-37-teletypewriter-printer:nmah_714260),
   but it is not on display.
 
+- I [acquired](https://discuss.systems/@thalia/117270798610869524) a Teletype
+  Model 37 [reperforator-transmitter](https://telecomarchive.s3.us-east-2.amazonaws.com/docs/bsp-archive/574/574-327-100_I2.pdf)
+  on 14 September 2026. Details forthcoming.
+
 - Joey_D3119 on Reddit has [an operational Model 37](https://www.reddit.com/r/Teletype/comments/16g9lc7/model_37/)
   and another that was cannibalized for parts, which were rescued from the
   basement of a local university. They were not part of the original contract
@@ -45,13 +49,14 @@ Museums and collections with a Teletype Model 37 or other teleprinters.
 - Union Pacific Railroad used Teletype Models 15, 14, 35, 37, and 40 from 1953
   to 21 December 1997, when the last teletype on the UPRR system was unplugged.
   In 1977, the Pocatello Yard Office was using Models 28 KSR, 35 ASR, and 37
-  (mostly RO), then later Model 40. The devices were leased from the Bell
-  System, but when they surplused them out in the early '80s and UPRR bought
-  many Model 40s for scrap metal prices. [John Wilson](https://www.k0ip.com/)
-  documents the [Teletype equipment](https://www.k0ip.com/teletype/index.html)
-  used at the Pocatello Yard Office from 1977 to 2007 and personally. Stephen
-  Jones at the Interim Computer Museum mentioned that UPRR used Model 37s in
-  Pocatello.
+  (mostly RO), then later Model 40. The Bell System leased them out, but started
+  surplusing them around the early '80s and UPRR bought many Model 40s for scrap
+  metal prices. [John Wilson](https://www.k0ip.com/) documented the
+  [Teletype equipment](https://www.k0ip.com/teletype/index.html) used at the
+  Pocatello Yard Office from 1977 to 2007 and personally. Stephen Jones at the
+  Interim Computer Museum told me that UPRR used Model 37s in Pocatello. John
+  Wilson told me that the other 37s he knew of within UPRR were at North Platte,
+  Nebraska.
 
 - The [Antique Wireless Museum](https://www.antiquewireless.org/homepage/museum/)
   in Bloomfield, New York has a [Teletype exhibit](https://www.antiquewireless.org/homepage/vt-exhibit-22/)
